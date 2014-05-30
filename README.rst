@@ -5,12 +5,12 @@ Użyłem microframeworka `silex`, żeby w skrócie zaprezentować różne narzę
 
 Prezentacja znajduje się w pliku `prezentacja.pdf`.
 
-`halleck.html` zawiera raport wygenerowany przez [Halleck's PhpMetrics](https://halleck45.github.io/PhpMetrics/).
+`halleck.html` zawiera raport wygenerowany przez Halleck's PhpMetrics (https://halleck45.github.io/PhpMetrics/).
 Gorąco polecam przeanalizowanie swojego kodu tym narzędziem.
 
 Szybkie sprawdzenie różnych danych „technicznych” projektu: `phpcs src`.
 
-Plik `build.xml` został pobrany z [http://jenkins-php.org/](http://jenkins-php.org/)
+Plik `build.xml` został pobrany z http://jenkins-php.org/
 i lekko zmodyfikowany na potrzeby prezentacji.
 Dorzuciłem także kilka zadań „composerowych”, przydatnych w częstym korzystaniu z tego zajęcia.
 
