@@ -68,6 +68,8 @@ class ApplicationTest extends \PHPUnit_Framework_TestCase
 
     public function testGetRequest()
     {
+        $this->markTestIncomplete('nieukończony dla testu');
+
         $request = Request::create('/');
 
         $app = new Application();
@@ -80,6 +82,8 @@ class ApplicationTest extends \PHPUnit_Framework_TestCase
 
     public function testGetRoutesWithNoRoutes()
     {
+        $this->markTestSkipped('ominięty dla testu');
+
         $app = new Application();
 
         $routes = $app['routes'];

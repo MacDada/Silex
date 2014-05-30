@@ -102,6 +102,10 @@ class Controller
     public function freeze()
     {
         $this->isFrozen = true;
+
+        return;
+
+        $codeThatNeverhappens = array();
     }
 
     public function generateRouteName($prefix)

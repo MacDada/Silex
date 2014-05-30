@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="silex">
+    <description>Ustawienia PHPCS dla Silex'a</description>
+
+    <rule ref="PSR2">
+        <exclude name="Generic.Files.LineLength.TooLong" />
+    </rule>
+
+
+    <!-- Verifies that class members have scope modifiers. -->
+    <rule ref="Squiz.Scope.MethodScope" />
+
+    <!-- Discourages the use of deprecated functions that are kept in PHP
+    for compatibility with older versions. -->
+    <rule ref="Generic.PHP.DeprecatedFunctions" />
+
+    <!-- Tests that the ++ operators are used when possible and not
+    used when it makes the code confusing. -->
+    <rule ref="Squiz.Operators.IncrementDecrementUsage" />
+
+    <!-- Ensure that there are no spaces around square brackets. -->
+    <rule ref="Squiz.Arrays.ArrayBracketSpacing" />
+
+    <!-- Makes sure that any strings that are "echoed" are not enclosed in brackets
+    like a function call. -->
+    <rule ref="Squiz.Strings.EchoedStrings" />
+
+    <!-- Ensures all language constructs (without brackets) contain
+    a single space between themselves and their content. -->
+    <rule ref="Squiz.WhiteSpace.LanguageConstructSpacing" />
+
+    <!-- Warn about commented out code. -->
+    <rule ref="Squiz.PHP.CommentedOutCode" />
+
+    <!-- Ensure cast statements don't contain whitespace. -->
+    <rule ref="Squiz.WhiteSpace.CastSpacing" />
+
+    <!-- Ensures each statement is on a line by itself. -->
+    <rule ref="Generic.Formatting.DisallowMultipleStatements" />
+
+    <!-- Stops the usage of the "global" keyword. -->
+    <rule ref="Squiz.PHP.GlobalKeyword" />
+
+    <!-- Discourages the use of alias functions that are kept in PHP for compatibility
+    with older versions. Can be used to forbid the use of any function. -->
+    <rule ref="Squiz.PHP.ForbiddenFunctions" />
+
+    <!-- Checks the nesting level for methods. -->
+    <rule ref="Generic.Metrics.NestingLevel" />
+
+    <!-- Function name "%s" is invalid; only PHP magic methods should be prefixed with a double underscore -->
+    <rule ref="Squiz.NamingConventions.ValidFunctionName.DoubleUnderscore">
+        <exclude name="Squiz.NamingConventions.ValidFunctionName.ScopeNotCamelCaps" />
+    </rule>
+
+    <!-- Detecting BOMs that may corrupt application work -->
+    <rule ref="Generic.Files.ByteOrderMark" />
+
+    <!-- Verifies that control statements conform to their coding standards. -->
+    <rule ref="PEAR.ControlStructures.ControlSignature" />
+
+    <!-- The use of eval() is discouraged. -->
+    <rule ref="Squiz.PHP.Eval" />
+
+    <!-- Checks that calls to methods and functions are spaced correctly. -->
+    <rule ref="Generic.Functions.FunctionCallArgumentSpacing" />
+
+    <!-- Warns about code that can never been executed. This happens when a function
+    returns before the code, or a break ends execution of a statement etc. -->
+    <rule ref="Squiz.PHP.NonExecutableCode" />
+
+    <!-- Checks that only one interface is declared per file. -->
+    <rule ref="Generic.Files.OneInterfacePerFile" />
+
+    <!-- Upewniamy się, że podwójny cudzysłów nie jest używany tam,
+    gdzie nie jest konieczny. Nie zwracamy uwagi na ewaluację
+    zmiennych w napisach, bo od groma tego… -->
+    <rule ref="Squiz.Strings.DoubleQuoteUsage">
+        <exclude name="Squiz.Strings.DoubleQuoteUsage.ContainsVar" />
+    </rule>
+
+    <!-- Ensures all class keywords are lowercase. -->
+    <rule ref="Squiz.Classes.LowercaseClassKeywords" />
+
+    <!-- Ensures objects are assigned to a variable when instantiated. -->
+    <rule ref="Squiz.Objects.ObjectInstantiation">
+        <exclude name="Squiz.Objects.ObjectInstantiation.NotAssigned" />
+    </rule>
+
+    <!-- Detects unconditional if- and elseif-statements. -->
+    <rule ref="Generic.CodeAnalysis.UnconditionalIfStatement" />
+
+    <!-- Tests that the stars in a doc comment align correctly. -->
+    <rule ref="Squiz.Commenting.DocCommentAlignment" />
+
+    <!-- Ensure that arrays conform to the array coding standard. -->
+    <rule ref="Squiz.Arrays.ArrayDeclaration">
+        <exclude name="Squiz.Arrays.ArrayDeclaration.KeyNotAligned" />
+    </rule>
+
+    <!-- The declaration of the class and its inheritance is correct. -->
+    <rule ref="Squiz.Classes.ClassDeclaration">
+        <exclude name="Squiz.Classes.ClassDeclaration.EndFileAfterCloseBrace" />
+    </rule>
+
+    <!-- Checks for usage of "$this" in static methods, which will cause
+    runtime errors. -->
+    <rule ref="Squiz.Scope.StaticThisUsage" />
+
+    <!-- Detects unnecessary overridden methods that simply call their parent. -->
+    <rule ref="Generic.CodeAnalysis.UselessOverridingMethod" />
+
+    <!-- Ensure that parameters defined for a function that have a default
+    value come at the end of the function signature. -->
+    <rule ref="PEAR.Functions.ValidDefaultValue" />
+
+    <!-- Checks the cyclomatic complexity (McCabe) for functions. -->
+    <rule ref="Generic.Metrics.CyclomaticComplexity" />
+
+    <!-- Checks that no perl-style comments are used. -->
+    <rule ref="PEAR.Commenting.InlineComment" />
+
+    <!-- Makes sure that shorthand PHP open tags are not used. -->
+    <rule ref="Generic.PHP.DisallowShortOpenTag" />
+
+    <!-- Checks for empty Catch clause. Catch clause must at least have comment -->
+    <rule ref="Squiz.Commenting.EmptyCatchComment" />
+
+    <!-- Checks that only one class is declared per file. -->
+    <rule ref="Generic.Files.OneClassPerFile" />
+
+    <!-- Ensures there is a single space after cast tokens. -->
+    <rule ref="Generic.Formatting.SpaceAfterCast" />
+
+    <!-- Discourages the use of alias functions that are kept in PHP for compatibility
+    with older versions. Can be used to forbid the use of any function. -->
+    <rule ref="Generic.PHP.ForbiddenFunctions" />
+
+    <!-- This sniff class detects empty statement. -->
+    <rule ref="Squiz.CodeAnalysis.EmptyStatement" />
+
+    <!-- Ensures all calls to inbuilt PHP functions are lowercase. -->
+    <rule ref="Squiz.PHP.LowercasePHPFunctions" />
+
+    <!-- Ensures that functions within functions are never used. -->
+    <rule ref="Squiz.PHP.InnerFunctions" />
+
+    <!-- PHP files should only contain code -->
+    <rule ref="Generic.Files.InlineHTML" />
+</ruleset>
