@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<trait xmlns="http://xml.phpdox.net/src#" full="Silex\Application\UrlGeneratorTrait" namespace="Silex\Application" name="UrlGeneratorTrait" abstract="false" final="false" start="21" end="48">
+  <file path="/metrics/Silex/src/Silex/Application" file="UrlGeneratorTrait.php" realpath="/metrics/Silex/src/Silex/Application/UrlGeneratorTrait.php" size="1268" time="2014-05-30T00:20:20+02:00" unixtime="1401402020" sha1="0bb0aa7c170617b3279610b379da854f8169515d"/>
+  <docblock>
+    <description compact="UrlGenerator trait."/>
+    <author value="Fabien Potencier &lt;fabien@symfony.com&gt;"/>
+  </docblock>
+  <method name="path" start="31" end="34" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Generates a path from the given parameters."/>
+      <param description="The name of the route" type="string" variable="$route"/>
+      <param description="An array of parameters" type="mixed" variable="$parameters"/>
+      <return description="The generated path" type="string"/>
+    </docblock>
+    <parameter name="route" byreference="false" type="{unknown}"/>
+    <parameter name="parameters" byreference="false" type="array"/>
+  </method>
+  <method name="url" start="44" end="47" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Generates an absolute URL from the given parameters."/>
+      <param description="The name of the route" type="string" variable="$route"/>
+      <param description="An array of parameters" type="mixed" variable="$parameters"/>
+      <return description="The generated URL" type="string"/>
+    </docblock>
+    <parameter name="route" byreference="false" type="{unknown}"/>
+    <parameter name="parameters" byreference="false" type="array"/>
+  </method>
+</trait>

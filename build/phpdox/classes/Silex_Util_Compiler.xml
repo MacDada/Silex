@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src#" full="Silex\Util\Compiler" namespace="Silex\Util" name="Compiler" abstract="false" final="false" start="24" end="188">
+  <file path="/metrics/Silex/src/Silex/Util" file="Compiler.php" realpath="/metrics/Silex/src/Silex/Util/Compiler.php" size="6031" time="2014-05-30T00:27:40+02:00" unixtime="1401402460" sha1="622184d9c60b6295d026ead8f0abe0433e2dcbcc"/>
+  <docblock>
+    <description compact="The Compiler class compiles the Silex framework.">This is deprecated. Use composer instead.</description>
+    <author value="Fabien Potencier &lt;fabien@symfony.com&gt;"/>
+  </docblock>
+  <member name="version" type="{unknown}" visibility="protected" line="26"/>
+  <method name="compile" start="33" end="85" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Compiles the Silex source code into one single Phar file."/>
+      <param description="Name of the output Phar file" type="string" variable="$pharFile"/>
+    </docblock>
+    <parameter name="pharFile" byreference="false" type="string" default="'silex.phar'"/>
+    <inline>
+      <comment value="Stubs" line="79"/>
+    </inline>
+  </method>
+  <method name="addFile" start="87" end="99" abstract="false" final="false" static="false" visibility="protected">
+    <parameter name="phar" byreference="false" type="object">
+      <type full="Phar" namespace="" name="Phar"/>
+    </parameter>
+    <parameter name="file" byreference="false" type="object">
+      <type full="SplFileInfo" namespace="" name="SplFileInfo"/>
+    </parameter>
+    <parameter name="strip" byreference="false" type="{unknown}" default="true"/>
+  </method>
+  <method name="getStub" start="101" end="150" abstract="false" final="false" static="false" visibility="protected"/>
+  <method name="stripWhitespace" start="161" end="187" abstract="false" final="false" static="true" visibility="public">
+    <docblock>
+      <description compact="Removes whitespace from a PHP source string while preserving line numbers.">Based on Kernel::stripComments(), but keeps line numbers intact.</description>
+      <param description="A PHP string" type="string" variable="$source"/>
+      <return description="The PHP string with the whitespace removed" type="string"/>
+    </docblock>
+    <parameter name="source" byreference="false" type="{unknown}"/>
+  </method>
+</class>

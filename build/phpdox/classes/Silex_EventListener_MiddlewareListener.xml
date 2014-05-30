@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src#" full="Silex\EventListener\MiddlewareListener" namespace="Silex\EventListener" name="MiddlewareListener" abstract="false" final="false" start="26" end="96">
+  <file path="/metrics/Silex/src/Silex/EventListener" file="MiddlewareListener.php" realpath="/metrics/Silex/src/Silex/EventListener/MiddlewareListener.php" size="3177" time="2014-05-30T00:20:20+02:00" unixtime="1401402020" sha1="44804275522dbcdfb0d389c4bef03a67d2525231"/>
+  <docblock>
+    <description compact="Manages the route middlewares."/>
+    <author value="Fabien Potencier &lt;fabien@symfony.com&gt;"/>
+  </docblock>
+  <implements full="Symfony\Component\EventDispatcher\EventSubscriberInterface" namespace="Symfony\Component\EventDispatcher" name="EventSubscriberInterface"/>
+  <member name="app" type="{unknown}" visibility="protected" line="28"/>
+  <constructor name="__construct" start="35" end="38" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Constructor."/>
+      <param description="An Application instance" type="object" variable="$app">
+        <type full="Silex\Application" namespace="Silex" name="Application"/>
+      </param>
+    </docblock>
+    <parameter name="app" byreference="false" type="object">
+      <type full="Silex\Application" namespace="Silex" name="Application"/>
+    </parameter>
+  </constructor>
+  <method name="onKernelRequest" start="45" end="63" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Runs before filters."/>
+      <param description="The event to handle" type="object" variable="$event">
+        <type full="Symfony\Component\HttpKernel\Event\GetResponseEvent" namespace="Symfony\Component\HttpKernel\Event" name="GetResponseEvent"/>
+      </param>
+    </docblock>
+    <parameter name="event" byreference="false" type="object">
+      <type full="Symfony\Component\HttpKernel\Event\GetResponseEvent" namespace="Symfony\Component\HttpKernel\Event" name="GetResponseEvent"/>
+    </parameter>
+  </method>
+  <method name="onKernelResponse" start="70" end="86" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Runs after filters."/>
+      <param description="The event to handle" type="object" variable="$event">
+        <type full="Symfony\Component\HttpKernel\Event\FilterResponseEvent" namespace="Symfony\Component\HttpKernel\Event" name="FilterResponseEvent"/>
+      </param>
+    </docblock>
+    <parameter name="event" byreference="false" type="object">
+      <type full="Symfony\Component\HttpKernel\Event\FilterResponseEvent" namespace="Symfony\Component\HttpKernel\Event" name="FilterResponseEvent"/>
+    </parameter>
+  </method>
+  <method name="getSubscribedEvents" start="88" end="95" abstract="false" final="false" static="true" visibility="public"/>
+</class>

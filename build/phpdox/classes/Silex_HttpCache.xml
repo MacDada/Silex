@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src#" full="Silex\HttpCache" namespace="Silex" name="HttpCache" abstract="false" final="false" start="22" end="39">
+  <file path="/metrics/Silex/src/Silex" file="HttpCache.php" realpath="/metrics/Silex/src/Silex/HttpCache.php" size="939" time="2014-05-30T00:27:40+02:00" unixtime="1401402460" sha1="543953e9a3543973e22ad148f7ddec35899ad49c"/>
+  <docblock>
+    <description compact="HTTP Cache extension to allow using the run() shortcut."/>
+    <author value="Fabien Potencier &lt;fabien@symfony.com&gt;"/>
+  </docblock>
+  <extends full="Symfony\Component\HttpKernel\HttpCache\HttpCache" namespace="Symfony\Component\HttpKernel\HttpCache" name="HttpCache"/>
+  <method name="run" start="29" end="38" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Handles the Request and delivers the Response."/>
+      <param description="The Request object" type="object" variable="$request">
+        <type full="Symfony\Component\HttpFoundation\Request" namespace="Symfony\Component\HttpFoundation" name="Request"/>
+      </param>
+    </docblock>
+    <parameter name="request" byreference="false" type="object" default="null">
+      <type full="Symfony\Component\HttpFoundation\Request" namespace="Symfony\Component\HttpFoundation" name="Request"/>
+    </parameter>
+  </method>
+</class>

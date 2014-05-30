@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src#" full="Silex\WebTestCase" namespace="Silex" name="WebTestCase" abstract="true" final="false" start="22" end="55">
+  <file path="/metrics/Silex/src/Silex" file="WebTestCase.php" realpath="/metrics/Silex/src/Silex/WebTestCase.php" size="1196" time="2014-05-30T00:20:20+02:00" unixtime="1401402020" sha1="fc14e703d516674c909b4504c71136c2e247b019"/>
+  <docblock>
+    <description compact="WebTestCase is the base class for functional tests."/>
+    <author value="Igor Wiedler &lt;igor@wiedler.ch&gt;"/>
+  </docblock>
+  <extends full="PHPUnit_Framework_TestCase" namespace="" name="PHPUnit_Framework_TestCase"/>
+  <member name="app" type="{unknown}" visibility="protected" line="24"/>
+  <method name="setUp" start="32" end="35" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="PHPUnit setUp for setting up the application.">Note: Child classes that define a setUp method must call
+parent::setUp().</description>
+    </docblock>
+  </method>
+  <method name="createApplication" start="42" end="42" abstract="true" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Creates the application."/>
+      <return type="object">
+        <type full="Symfony\Component\HttpKernel\HttpKernel" namespace="Symfony\Component\HttpKernel" name="HttpKernel"/>
+      </return>
+    </docblock>
+  </method>
+  <method name="createClient" start="51" end="54" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Creates a Client."/>
+      <param description="An array of server parameters" type="array" variable="$server"/>
+      <return description="A Client instance" type="object">
+        <type full="Symfony\Component\HttpKernel\Client" namespace="Symfony\Component\HttpKernel" name="Client"/>
+      </return>
+    </docblock>
+    <parameter name="server" byreference="false" type="array"/>
+  </method>
+</class>

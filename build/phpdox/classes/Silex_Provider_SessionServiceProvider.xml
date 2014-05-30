@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src#" full="Silex\Provider\SessionServiceProvider" namespace="Silex\Provider" name="SessionServiceProvider" abstract="false" final="false" start="31" end="124">
+  <file path="/metrics/Silex/src/Silex/Provider" file="SessionServiceProvider.php" realpath="/metrics/Silex/src/Silex/Provider/SessionServiceProvider.php" size="4099" time="2014-05-30T00:27:40+02:00" unixtime="1401402460" sha1="7206dcf733bd5082c6c109aca6d673267ce89374"/>
+  <docblock>
+    <description compact="Symfony HttpFoundation component Provider for sessions."/>
+    <author value="Fabien Potencier &lt;fabien@symfony.com&gt;"/>
+  </docblock>
+  <implements full="Silex\ServiceProviderInterface" namespace="Silex" name="ServiceProviderInterface"/>
+  <member name="app" type="{unknown}" visibility="private" line="33"/>
+  <method name="register" start="35" end="71" abstract="false" final="false" static="false" visibility="public">
+    <parameter name="app" byreference="false" type="object">
+      <type full="Silex\Application" namespace="Silex" name="Application"/>
+    </parameter>
+  </method>
+  <method name="onEarlyKernelRequest" start="73" end="76" abstract="false" final="false" static="false" visibility="public">
+    <parameter name="event" byreference="false" type="object">
+      <type full="Symfony\Component\HttpKernel\Event\GetResponseEvent" namespace="Symfony\Component\HttpKernel\Event" name="GetResponseEvent"/>
+    </parameter>
+  </method>
+  <method name="onKernelRequest" start="78" end="97" abstract="false" final="false" static="false" visibility="public">
+    <parameter name="event" byreference="false" type="object">
+      <type full="Symfony\Component\HttpKernel\Event\GetResponseEvent" namespace="Symfony\Component\HttpKernel\Event" name="GetResponseEvent"/>
+    </parameter>
+    <inline>
+      <comment value="bootstrap the session" line="84"/>
+    </inline>
+  </method>
+  <method name="onKernelResponse" start="99" end="113" abstract="false" final="false" static="false" visibility="public">
+    <parameter name="event" byreference="false" type="object">
+      <type full="Symfony\Component\HttpKernel\Event\FilterResponseEvent" namespace="Symfony\Component\HttpKernel\Event" name="FilterResponseEvent"/>
+    </parameter>
+  </method>
+  <method name="boot" start="115" end="123" abstract="false" final="false" static="false" visibility="public">
+    <parameter name="app" byreference="false" type="object">
+      <type full="Silex\Application" namespace="Silex" name="Application"/>
+    </parameter>
+  </method>
+  <interface full="Silex\ServiceProviderInterface" namepsace="Silex" name="ServiceProviderInterface">
+    <method name="register" start="29" end="29" abstract="false" final="false" static="false" visibility="public">
+      <docblock>
+        <description compact="Registers services on the given app.">This method should only be used to configure services and parameters.
+It should not get services.</description>
+        <param description="An Application instance" type="object" variable="$app">
+          <type full="Silex\Application" namespace="Silex" name="Application"/>
+        </param>
+      </docblock>
+      <parameter name="app" byreference="false" type="object">
+        <type full="Silex\Application" namespace="Silex" name="Application"/>
+      </parameter>
+    </method>
+    <method name="boot" start="38" end="38" abstract="false" final="false" static="false" visibility="public">
+      <docblock>
+        <description compact="Bootstraps the application.">This method is called after all services are registered
+and should be used for "dynamic" configuration (whenever
+a service must be requested).</description>
+      </docblock>
+      <parameter name="app" byreference="false" type="object">
+        <type full="Silex\Application" namespace="Silex" name="Application"/>
+      </parameter>
+    </method>
+  </interface>
+</class>

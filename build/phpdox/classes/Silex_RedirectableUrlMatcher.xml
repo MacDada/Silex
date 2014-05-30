@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src#" full="Silex\RedirectableUrlMatcher" namespace="Silex" name="RedirectableUrlMatcher" abstract="false" final="false" start="22" end="55">
+  <file path="/metrics/Silex/src/Silex" file="RedirectableUrlMatcher.php" realpath="/metrics/Silex/src/Silex/RedirectableUrlMatcher.php" size="1608" time="2014-05-30T00:27:40+02:00" unixtime="1401402460" sha1="a784a13e1603375ae0629774a9ccb873bf46596b"/>
+  <docblock>
+    <description compact="Implements the RedirectableUrlMatcherInterface for Silex."/>
+    <author value="Fabien Potencier &lt;fabien@symfony.com&gt;"/>
+  </docblock>
+  <extends full="Symfony\Component\Routing\Matcher\RedirectableUrlMatcher" namespace="Symfony\Component\Routing\Matcher" name="RedirectableUrlMatcher"/>
+  <method name="redirect" start="27" end="54" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact=""/>
+      <see value="RedirectableUrlMatcherInterface::match()"/>
+    </docblock>
+    <parameter name="path" byreference="false" type="{unknown}"/>
+    <parameter name="route" byreference="false" type="{unknown}"/>
+    <parameter name="scheme" byreference="false" type="{unknown}" default="null"/>
+  </method>
+</class>

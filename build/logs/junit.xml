@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Silex Test Suite" tests="223" assertions="401" failures="0" errors="0" time="11.225241">
+    <testsuite name="Silex\Tests\Application\FormTraitTest" file="/metrics/Silex/tests/Silex/Tests/Application/FormTraitTest.php" namespace="Silex\Tests\Application" fullPackage="Silex.Tests.Application" tests="1" assertions="1" failures="0" errors="0" time="0.122689">
+      <testcase name="testForm" class="Silex\Tests\Application\FormTraitTest" file="/metrics/Silex/tests/Silex/Tests/Application/FormTraitTest.php" line="26" assertions="1" time="0.122689"/>
+    </testsuite>
+    <testsuite name="Silex\Tests\Application\MonologTraitTest" file="/metrics/Silex/tests/Silex/Tests/Application/MonologTraitTest.php" namespace="Silex\Tests\Application" fullPackage="Silex.Tests.Application" tests="1" assertions="2" failures="0" errors="0" time="0.029988">
+      <testcase name="testLog" class="Silex\Tests\Application\MonologTraitTest" file="/metrics/Silex/tests/Silex/Tests/Application/MonologTraitTest.php" line="28" assertions="2" time="0.029988"/>
+    </testsuite>
+    <testsuite name="Silex\Tests\Application\SecurityTraitTest" file="/metrics/Silex/tests/Silex/Tests/Application/SecurityTraitTest.php" namespace="Silex\Tests\Application" fullPackage="Silex.Tests.Application" tests="2" assertions="4" failures="0" errors="0" time="0.308357">
+      <testcase name="testUser" class="Silex\Tests\Application\SecurityTraitTest" file="/metrics/Silex/tests/Silex/Tests/Application/SecurityTraitTest.php" line="28" assertions="3" time="0.256969"/>
+      <testcase name="testEncodePassword" class="Silex\Tests\Application\SecurityTraitTest" file="/metrics/Silex/tests/Silex/Tests/Application/SecurityTraitTest.php" line="44" assertions="1" time="0.051388"/>
+    </testsuite>
+    <testsuite name="Silex\Tests\Application\SwiftmailerTraitTest" file="/metrics/Silex/tests/Silex/Tests/Application/SwiftmailerTraitTest.php" namespace="Silex\Tests\Application" fullPackage="Silex.Tests.Application" tests="1" assertions="1" failures="0" errors="0" time="0.170008">
+      <testcase name="testMail" class="Silex\Tests\Application\SwiftmailerTraitTest" file="/metrics/Silex/tests/Silex/Tests/Application/SwiftmailerTraitTest.php" line="26" assertions="1" time="0.170008"/>
+    </testsuite>
+    <testsuite name="Silex\Tests\Application\TranslationTraitTest" file="/metrics/Silex/tests/Silex/Tests/Application/TranslationTraitTest.php" namespace="Silex\Tests\Application" fullPackage="Silex.Tests.Application" tests="2" assertions="2" failures="0" errors="0" time="0.035566">
+      <testcase name="testTrans" class="Silex\Tests\Application\TranslationTraitTest" file="/metrics/Silex/tests/Silex/Tests/Application/TranslationTraitTest.php" line="26" assertions="1" time="0.026179"/>
+      <testcase name="testTransChoice" class="Silex\Tests\Application\TranslationTraitTest" file="/metrics/Silex/tests/Silex/Tests/Application/TranslationTraitTest.php" line="34" assertions="1" time="0.009387"/>
+    </testsuite>
+    <testsuite name="Silex\Tests\Application\TwigTraitTest" file="/metrics/Silex/tests/Silex/Tests/Application/TwigTraitTest.php" namespace="Silex\Tests\Application" fullPackage="Silex.Tests.Application" tests="4" assertions="9" failures="0" errors="0" time="0.133699">
+      <testcase name="testRender" class="Silex\Tests\Application\TwigTraitTest" file="/metrics/Silex/tests/Silex/Tests/Application/TwigTraitTest.php" line="28" assertions="3" time="0.095070"/>
+      <testcase name="testRenderKeepResponse" class="Silex\Tests\Application\TwigTraitTest" file="/metrics/Silex/tests/Silex/Tests/Application/TwigTraitTest.php" line="40" assertions="2" time="0.012622"/>
+      <testcase name="testRenderForStream" class="Silex\Tests\Application\TwigTraitTest" file="/metrics/Silex/tests/Silex/Tests/Application/TwigTraitTest.php" line="51" assertions="3" time="0.016799"/>
+      <testcase name="testRenderView" class="Silex\Tests\Application\TwigTraitTest" file="/metrics/Silex/tests/Silex/Tests/Application/TwigTraitTest.php" line="66" assertions="1" time="0.009208"/>
+    </testsuite>
+    <testsuite name="Silex\Tests\Application\UrlGeneratorTraitTest" file="/metrics/Silex/tests/Silex/Tests/Application/UrlGeneratorTraitTest.php" namespace="Silex\Tests\Application" fullPackage="Silex.Tests.Application" tests="2" assertions="2" failures="0" errors="0" time="0.054551">
+      <testcase name="testUrl" class="Silex\Tests\Application\UrlGeneratorTraitTest" file="/metrics/Silex/tests/Silex/Tests/Application/UrlGeneratorTraitTest.php" line="26" assertions="1" time="0.031667"/>
+      <testcase name="testPath" class="Silex\Tests\Application\UrlGeneratorTraitTest" file="/metrics/Silex/tests/Silex/Tests/Application/UrlGeneratorTraitTest.php" line="34" assertions="1" time="0.022884"/>
+    </testsuite>
+    <testsuite name="Silex\Tests\ApplicationTest" file="/metrics/Silex/tests/Silex/Tests/ApplicationTest.php" namespace="Silex\Tests" fullPackage="Silex.Tests" tests="32" assertions="50" failures="0" errors="0" time="0.873634">
+      <testcase name="testMatchReturnValue" class="Silex\Tests\ApplicationTest" file="/metrics/Silex/tests/Silex/Tests/ApplicationTest.php" line="33" assertions="6" time="0.011930"/>
+      <testcase name="testConstructorInjection" class="Silex\Tests\ApplicationTest" file="/metrics/Silex/tests/Silex/Tests/ApplicationTest.php" line="56" assertions="2" time="0.008588"/>
+      <testcase name="testGetRoutesWithRoutes" class="Silex\Tests\ApplicationTest" file="/metrics/Silex/tests/Silex/Tests/ApplicationTest.php" line="94" assertions="3" time="0.011945"/>
+      <testcase name="testOnCoreController" class="Silex\Tests\ApplicationTest" file="/metrics/Silex/tests/Silex/Tests/ApplicationTest.php" line="113" assertions="2" time="0.061761"/>
+      <testcase name="testOn" class="Silex\Tests\ApplicationTest" file="/metrics/Silex/tests/Silex/Tests/ApplicationTest.php" line="132" assertions="1" time="0.010612"/>
+      <testcase name="testAbort" class="Silex\Tests\ApplicationTest" file="/metrics/Silex/tests/Silex/Tests/ApplicationTest.php" line="146" assertions="1" time="0.007665"/>
+      <testsuite name="Silex\Tests\ApplicationTest::testEscape" tests="5" assertions="5" failures="0" errors="0" time="0.027906">
+        <testcase name="testEscape with data set #0" assertions="1" time="0.005963"/>
+        <testcase name="testEscape with data set #1" assertions="1" time="0.005661"/>
+        <testcase name="testEscape with data set #2" assertions="1" time="0.005145"/>
+        <testcase name="testEscape with data set #3" assertions="1" time="0.005552"/>
+        <testcase name="testEscape with data set #4" assertions="1" time="0.005585"/>
+      </testsuite>
+      <testcase name="testControllersAsMethods" class="Silex\Tests\ApplicationTest" file="/metrics/Silex/tests/Silex/Tests/ApplicationTest.php" line="179" assertions="1" time="0.037111"/>
+      <testcase name="testHttpSpec" class="Silex\Tests\ApplicationTest" file="/metrics/Silex/tests/Silex/Tests/ApplicationTest.php" line="188" assertions="2" time="0.056631"/>
+      <testcase name="testRoutesMiddlewares" class="Silex\Tests\ApplicationTest" file="/metrics/Silex/tests/Silex/Tests/ApplicationTest.php" line="207" assertions="6" time="0.048003"/>
+      <testcase name="testRoutesBeforeMiddlewaresWithResponseObject" class="Silex\Tests\ApplicationTest" file="/metrics/Silex/tests/Silex/Tests/ApplicationTest.php" line="260" assertions="1" time="0.033745"/>
+      <testcase name="testRoutesAfterMiddlewaresWithResponseObject" class="Silex\Tests\ApplicationTest" file="/metrics/Silex/tests/Silex/Tests/ApplicationTest.php" line="277" assertions="1" time="0.036154"/>
+      <testcase name="testRoutesBeforeMiddlewaresWithRedirectResponseObject" class="Silex\Tests\ApplicationTest" file="/metrics/Silex/tests/Silex/Tests/ApplicationTest.php" line="294" assertions="2" time="0.039400"/>
+      <testcase name="testRoutesBeforeMiddlewaresTriggeredAfterSilexBeforeFilters" class="Silex\Tests\ApplicationTest" file="/metrics/Silex/tests/Silex/Tests/ApplicationTest.php" line="312" assertions="1" time="0.047784"/>
+      <testcase name="testRoutesAfterMiddlewaresTriggeredBeforeSilexAfterFilters" class="Silex\Tests\ApplicationTest" file="/metrics/Silex/tests/Silex/Tests/ApplicationTest.php" line="335" assertions="1" time="0.041955"/>
+      <testcase name="testFinishFilter" class="Silex\Tests\ApplicationTest" file="/metrics/Silex/tests/Silex/Tests/ApplicationTest.php" line="358" assertions="1" time="0.040566"/>
+      <testcase name="testNonResponseAndNonNullReturnFromRouteBeforeMiddlewareShouldThrowRuntimeException" class="Silex\Tests\ApplicationTest" file="/metrics/Silex/tests/Silex/Tests/ApplicationTest.php" line="388" assertions="1" time="0.030340"/>
+      <testcase name="testNonResponseAndNonNullReturnFromRouteAfterMiddlewareShouldThrowRuntimeException" class="Silex\Tests\ApplicationTest" file="/metrics/Silex/tests/Silex/Tests/ApplicationTest.php" line="407" assertions="1" time="0.033612"/>
+      <testcase name="testAccessingRequestOutsideOfScopeShouldThrowRuntimeException" class="Silex\Tests\ApplicationTest" file="/metrics/Silex/tests/Silex/Tests/ApplicationTest.php" line="426" assertions="1" time="0.004725"/>
+      <testcase name="testAccessingRequestOutsideOfScopeShouldThrowRuntimeExceptionAfterHandling" class="Silex\Tests\ApplicationTest" file="/metrics/Silex/tests/Silex/Tests/ApplicationTest.php" line="436" assertions="1" time="0.035014"/>
+      <testcase name="testSubRequest" class="Silex\Tests\ApplicationTest" file="/metrics/Silex/tests/Silex/Tests/ApplicationTest.php" line="447" assertions="1" time="0.055485"/>
+      <testcase name="testSubRequestDoesNotReplaceMainRequestAfterHandling" class="Silex\Tests\ApplicationTest" file="/metrics/Silex/tests/Silex/Tests/ApplicationTest.php" line="460" assertions="1" time="0.057359"/>
+      <testcase name="testRegisterShouldReturnSelf" class="Silex\Tests\ApplicationTest" file="/metrics/Silex/tests/Silex/Tests/ApplicationTest.php" line="481" assertions="1" time="0.009530"/>
+      <testcase name="testMountShouldReturnSelf" class="Silex\Tests\ApplicationTest" file="/metrics/Silex/tests/Silex/Tests/ApplicationTest.php" line="489" assertions="1" time="0.008483"/>
+      <testcase name="testMountPreservesOrder" class="Silex\Tests\ApplicationTest" file="/metrics/Silex/tests/Silex/Tests/ApplicationTest.php" line="498" assertions="1" time="0.017353"/>
+      <testcase name="testSendFile" class="Silex\Tests\ApplicationTest" file="/metrics/Silex/tests/Silex/Tests/ApplicationTest.php" line="512" assertions="2" time="0.013483"/>
+      <testcase name="testGetRouteCollectionWithRouteWithoutController" class="Silex\Tests\ApplicationTest" file="/metrics/Silex/tests/Silex/Tests/ApplicationTest.php" line="529" assertions="2" time="0.030960"/>
+      <testcase name="testRedirectDoesNotRaisePHPNoticesWhenMonologIsRegistered" class="Silex\Tests\ApplicationTest" file="/metrics/Silex/tests/Silex/Tests/ApplicationTest.php" line="537" assertions="1" time="0.055533"/>
+    </testsuite>
+    <testsuite name="Silex\Tests\CallbackResolverTest" file="/metrics/Silex/tests/Silex/Tests/CallbackResolverTest.php" namespace="Silex\Tests" fullPackage="Silex.Tests" tests="3" assertions="6" failures="0" errors="0" time="0.012909">
+      <testcase name="testShouldResolveCallback" class="Silex\Tests\CallbackResolverTest" file="/metrics/Silex/tests/Silex/Tests/CallbackResolverTest.php" line="24" assertions="2" time="0.006923"/>
+      <testcase name="testNonStringsAreNotValid" class="Silex\Tests\CallbackResolverTest" file="/metrics/Silex/tests/Silex/Tests/CallbackResolverTest.php" line="35" assertions="2" time="0.003288"/>
+      <testcase name="testShouldThrowAnExceptionIfServiceIsMissing" class="Silex\Tests\CallbackResolverTest" file="/metrics/Silex/tests/Silex/Tests/CallbackResolverTest.php" line="45" assertions="2" time="0.002698"/>
+    </testsuite>
+    <testsuite name="Silex\Tests\ControllerCollectionTest" file="/metrics/Silex/tests/Silex/Tests/ControllerCollectionTest.php" namespace="Silex\Tests" fullPackage="Silex.Tests" tests="13" assertions="18" failures="0" errors="0" time="0.091481">
+      <testcase name="testGetRouteCollectionWithNoRoutes" class="Silex\Tests\ControllerCollectionTest" file="/metrics/Silex/tests/Silex/Tests/ControllerCollectionTest.php" line="26" assertions="1" time="0.003710"/>
+      <testcase name="testGetRouteCollectionWithRoutes" class="Silex\Tests\ControllerCollectionTest" file="/metrics/Silex/tests/Silex/Tests/ControllerCollectionTest.php" line="33" assertions="1" time="0.005361"/>
+      <testcase name="testControllerFreezing" class="Silex\Tests\ControllerCollectionTest" file="/metrics/Silex/tests/Silex/Tests/ControllerCollectionTest.php" line="43" assertions="0" time="0.004997"/>
+      <testcase name="testConflictingRouteNames" class="Silex\Tests\ControllerCollectionTest" file="/metrics/Silex/tests/Silex/Tests/ControllerCollectionTest.php" line="65" assertions="1" time="0.008825"/>
+      <testcase name="testUniqueGeneratedRouteNames" class="Silex\Tests\ControllerCollectionTest" file="/metrics/Silex/tests/Silex/Tests/ControllerCollectionTest.php" line="79" assertions="2" time="0.010320"/>
+      <testcase name="testAssert" class="Silex\Tests\ControllerCollectionTest" file="/metrics/Silex/tests/Silex/Tests/ControllerCollectionTest.php" line="92" assertions="3" time="0.008082"/>
+      <testcase name="testValue" class="Silex\Tests\ControllerCollectionTest" file="/metrics/Silex/tests/Silex/Tests/ControllerCollectionTest.php" line="104" assertions="3" time="0.007341"/>
+      <testcase name="testConvert" class="Silex\Tests\ControllerCollectionTest" file="/metrics/Silex/tests/Silex/Tests/ControllerCollectionTest.php" line="116" assertions="1" time="0.010044"/>
+      <testcase name="testRequireHttp" class="Silex\Tests\ControllerCollectionTest" file="/metrics/Silex/tests/Silex/Tests/ControllerCollectionTest.php" line="126" assertions="2" time="0.006387"/>
+      <testcase name="testBefore" class="Silex\Tests\ControllerCollectionTest" file="/metrics/Silex/tests/Silex/Tests/ControllerCollectionTest.php" line="139" assertions="1" time="0.009876"/>
+      <testcase name="testAfter" class="Silex\Tests\ControllerCollectionTest" file="/metrics/Silex/tests/Silex/Tests/ControllerCollectionTest.php" line="149" assertions="1" time="0.009842"/>
+      <testcase name="testRouteExtension" class="Silex\Tests\ControllerCollectionTest" file="/metrics/Silex/tests/Silex/Tests/ControllerCollectionTest.php" line="159" assertions="1" time="0.003616"/>
+      <testcase name="testRouteMethodDoesNotExist" class="Silex\Tests\ControllerCollectionTest" file="/metrics/Silex/tests/Silex/Tests/ControllerCollectionTest.php" line="172" assertions="1" time="0.003080"/>
+    </testsuite>
+    <testsuite name="Silex\Tests\ControllerResolverTest" file="/metrics/Silex/tests/Silex/Tests/ControllerResolverTest.php" namespace="Silex\Tests" fullPackage="Silex.Tests" tests="1" assertions="1" failures="0" errors="0" time="0.006219">
+      <testcase name="testGetArguments" class="Silex\Tests\ControllerResolverTest" file="/metrics/Silex/tests/Silex/Tests/ControllerResolverTest.php" line="25" assertions="1" time="0.006219"/>
+    </testsuite>
+    <testsuite name="Silex\Tests\ControllerTest" file="/metrics/Silex/tests/Silex/Tests/ControllerTest.php" namespace="Silex\Tests" fullPackage="Silex.Tests" tests="12" assertions="17" failures="0" errors="0" time="0.047873">
+      <testcase name="testBind" class="Silex\Tests\ControllerTest" file="/metrics/Silex/tests/Silex/Tests/ControllerTest.php" line="24" assertions="2" time="0.003996"/>
+      <testcase name="testBindOnFrozenControllerShouldThrowException" class="Silex\Tests\ControllerTest" file="/metrics/Silex/tests/Silex/Tests/ControllerTest.php" line="36" assertions="1" time="0.003062"/>
+      <testcase name="testAssert" class="Silex\Tests\ControllerTest" file="/metrics/Silex/tests/Silex/Tests/ControllerTest.php" line="44" assertions="2" time="0.005802"/>
+      <testcase name="testValue" class="Silex\Tests\ControllerTest" file="/metrics/Silex/tests/Silex/Tests/ControllerTest.php" line="53" assertions="2" time="0.005437"/>
+      <testcase name="testConvert" class="Silex\Tests\ControllerTest" file="/metrics/Silex/tests/Silex/Tests/ControllerTest.php" line="62" assertions="2" time="0.005094"/>
+      <testcase name="testRun" class="Silex\Tests\ControllerTest" file="/metrics/Silex/tests/Silex/Tests/ControllerTest.php" line="71" assertions="2" time="0.004611"/>
+      <testsuite name="Silex\Tests\ControllerTest::testDefaultRouteNameGeneration" tests="4" assertions="4" failures="0" errors="0" time="0.012295">
+        <testcase name="testDefaultRouteNameGeneration with data set #0" assertions="1" time="0.003061"/>
+        <testcase name="testDefaultRouteNameGeneration with data set #1" assertions="1" time="0.003065"/>
+        <testcase name="testDefaultRouteNameGeneration with data set #2" assertions="1" time="0.003187"/>
+        <testcase name="testDefaultRouteNameGeneration with data set #3" assertions="1" time="0.002982"/>
+      </testsuite>
+      <testcase name="testRouteExtension" class="Silex\Tests\ControllerTest" file="/metrics/Silex/tests/Silex/Tests/ControllerTest.php" line="101" assertions="1" time="0.004298"/>
+      <testcase name="testRouteMethodDoesNotExist" class="Silex\Tests\ControllerTest" file="/metrics/Silex/tests/Silex/Tests/ControllerTest.php" line="114" assertions="1" time="0.003278"/>
+    </testsuite>
+    <testsuite name="Silex\Tests\EventListener\LogListenerTest" file="/metrics/Silex/tests/Silex/Tests/EventListener/LogListenerTest.php" namespace="Silex\Tests\EventListener" fullPackage="Silex.Tests.EventListener" tests="3" assertions="3" failures="0" errors="0" time="0.080110">
+      <testcase name="testRequestListener" class="Silex\Tests\EventListener\LogListenerTest" file="/metrics/Silex/tests/Silex/Tests/EventListener/LogListenerTest.php" line="32" assertions="1" time="0.030989"/>
+      <testcase name="testResponseListener" class="Silex\Tests\EventListener\LogListenerTest" file="/metrics/Silex/tests/Silex/Tests/EventListener/LogListenerTest.php" line="51" assertions="1" time="0.020125"/>
+      <testcase name="testExceptionListener" class="Silex\Tests\EventListener\LogListenerTest" file="/metrics/Silex/tests/Silex/Tests/EventListener/LogListenerTest.php" line="70" assertions="1" time="0.028996"/>
+    </testsuite>
+    <testsuite name="Silex\Tests\ExceptionHandlerTest" file="/metrics/Silex/tests/Silex/Tests/ExceptionHandlerTest.php" namespace="Silex\Tests" fullPackage="Silex.Tests" tests="18" assertions="33" failures="0" errors="0" time="0.816371">
+      <testcase name="testExceptionHandlerExceptionNoDebug" class="Silex\Tests\ExceptionHandlerTest" file="/metrics/Silex/tests/Silex/Tests/ExceptionHandlerTest.php" line="26" assertions="2" time="0.042161"/>
+      <testcase name="testExceptionHandlerExceptionDebug" class="Silex\Tests\ExceptionHandlerTest" file="/metrics/Silex/tests/Silex/Tests/ExceptionHandlerTest.php" line="41" assertions="2" time="0.045925"/>
+      <testcase name="testExceptionHandlerNotFoundNoDebug" class="Silex\Tests\ExceptionHandlerTest" file="/metrics/Silex/tests/Silex/Tests/ExceptionHandlerTest.php" line="57" assertions="2" time="0.043487"/>
+      <testcase name="testExceptionHandlerNotFoundDebug" class="Silex\Tests\ExceptionHandlerTest" file="/metrics/Silex/tests/Silex/Tests/ExceptionHandlerTest.php" line="68" assertions="2" time="0.055447"/>
+      <testcase name="testExceptionHandlerMethodNotAllowedNoDebug" class="Silex\Tests\ExceptionHandlerTest" file="/metrics/Silex/tests/Silex/Tests/ExceptionHandlerTest.php" line="79" assertions="3" time="0.048525"/>
+      <testcase name="testExceptionHandlerMethodNotAllowedDebug" class="Silex\Tests\ExceptionHandlerTest" file="/metrics/Silex/tests/Silex/Tests/ExceptionHandlerTest.php" line="93" assertions="3" time="0.060588"/>
+      <testcase name="testNoExceptionHandler" class="Silex\Tests\ExceptionHandlerTest" file="/metrics/Silex/tests/Silex/Tests/ExceptionHandlerTest.php" line="107" assertions="1" time="0.030699"/>
+      <testcase name="testOneExceptionHandler" class="Silex\Tests\ExceptionHandlerTest" file="/metrics/Silex/tests/Silex/Tests/ExceptionHandlerTest.php" line="125" assertions="5" time="0.096038"/>
+      <testcase name="testMultipleExceptionHandlers" class="Silex\Tests\ExceptionHandlerTest" file="/metrics/Silex/tests/Silex/Tests/ExceptionHandlerTest.php" line="154" assertions="2" time="0.047596"/>
+      <testcase name="testNoResponseExceptionHandler" class="Silex\Tests\ExceptionHandlerTest" file="/metrics/Silex/tests/Silex/Tests/ExceptionHandlerTest.php" line="189" assertions="2" time="0.035885"/>
+      <testcase name="testStringResponseExceptionHandler" class="Silex\Tests\ExceptionHandlerTest" file="/metrics/Silex/tests/Silex/Tests/ExceptionHandlerTest.php" line="215" assertions="1" time="0.041609"/>
+      <testcase name="testExceptionHandlerException" class="Silex\Tests\ExceptionHandlerTest" file="/metrics/Silex/tests/Silex/Tests/ExceptionHandlerTest.php" line="231" assertions="1" time="0.032085"/>
+      <testcase name="testRemoveExceptionHandlerAfterDispatcherAccess" class="Silex\Tests\ExceptionHandlerTest" file="/metrics/Silex/tests/Silex/Tests/ExceptionHandlerTest.php" line="252" assertions="1" time="0.033352"/>
+      <testcase name="testExceptionHandlerWithDefaultException" class="Silex\Tests\ExceptionHandlerTest" file="/metrics/Silex/tests/Silex/Tests/ExceptionHandlerTest.php" line="275" assertions="2" time="0.038389"/>
+      <testcase name="testExceptionHandlerWithStandardException" class="Silex\Tests\ExceptionHandlerTest" file="/metrics/Silex/tests/Silex/Tests/ExceptionHandlerTest.php" line="294" assertions="1" time="0.047172"/>
+      <testcase name="testExceptionHandlerWithSpecifiedException" class="Silex\Tests\ExceptionHandlerTest" file="/metrics/Silex/tests/Silex/Tests/ExceptionHandlerTest.php" line="320" assertions="1" time="0.040233"/>
+      <testcase name="testExceptionHandlerWithSpecifiedExceptionInReverseOrder" class="Silex\Tests\ExceptionHandlerTest" file="/metrics/Silex/tests/Silex/Tests/ExceptionHandlerTest.php" line="346" assertions="1" time="0.038967"/>
+      <testcase name="testExceptionHandlerWithArrayStyleCallback" class="Silex\Tests\ExceptionHandlerTest" file="/metrics/Silex/tests/Silex/Tests/ExceptionHandlerTest.php" line="374" assertions="1" time="0.038213"/>
+    </testsuite>
+    <testsuite name="Silex\Tests\FunctionalTest" file="/metrics/Silex/tests/Silex/Tests/FunctionalTest.php" namespace="Silex\Tests" fullPackage="Silex.Tests" tests="2" assertions="3" failures="0" errors="0" time="0.045961">
+      <testcase name="testBind" class="Silex\Tests\FunctionalTest" file="/metrics/Silex/tests/Silex/Tests/FunctionalTest.php" line="27" assertions="2" time="0.009232"/>
+      <testcase name="testMount" class="Silex\Tests\FunctionalTest" file="/metrics/Silex/tests/Silex/Tests/FunctionalTest.php" line="47" assertions="1" time="0.036729"/>
+    </testsuite>
+    <testsuite name="Silex\Tests\JsonTest" file="/metrics/Silex/tests/Silex/Tests/JsonTest.php" namespace="Silex\Tests" fullPackage="Silex.Tests" tests="4" assertions="5" failures="0" errors="0" time="0.028007">
+      <testcase name="testJsonReturnsJsonResponse" class="Silex\Tests\JsonTest" file="/metrics/Silex/tests/Silex/Tests/JsonTest.php" line="23" assertions="2" time="0.008536"/>
+      <testcase name="testJsonUsesData" class="Silex\Tests\JsonTest" file="/metrics/Silex/tests/Silex/Tests/JsonTest.php" line="33" assertions="1" time="0.006650"/>
+      <testcase name="testJsonUsesStatus" class="Silex\Tests\JsonTest" file="/metrics/Silex/tests/Silex/Tests/JsonTest.php" line="41" assertions="1" time="0.006674"/>
+      <testcase name="testJsonUsesHeaders" class="Silex\Tests\JsonTest" file="/metrics/Silex/tests/Silex/Tests/JsonTest.php" line="49" assertions="1" time="0.006147"/>
+    </testsuite>
+    <testsuite name="Silex\Tests\LazyDispatcherTest" file="/metrics/Silex/tests/Silex/Tests/LazyDispatcherTest.php" namespace="Silex\Tests" fullPackage="Silex.Tests" tests="2" assertions="3" failures="0" errors="0" time="0.083018">
+      <testcase name="beforeMiddlewareShouldNotCreateDispatcherEarly" class="Silex\Tests\LazyDispatcherTest" file="/metrics/Silex/tests/Silex/Tests/LazyDispatcherTest.php" line="20" assertions="2" time="0.040814"/>
+      <testcase name="eventHelpersShouldDirectlyAddListenersAfterBoot" class="Silex\Tests\LazyDispatcherTest" file="/metrics/Silex/tests/Silex/Tests/LazyDispatcherTest.php" line="42" assertions="1" time="0.042204"/>
+    </testsuite>
+    <testsuite name="Silex\Tests\LazyUrlMatcherTest" file="/metrics/Silex/tests/Silex/Tests/LazyUrlMatcherTest.php" namespace="Silex\Tests" fullPackage="Silex.Tests" tests="5" assertions="9" failures="0" errors="0" time="0.061946">
+      <testcase name="testUserMatcherIsCreatedLazily" class="Silex\Tests\LazyUrlMatcherTest" file="/metrics/Silex/tests/Silex/Tests/LazyUrlMatcherTest.php" line="26" assertions="2" time="0.009564"/>
+      <testcase name="testThatCanInjectUrlMatcherOnly" class="Silex\Tests\LazyUrlMatcherTest" file="/metrics/Silex/tests/Silex/Tests/LazyUrlMatcherTest.php" line="46" assertions="2" time="0.002871"/>
+      <testcase name="testMatchIsProxy" class="Silex\Tests\LazyUrlMatcherTest" file="/metrics/Silex/tests/Silex/Tests/LazyUrlMatcherTest.php" line="58" assertions="2" time="0.011802"/>
+      <testcase name="testSetContextIsProxy" class="Silex\Tests\LazyUrlMatcherTest" file="/metrics/Silex/tests/Silex/Tests/LazyUrlMatcherTest.php" line="77" assertions="1" time="0.029969"/>
+      <testcase name="testGetContextIsProxy" class="Silex\Tests\LazyUrlMatcherTest" file="/metrics/Silex/tests/Silex/Tests/LazyUrlMatcherTest.php" line="94" assertions="2" time="0.007740"/>
+    </testsuite>
+    <testsuite name="Silex\Tests\LocaleTest" file="/metrics/Silex/tests/Silex/Tests/LocaleTest.php" namespace="Silex\Tests" fullPackage="Silex.Tests" tests="3" assertions="6" failures="0" errors="0" time="0.299963">
+      <testcase name="testLocale" class="Silex\Tests\LocaleTest" file="/metrics/Silex/tests/Silex/Tests/LocaleTest.php" line="25" assertions="3" time="0.109335"/>
+      <testcase name="testLocaleInSubRequests" class="Silex\Tests\LocaleTest" file="/metrics/Silex/tests/Silex/Tests/LocaleTest.php" line="44" assertions="2" time="0.129270"/>
+      <testcase name="testLocaleWithBefore" class="Silex\Tests\LocaleTest" file="/metrics/Silex/tests/Silex/Tests/LocaleTest.php" line="64" assertions="1" time="0.061358"/>
+    </testsuite>
+    <testsuite name="Silex\Tests\MiddlewareTest" file="/metrics/Silex/tests/Silex/Tests/MiddlewareTest.php" namespace="Silex\Tests" fullPackage="Silex.Tests" tests="10" assertions="19" failures="0" errors="0" time="0.453506">
+      <testcase name="testBeforeAndAfterFilter" class="Silex\Tests\MiddlewareTest" file="/metrics/Silex/tests/Silex/Tests/MiddlewareTest.php" line="25" assertions="4" time="0.049702"/>
+      <testcase name="testAfterFilterWithResponseObject" class="Silex\Tests\MiddlewareTest" file="/metrics/Silex/tests/Silex/Tests/MiddlewareTest.php" line="53" assertions="1" time="0.035342"/>
+      <testcase name="testMultipleFilters" class="Silex\Tests\MiddlewareTest" file="/metrics/Silex/tests/Silex/Tests/MiddlewareTest.php" line="75" assertions="6" time="0.052156"/>
+      <testcase name="testFiltersShouldFireOnException" class="Silex\Tests\MiddlewareTest" file="/metrics/Silex/tests/Silex/Tests/MiddlewareTest.php" line="113" assertions="1" time="0.047120"/>
+      <testcase name="testFiltersShouldFireOnHttpException" class="Silex\Tests\MiddlewareTest" file="/metrics/Silex/tests/Silex/Tests/MiddlewareTest.php" line="141" assertions="1" time="0.038188"/>
+      <testcase name="testBeforeFilterPreventsBeforeMiddlewaresToBeExecuted" class="Silex\Tests\MiddlewareTest" file="/metrics/Silex/tests/Silex/Tests/MiddlewareTest.php" line="165" assertions="1" time="0.034934"/>
+      <testcase name="testBeforeFilterExceptionsWhenHandlingAnException" class="Silex\Tests\MiddlewareTest" file="/metrics/Silex/tests/Silex/Tests/MiddlewareTest.php" line="180" assertions="1" time="0.055504"/>
+      <testcase name="testRequestShouldBePopulatedOnBefore" class="Silex\Tests\MiddlewareTest" file="/metrics/Silex/tests/Silex/Tests/MiddlewareTest.php" line="190" assertions="2" time="0.065485"/>
+      <testcase name="testBeforeFilterAccessesRequestAndCanReturnResponse" class="Silex\Tests\MiddlewareTest" file="/metrics/Silex/tests/Silex/Tests/MiddlewareTest.php" line="209" assertions="1" time="0.037364"/>
+      <testcase name="testAfterFilterAccessRequestResponse" class="Silex\Tests\MiddlewareTest" file="/metrics/Silex/tests/Silex/Tests/MiddlewareTest.php" line="223" assertions="1" time="0.037711"/>
+    </testsuite>
+    <testsuite name="Silex\Tests\Provider\DoctrineServiceProviderTest" file="/metrics/Silex/tests/Silex/Tests/Provider/DoctrineServiceProviderTest.php" namespace="Silex\Tests\Provider" fullPackage="Silex.Tests.Provider" tests="3" assertions="13" failures="0" errors="0" time="0.118286">
+      <testcase name="testOptionsInitializer" class="Silex\Tests\Provider\DoctrineServiceProviderTest" file="/metrics/Silex/tests/Silex/Tests/Provider/DoctrineServiceProviderTest.php" line="24" assertions="1" time="0.056015"/>
+      <testcase name="testSingleConnection" class="Silex\Tests\Provider\DoctrineServiceProviderTest" file="/metrics/Silex/tests/Silex/Tests/Provider/DoctrineServiceProviderTest.php" line="32" assertions="5" time="0.043148"/>
+      <testcase name="testMultipleConnections" class="Silex\Tests\Provider\DoctrineServiceProviderTest" file="/metrics/Silex/tests/Silex/Tests/Provider/DoctrineServiceProviderTest.php" line="53" assertions="7" time="0.019123"/>
+    </testsuite>
+    <testsuite name="Silex\Tests\Provider\FormServiceProviderTest" file="/metrics/Silex/tests/Silex/Tests/Provider/FormServiceProviderTest.php" namespace="Silex\Tests\Provider" fullPackage="Silex.Tests.Provider" tests="4" assertions="5" failures="0" errors="0" time="0.127659">
+      <testcase name="testFormFactoryServiceIsFormFactory" class="Silex\Tests\Provider\FormServiceProviderTest" file="/metrics/Silex/tests/Silex/Tests/Provider/FormServiceProviderTest.php" line="25" assertions="1" time="0.008396"/>
+      <testcase name="testFormServiceProviderWillLoadTypeExtensions" class="Silex\Tests\Provider\FormServiceProviderTest" file="/metrics/Silex/tests/Silex/Tests/Provider/FormServiceProviderTest.php" line="32" assertions="1" time="0.053650"/>
+      <testcase name="testFormServiceProviderWillLoadTypeGuessers" class="Silex\Tests\Provider\FormServiceProviderTest" file="/metrics/Silex/tests/Silex/Tests/Provider/FormServiceProviderTest.php" line="51" assertions="1" time="0.011647"/>
+      <testcase name="testFormServiceProviderWillUseTranslatorIfAvailable" class="Silex\Tests\Provider\FormServiceProviderTest" file="/metrics/Silex/tests/Silex/Tests/Provider/FormServiceProviderTest.php" line="66" assertions="2" time="0.053966"/>
+    </testsuite>
+    <testsuite name="Silex\Tests\Provider\HttpCacheServiceProviderTest" file="/metrics/Silex/tests/Silex/Tests/Provider/HttpCacheServiceProviderTest.php" namespace="Silex\Tests\Provider" fullPackage="Silex.Tests.Provider" tests="3" assertions="3" failures="0" errors="0" time="0.079447">
+      <testcase name="testRegister" class="Silex\Tests\Provider\HttpCacheServiceProviderTest" file="/metrics/Silex/tests/Silex/Tests/Provider/HttpCacheServiceProviderTest.php" line="26" assertions="1" time="0.021187"/>
+      <testcase name="testRunCallsShutdown" class="Silex\Tests\Provider\HttpCacheServiceProviderTest" file="/metrics/Silex/tests/Silex/Tests/Provider/HttpCacheServiceProviderTest.php" line="42" assertions="1" time="0.051401"/>
+      <testcase name="testDebugDefaultsToThatOfApp" class="Silex\Tests\Provider\HttpCacheServiceProviderTest" file="/metrics/Silex/tests/Silex/Tests/Provider/HttpCacheServiceProviderTest.php" line="60" assertions="1" time="0.006859"/>
+    </testsuite>
+    <testsuite name="Silex\Tests\Provider\HttpFragmentServiceProviderTest" file="/metrics/Silex/tests/Silex/Tests/Provider/HttpFragmentServiceProviderTest.php" namespace="Silex\Tests\Provider" fullPackage="Silex.Tests.Provider" tests="1" assertions="1" failures="0" errors="0" time="0.377227">
+      <testcase name="testRenderFunction" class="Silex\Tests\Provider\HttpFragmentServiceProviderTest" file="/metrics/Silex/tests/Silex/Tests/Provider/HttpFragmentServiceProviderTest.php" line="22" assertions="1" time="0.377227"/>
+    </testsuite>
+    <testsuite name="Silex\Tests\Provider\MonologServiceProviderTest" file="/metrics/Silex/tests/Silex/Tests/Provider/MonologServiceProviderTest.php" namespace="Silex\Tests\Provider" fullPackage="Silex.Tests.Provider" tests="8" assertions="17" failures="0" errors="0" time="0.413078">
+      <testcase name="testRequestLogging" class="Silex\Tests\Provider\MonologServiceProviderTest" file="/metrics/Silex/tests/Silex/Tests/Provider/MonologServiceProviderTest.php" line="28" assertions="4" time="0.056554"/>
+      <testcase name="testManualLogging" class="Silex\Tests\Provider\MonologServiceProviderTest" file="/metrics/Silex/tests/Silex/Tests/Provider/MonologServiceProviderTest.php" line="46" assertions="2" time="0.071134"/>
+      <testcase name="testErrorLogging" class="Silex\Tests\Provider\MonologServiceProviderTest" file="/metrics/Silex/tests/Silex/Tests/Provider/MonologServiceProviderTest.php" line="62" assertions="4" time="0.094662"/>
+      <testcase name="testRedirectLogging" class="Silex\Tests\Provider\MonologServiceProviderTest" file="/metrics/Silex/tests/Silex/Tests/Provider/MonologServiceProviderTest.php" line="98" assertions="2" time="0.053960"/>
+      <testcase name="testErrorLoggingGivesWayToSecurityExceptionHandling" class="Silex\Tests\Provider\MonologServiceProviderTest" file="/metrics/Silex/tests/Silex/Tests/Provider/MonologServiceProviderTest.php" line="114" assertions="1" time="0.076010"/>
+      <testcase name="testStringErrorLevel" class="Silex\Tests\Provider\MonologServiceProviderTest" file="/metrics/Silex/tests/Silex/Tests/Provider/MonologServiceProviderTest.php" line="139" assertions="1" time="0.006906"/>
+      <testcase name="testNonExistentStringErrorLevel" class="Silex\Tests\Provider\MonologServiceProviderTest" file="/metrics/Silex/tests/Silex/Tests/Provider/MonologServiceProviderTest.php" line="151" assertions="2" time="0.007041"/>
+      <testcase name="testDisableListener" class="Silex\Tests\Provider\MonologServiceProviderTest" file="/metrics/Silex/tests/Silex/Tests/Provider/MonologServiceProviderTest.php" line="159" assertions="1" time="0.046811"/>
+    </testsuite>
+    <testsuite name="Silex\Tests\Provider\RememberMeServiceProviderTest" file="/metrics/Silex/tests/Silex/Tests/Provider/RememberMeServiceProviderTest.php" namespace="Silex\Tests\Provider" fullPackage="Silex.Tests.Provider" tests="1" assertions="4" failures="0" errors="0" time="0.477970">
+      <testcase name="testRememberMeAuthentication" class="Silex\Tests\Provider\RememberMeServiceProviderTest" file="/metrics/Silex/tests/Silex/Tests/Provider/RememberMeServiceProviderTest.php" line="28" assertions="4" time="0.477970"/>
+    </testsuite>
+    <testsuite name="Silex\Tests\Provider\SecurityServiceProviderTest" file="/metrics/Silex/tests/Silex/Tests/Provider/SecurityServiceProviderTest.php" namespace="Silex\Tests\Provider" fullPackage="Silex.Tests.Provider" tests="6" assertions="31" failures="0" errors="0" time="1.650646">
+      <testcase name="testWrongAuthenticationType" class="Silex\Tests\Provider\SecurityServiceProviderTest" file="/metrics/Silex/tests/Silex/Tests/Provider/SecurityServiceProviderTest.php" line="32" assertions="1" time="0.040236"/>
+      <testcase name="testFormAuthentication" class="Silex\Tests\Provider\SecurityServiceProviderTest" file="/metrics/Silex/tests/Silex/Tests/Provider/SecurityServiceProviderTest.php" line="47" assertions="17" time="0.775916"/>
+      <testcase name="testHttpAuthentication" class="Silex\Tests\Provider\SecurityServiceProviderTest" file="/metrics/Silex/tests/Silex/Tests/Provider/SecurityServiceProviderTest.php" line="95" assertions="8" time="0.444252"/>
+      <testcase name="testUserPasswordValidatorIsRegistered" class="Silex\Tests\Provider\SecurityServiceProviderTest" file="/metrics/Silex/tests/Silex/Tests/Provider/SecurityServiceProviderTest.php" line="122" assertions="1" time="0.056563"/>
+      <testcase name="testExposedExceptions" class="Silex\Tests\Provider\SecurityServiceProviderTest" file="/metrics/Silex/tests/Silex/Tests/Provider/SecurityServiceProviderTest.php" line="144" assertions="3" time="0.279044"/>
+      <testcase name="testFakeRoutesAreSerializable" class="Silex\Tests\Provider\SecurityServiceProviderTest" file="/metrics/Silex/tests/Silex/Tests/Provider/SecurityServiceProviderTest.php" line="163" assertions="1" time="0.054635"/>
+    </testsuite>
+    <testsuite name="Silex\Tests\Provider\SerializerServiceProviderTest" file="/metrics/Silex/tests/Silex/Tests/Provider/SerializerServiceProviderTest.php" namespace="Silex\Tests\Provider" fullPackage="Silex.Tests.Provider" tests="1" assertions="5" failures="0" errors="0" time="0.035942">
+      <testcase name="testRegister" class="Silex\Tests\Provider\SerializerServiceProviderTest" file="/metrics/Silex/tests/Silex/Tests/Provider/SerializerServiceProviderTest.php" line="24" assertions="5" time="0.035942"/>
+    </testsuite>
+    <testsuite name="Silex\Tests\Provider\SessionServiceProviderTest" file="/metrics/Silex/tests/Silex/Tests/Provider/SessionServiceProviderTest.php" namespace="Silex\Tests\Provider" fullPackage="Silex.Tests.Provider" tests="2" assertions="6" failures="0" errors="0" time="0.295928">
+      <testcase name="testRegister" class="Silex\Tests\Provider\SessionServiceProviderTest" file="/metrics/Silex/tests/Silex/Tests/Provider/SessionServiceProviderTest.php" line="27" assertions="4" time="0.190536"/>
+      <testcase name="testWithRoutesThatDoesNotUseSession" class="Silex\Tests\Provider\SessionServiceProviderTest" file="/metrics/Silex/tests/Silex/Tests/Provider/SessionServiceProviderTest.php" line="80" assertions="2" time="0.105392"/>
+    </testsuite>
+    <testsuite name="Silex\Tests\Provider\SwiftmailerServiceProviderTest" file="/metrics/Silex/tests/Silex/Tests/Provider/SwiftmailerServiceProviderTest.php" namespace="Silex\Tests\Provider" fullPackage="Silex.Tests.Provider" tests="3" assertions="7" failures="0" errors="0" time="0.262973">
+      <testcase name="testSwiftMailerServiceIsSwiftMailer" class="Silex\Tests\Provider\SwiftmailerServiceProviderTest" file="/metrics/Silex/tests/Silex/Tests/Provider/SwiftmailerServiceProviderTest.php" line="20" assertions="1" time="0.019981"/>
+      <testcase name="testSwiftMailerSendsMailsOnFinish" class="Silex\Tests\Provider\SwiftmailerServiceProviderTest" file="/metrics/Silex/tests/Silex/Tests/Provider/SwiftmailerServiceProviderTest.php" line="30" assertions="4" time="0.189162"/>
+      <testcase name="testSwiftMailerAvoidsFlushesIfMailerIsUnused" class="Silex\Tests\Provider\SwiftmailerServiceProviderTest" file="/metrics/Silex/tests/Silex/Tests/Provider/SwiftmailerServiceProviderTest.php" line="56" assertions="2" time="0.053830"/>
+    </testsuite>
+    <testsuite name="Silex\Tests\Provider\TranslationServiceProviderTest" file="/metrics/Silex/tests/Silex/Tests/Provider/TranslationServiceProviderTest.php" namespace="Silex\Tests\Provider" fullPackage="Silex.Tests.Provider" tests="18" assertions="20" failures="0" errors="0" time="0.225534">
+      <testsuite name="Silex\Tests\Provider\TranslationServiceProviderTest::testTransForDefaultLanguage" tests="6" assertions="6" failures="0" errors="0" time="0.066279">
+        <testcase name="testTransForDefaultLanguage with data set #0" assertions="1" time="0.010446"/>
+        <testcase name="testTransForDefaultLanguage with data set #1" assertions="1" time="0.011832"/>
+        <testcase name="testTransForDefaultLanguage with data set #2" assertions="1" time="0.010816"/>
+        <testcase name="testTransForDefaultLanguage with data set #3" assertions="1" time="0.010236"/>
+        <testcase name="testTransForDefaultLanguage with data set #4" assertions="1" time="0.012086"/>
+        <testcase name="testTransForDefaultLanguage with data set #5" assertions="1" time="0.010863"/>
+      </testsuite>
+      <testsuite name="Silex\Tests\Provider\TranslationServiceProviderTest::testTransChoiceForDefaultLanguage" tests="9" assertions="9" failures="0" errors="0" time="0.113605">
+        <testcase name="testTransChoiceForDefaultLanguage with data set #0" assertions="1" time="0.013931"/>
+        <testcase name="testTransChoiceForDefaultLanguage with data set #1" assertions="1" time="0.011184"/>
+        <testcase name="testTransChoiceForDefaultLanguage with data set #2" assertions="1" time="0.010806"/>
+        <testcase name="testTransChoiceForDefaultLanguage with data set #3" assertions="1" time="0.012414"/>
+        <testcase name="testTransChoiceForDefaultLanguage with data set #4" assertions="1" time="0.016957"/>
+        <testcase name="testTransChoiceForDefaultLanguage with data set #5" assertions="1" time="0.012804"/>
+        <testcase name="testTransChoiceForDefaultLanguage with data set #6" assertions="1" time="0.011514"/>
+        <testcase name="testTransChoiceForDefaultLanguage with data set #7" assertions="1" time="0.012556"/>
+        <testcase name="testTransChoiceForDefaultLanguage with data set #8" assertions="1" time="0.011439"/>
+      </testsuite>
+      <testcase name="testBackwardCompatiblityForFallback" class="Silex\Tests\Provider\TranslationServiceProviderTest" file="/metrics/Silex/tests/Silex/Tests/Provider/TranslationServiceProviderTest.php" line="105" assertions="1" time="0.011336"/>
+      <testcase name="testFallbacks" class="Silex\Tests\Provider\TranslationServiceProviderTest" file="/metrics/Silex/tests/Silex/Tests/Provider/TranslationServiceProviderTest.php" line="114" assertions="2" time="0.019782"/>
+      <testcase name="testChangingLocale" class="Silex\Tests\Provider\TranslationServiceProviderTest" file="/metrics/Silex/tests/Silex/Tests/Provider/TranslationServiceProviderTest.php" line="128" assertions="2" time="0.014532"/>
+    </testsuite>
+    <testsuite name="Silex\Tests\Provider\TwigServiceProviderTest" file="/metrics/Silex/tests/Silex/Tests/Provider/TwigServiceProviderTest.php" namespace="Silex\Tests\Provider" fullPackage="Silex.Tests.Provider" tests="3" assertions="4" failures="0" errors="0" time="0.298324">
+      <testcase name="testRegisterAndRender" class="Silex\Tests\Provider\TwigServiceProviderTest" file="/metrics/Silex/tests/Silex/Tests/Provider/TwigServiceProviderTest.php" line="25" assertions="1" time="0.133904"/>
+      <testcase name="testRenderFunction" class="Silex\Tests\Provider\TwigServiceProviderTest" file="/metrics/Silex/tests/Silex/Tests/Provider/TwigServiceProviderTest.php" line="42" assertions="1" time="0.147041"/>
+      <testcase name="testLoaderPriority" class="Silex\Tests\Provider\TwigServiceProviderTest" file="/metrics/Silex/tests/Silex/Tests/Provider/TwigServiceProviderTest.php" line="66" assertions="2" time="0.017379"/>
+    </testsuite>
+    <testsuite name="Silex\Tests\Provider\UrlGeneratorServiceProviderTest" file="/metrics/Silex/tests/Silex/Tests/Provider/UrlGeneratorServiceProviderTest.php" namespace="Silex\Tests\Provider" fullPackage="Silex.Tests.Provider" tests="5" assertions="5" failures="0" errors="0" time="0.253187">
+      <testcase name="testRegister" class="Silex\Tests\Provider\UrlGeneratorServiceProviderTest" file="/metrics/Silex/tests/Silex/Tests/Provider/UrlGeneratorServiceProviderTest.php" line="25" assertions="1" time="0.057690"/>
+      <testcase name="testUrlGeneration" class="Silex\Tests\Provider\UrlGeneratorServiceProviderTest" file="/metrics/Silex/tests/Silex/Tests/Provider/UrlGeneratorServiceProviderTest.php" line="42" assertions="1" time="0.048676"/>
+      <testcase name="testAbsoluteUrlGeneration" class="Silex\Tests\Provider\UrlGeneratorServiceProviderTest" file="/metrics/Silex/tests/Silex/Tests/Provider/UrlGeneratorServiceProviderTest.php" line="61" assertions="1" time="0.049384"/>
+      <testcase name="testUrlGenerationWithHttp" class="Silex\Tests\Provider\UrlGeneratorServiceProviderTest" file="/metrics/Silex/tests/Silex/Tests/Provider/UrlGeneratorServiceProviderTest.php" line="80" assertions="1" time="0.048371"/>
+      <testcase name="testUrlGenerationWithHttps" class="Silex\Tests\Provider\UrlGeneratorServiceProviderTest" file="/metrics/Silex/tests/Silex/Tests/Provider/UrlGeneratorServiceProviderTest.php" line="100" assertions="1" time="0.049066"/>
+    </testsuite>
+    <testsuite name="Silex\Tests\Provider\ValidatorServiceProviderTest" file="/metrics/Silex/tests/Silex/Tests/Provider/ValidatorServiceProviderTest.php" namespace="Silex\Tests\Provider" fullPackage="Silex.Tests.Provider" tests="8" assertions="12" failures="0" errors="0" time="0.441316">
+      <testcase name="testRegister" class="Silex\Tests\Provider\ValidatorServiceProviderTest" file="/metrics/Silex/tests/Silex/Tests/Provider/ValidatorServiceProviderTest.php" line="28" assertions="0" time="0.005656"/>
+      <testcase name="testRegisterWithCustomValidators" class="Silex\Tests\Provider\ValidatorServiceProviderTest" file="/metrics/Silex/tests/Silex/Tests/Provider/ValidatorServiceProviderTest.php" line="37" assertions="0" time="0.005959"/>
+      <testcase name="testConstraintValidatorFactory" class="Silex\Tests\Provider\ValidatorServiceProviderTest" file="/metrics/Silex/tests/Silex/Tests/Provider/ValidatorServiceProviderTest.php" line="57" assertions="2" time="0.010239"/>
+      <testcase name="testValidatorServiceIsAValidator" class="Silex\Tests\Provider\ValidatorServiceProviderTest" file="/metrics/Silex/tests/Silex/Tests/Provider/ValidatorServiceProviderTest.php" line="68" assertions="1" time="0.014911"/>
+      <testsuite name="Silex\Tests\Provider\ValidatorServiceProviderTest::testValidatorConstraint" tests="3" assertions="9" failures="0" errors="0" time="0.403003">
+        <testcase name="testValidatorConstraint with data set #0" assertions="3" time="0.184000"/>
+        <testcase name="testValidatorConstraint with data set #1" assertions="3" time="0.114296"/>
+        <testcase name="testValidatorConstraint with data set #2" assertions="3" time="0.104707"/>
+      </testsuite>
+      <testcase name="testValidatorConstraintProvider" class="Silex\Tests\Provider\ValidatorServiceProviderTest" file="/metrics/Silex/tests/Silex/Tests/Provider/ValidatorServiceProviderTest.php" line="106" assertions="0" time="0.001548"/>
+    </testsuite>
+    <testsuite name="Silex\Tests\Route\SecurityTraitTest" file="/metrics/Silex/tests/Silex/Tests/Route/SecurityTraitTest.php" namespace="Silex\Tests\Route" fullPackage="Silex.Tests.Route" tests="1" assertions="2" failures="0" errors="0" time="0.162712">
+      <testcase name="testSecure" class="Silex\Tests\Route\SecurityTraitTest" file="/metrics/Silex/tests/Silex/Tests/Route/SecurityTraitTest.php" line="27" assertions="2" time="0.162712"/>
+    </testsuite>
+    <testsuite name="Silex\Tests\RouterTest" file="/metrics/Silex/tests/Silex/Tests/RouterTest.php" namespace="Silex\Tests" fullPackage="Silex.Tests" tests="13" assertions="28" failures="0" errors="0" time="0.923662">
+      <testcase name="testMapRouting" class="Silex\Tests\RouterTest" file="/metrics/Silex/tests/Silex/Tests/RouterTest.php" line="26" assertions="3" time="0.116698"/>
+      <testcase name="testStatusCode" class="Silex\Tests\RouterTest" file="/metrics/Silex/tests/Silex/Tests/RouterTest.php" line="47" assertions="3" time="0.104084"/>
+      <testcase name="testRedirect" class="Silex\Tests\RouterTest" file="/metrics/Silex/tests/Silex/Tests/RouterTest.php" line="76" assertions="2" time="0.071385"/>
+      <testcase name="testMissingRoute" class="Silex\Tests\RouterTest" file="/metrics/Silex/tests/Silex/Tests/RouterTest.php" line="100" assertions="1" time="0.030861"/>
+      <testcase name="testMethodRouting" class="Silex\Tests\RouterTest" file="/metrics/Silex/tests/Silex/Tests/RouterTest.php" line="109" assertions="8" time="0.259328"/>
+      <testcase name="testRequestShouldBeStoredRegardlessOfRouting" class="Silex\Tests\RouterTest" file="/metrics/Silex/tests/Silex/Tests/RouterTest.php" line="151" assertions="2" time="0.068136"/>
+      <testcase name="testTrailingSlashBehavior" class="Silex\Tests\RouterTest" file="/metrics/Silex/tests/Silex/Tests/RouterTest.php" line="170" assertions="2" time="0.048980"/>
+      <testcase name="testHostSpecification" class="Silex\Tests\RouterTest" file="/metrics/Silex/tests/Silex/Tests/RouterTest.php" line="185" assertions="2" time="0.004774"/>
+      <testcase name="testRequireHttpRedirect" class="Silex\Tests\RouterTest" file="/metrics/Silex/tests/Silex/Tests/RouterTest.php" line="193" assertions="1" time="0.042782"/>
+      <testcase name="testRequireHttpsRedirect" class="Silex\Tests\RouterTest" file="/metrics/Silex/tests/Silex/Tests/RouterTest.php" line="207" assertions="1" time="0.042627"/>
+      <testcase name="testRequireHttpsRedirectIncludesQueryString" class="Silex\Tests\RouterTest" file="/metrics/Silex/tests/Silex/Tests/RouterTest.php" line="221" assertions="1" time="0.044184"/>
+      <testcase name="testClassNameControllerSyntax" class="Silex\Tests\RouterTest" file="/metrics/Silex/tests/Silex/Tests/RouterTest.php" line="235" assertions="1" time="0.044259"/>
+      <testcase name="testClassNameControllerSyntaxWithStaticMethod" class="Silex\Tests\RouterTest" file="/metrics/Silex/tests/Silex/Tests/RouterTest.php" line="244" assertions="1" time="0.045564"/>
+    </testsuite>
+    <testsuite name="Silex\Tests\ServiceControllerResolverRouterTest" file="/metrics/Silex/tests/Silex/Tests/ServiceControllerResolverRouterTest.php" namespace="Silex\Tests" fullPackage="Silex.Tests" tests="14" assertions="29" failures="0" errors="0" time="0.980979">
+      <testcase name="testServiceNameControllerSyntax" class="Silex\Tests\ServiceControllerResolverRouterTest" file="/metrics/Silex/tests/Silex/Tests/ServiceControllerResolverRouterTest.php" line="23" assertions="1" time="0.049361"/>
+      <testcase name="testMapRouting" class="Silex\Tests\ServiceControllerResolverRouterTest" file="/metrics/Silex/tests/Silex/Tests/ServiceControllerResolverRouterTest.php" line="26" assertions="3" time="0.108466"/>
+      <testcase name="testStatusCode" class="Silex\Tests\ServiceControllerResolverRouterTest" file="/metrics/Silex/tests/Silex/Tests/ServiceControllerResolverRouterTest.php" line="47" assertions="3" time="0.101717"/>
+      <testcase name="testRedirect" class="Silex\Tests\ServiceControllerResolverRouterTest" file="/metrics/Silex/tests/Silex/Tests/ServiceControllerResolverRouterTest.php" line="76" assertions="2" time="0.075500"/>
+      <testcase name="testMissingRoute" class="Silex\Tests\ServiceControllerResolverRouterTest" file="/metrics/Silex/tests/Silex/Tests/ServiceControllerResolverRouterTest.php" line="100" assertions="1" time="0.032617"/>
+      <testcase name="testMethodRouting" class="Silex\Tests\ServiceControllerResolverRouterTest" file="/metrics/Silex/tests/Silex/Tests/ServiceControllerResolverRouterTest.php" line="109" assertions="8" time="0.264129"/>
+      <testcase name="testRequestShouldBeStoredRegardlessOfRouting" class="Silex\Tests\ServiceControllerResolverRouterTest" file="/metrics/Silex/tests/Silex/Tests/ServiceControllerResolverRouterTest.php" line="151" assertions="2" time="0.068925"/>
+      <testcase name="testTrailingSlashBehavior" class="Silex\Tests\ServiceControllerResolverRouterTest" file="/metrics/Silex/tests/Silex/Tests/ServiceControllerResolverRouterTest.php" line="170" assertions="2" time="0.046607"/>
+      <testcase name="testHostSpecification" class="Silex\Tests\ServiceControllerResolverRouterTest" file="/metrics/Silex/tests/Silex/Tests/ServiceControllerResolverRouterTest.php" line="185" assertions="2" time="0.006004"/>
+      <testcase name="testRequireHttpRedirect" class="Silex\Tests\ServiceControllerResolverRouterTest" file="/metrics/Silex/tests/Silex/Tests/ServiceControllerResolverRouterTest.php" line="193" assertions="1" time="0.042078"/>
+      <testcase name="testRequireHttpsRedirect" class="Silex\Tests\ServiceControllerResolverRouterTest" file="/metrics/Silex/tests/Silex/Tests/ServiceControllerResolverRouterTest.php" line="207" assertions="1" time="0.047856"/>
+      <testcase name="testRequireHttpsRedirectIncludesQueryString" class="Silex\Tests\ServiceControllerResolverRouterTest" file="/metrics/Silex/tests/Silex/Tests/ServiceControllerResolverRouterTest.php" line="221" assertions="1" time="0.044631"/>
+      <testcase name="testClassNameControllerSyntax" class="Silex\Tests\ServiceControllerResolverRouterTest" file="/metrics/Silex/tests/Silex/Tests/ServiceControllerResolverRouterTest.php" line="235" assertions="1" time="0.046818"/>
+      <testcase name="testClassNameControllerSyntaxWithStaticMethod" class="Silex\Tests\ServiceControllerResolverRouterTest" file="/metrics/Silex/tests/Silex/Tests/ServiceControllerResolverRouterTest.php" line="244" assertions="1" time="0.046270"/>
+    </testsuite>
+    <testsuite name="Silex\Tests\ServiceControllerResolverTest" file="/metrics/Silex/tests/Silex/Tests/ServiceControllerResolverTest.php" namespace="Silex\Tests" fullPackage="Silex.Tests" tests="3" assertions="7" failures="0" errors="0" time="0.092484">
+      <testcase name="testShouldResolveServiceController" class="Silex\Tests\ServiceControllerResolverTest" file="/metrics/Silex/tests/Silex/Tests/ServiceControllerResolverTest.php" line="37" assertions="2" time="0.041139"/>
+      <testcase name="testShouldUnresolvedControllerNames" class="Silex\Tests\ServiceControllerResolverTest" file="/metrics/Silex/tests/Silex/Tests/ServiceControllerResolverTest.php" line="56" assertions="3" time="0.030513"/>
+      <testcase name="testShouldDelegateGetArguments" class="Silex\Tests\ServiceControllerResolverTest" file="/metrics/Silex/tests/Silex/Tests/ServiceControllerResolverTest.php" line="74" assertions="2" time="0.020832"/>
+    </testsuite>
+    <testsuite name="Silex\Tests\StreamTest" file="/metrics/Silex/tests/Silex/Tests/StreamTest.php" namespace="Silex\Tests" fullPackage="Silex.Tests" tests="2" assertions="4" failures="0" errors="0" time="0.024544">
+      <testcase name="testStreamReturnsStreamingResponse" class="Silex\Tests\StreamTest" file="/metrics/Silex/tests/Silex/Tests/StreamTest.php" line="24" assertions="2" time="0.009919"/>
+      <testcase name="testStreamActuallyStreams" class="Silex\Tests\StreamTest" file="/metrics/Silex/tests/Silex/Tests/StreamTest.php" line="33" assertions="2" time="0.014625"/>
+    </testsuite>
+    <testsuite name="Silex\Tests\WebTestCaseTest" file="/metrics/Silex/tests/Silex/Tests/WebTestCaseTest.php" namespace="Silex\Tests" fullPackage="Silex.Tests" tests="3" assertions="4" failures="0" errors="0" time="0.227487">
+      <testcase name="testGetHello" class="Silex\Tests\WebTestCaseTest" file="/metrics/Silex/tests/Silex/Tests/WebTestCaseTest.php" line="46" assertions="2" time="0.054825"/>
+      <testcase name="testCrawlerFilter" class="Silex\Tests\WebTestCaseTest" file="/metrics/Silex/tests/Silex/Tests/WebTestCaseTest.php" line="56" assertions="1" time="0.106710"/>
+      <testcase name="testServerVariables" class="Silex\Tests\WebTestCaseTest" file="/metrics/Silex/tests/Silex/Tests/WebTestCaseTest.php" line="64" assertions="1" time="0.065952"/>
+    </testsuite>
+  </testsuite>
+</testsuites>

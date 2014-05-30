@@ -1,3 +1,42 @@
+`phpers Trójmiasto` – 31.05.2014
+================================
+
+Użyłem microframeworka `silex`, żeby w skrócie zaprezentować różne narzędzia raportowania jakości kodu.
+
+Prezentacja znajduje się w pliku `prezentacja.pdf`.
+
+`halleck.html` zawiera raport wygenerowany przez [Halleck's PhpMetrics](https://halleck45.github.io/PhpMetrics/).
+Gorąco polecam przeanalizowanie swojego kodu tym narzędziem.
+
+Szybkie sprawdzenie różnych danych „technicznych” projektu: `phpcs src`.
+
+Plik `build.xml` został pobrany z [http://jenkins-php.org/](http://jenkins-php.org/)
+i lekko zmodyfikowany na potrzeby prezentacji.
+Dorzuciłem także kilka zadań „composerowych”, przydatnych w częstym korzystaniu z tego zajęcia.
+
+`phpcs.xml` opiera się o standard `psr-2`, ale go rozbudowałem o szereg przydatnych do sprawdzania reguł.
+
+Katalog `build` specjalnie załączyłem do commita, żeby móc zobaczyć wygenerowane dane na podstawie projektu.
+Polecam zwłaszcza podkatalog `coverage` z pokryciem kodu w testach PHPUnita.
+
+Kilka plików Silex'a zostało specjalnie zmodyfikowanych na potrzeby prezentacji.
+
+
+
+W razie pytań, śmiało piszcie na `kontakt@dnowak.pl`.
+
+Dawid Nowak
+
+
+
+
+
+
+======
+
+
+
+
 Silex, a simple Web Framework
 =============================
 

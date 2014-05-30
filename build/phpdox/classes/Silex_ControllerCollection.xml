@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src#" full="Silex\ControllerCollection" namespace="Silex" name="ControllerCollection" abstract="false" final="false" start="39" end="205">
+  <file path="/metrics/Silex/src/Silex" file="ControllerCollection.php" realpath="/metrics/Silex/src/Silex/ControllerCollection.php" size="6227" time="2014-05-30T00:20:20+02:00" unixtime="1401402020" sha1="be846a2ee388e0584880c5d6987ca340a51c808e"/>
+  <docblock>
+    <description compact="Builds Silex controllers.">It acts as a staging area for routes. You are able to set the route name
+until flush() is called, at which point all controllers are frozen and
+converted to a RouteCollection.
+
+__call() forwards method-calls to Route, but returns instance of ControllerCollection
+listing Route's methods below, so that IDEs know they are valid</description>
+    <method value="\Silex\ControllerCollection assert(string $variable, string $regexp)"/>
+    <method value="\Silex\ControllerCollection value(string $variable, mixed $default)"/>
+    <method value="\Silex\ControllerCollection convert(string $variable, mixed $callback)"/>
+    <method value="\Silex\ControllerCollection method(string $method)"/>
+    <method value="\Silex\ControllerCollection requireHttp()"/>
+    <method value="\Silex\ControllerCollection requireHttps()"/>
+    <method value="\Silex\ControllerCollection before(mixed $callback)"/>
+    <method value="\Silex\ControllerCollection after(mixed $callback)"/>
+    <author value="Igor Wiedler &lt;igor@wiedler.ch&gt;"/>
+    <author value="Fabien Potencier &lt;fabien@symfony.com&gt;"/>
+  </docblock>
+  <member name="controllers" type="array" visibility="protected" line="41"/>
+  <member name="defaultRoute" type="{unknown}" visibility="protected" line="42"/>
+  <member name="defaultController" type="{unknown}" visibility="protected" line="43"/>
+  <member name="prefix" type="{unknown}" visibility="protected" line="44"/>
+  <constructor name="__construct" start="49" end="55" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Constructor."/>
+    </docblock>
+    <parameter name="defaultRoute" byreference="false" type="object">
+      <type full="Silex\Route" namespace="Silex" name="Route"/>
+    </parameter>
+  </constructor>
+  <method name="mount" start="63" end="68" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Mounts controllers under the given route prefix."/>
+      <param description="The route prefix" type="string" variable="$prefix"/>
+      <param description="A ControllerCollection instance" type="object" variable="$controllers">
+        <type full="Silex\ControllerCollection" namespace="Silex" name="ControllerCollection"/>
+      </param>
+    </docblock>
+    <parameter name="prefix" byreference="false" type="{unknown}"/>
+    <parameter name="controllers" byreference="false" type="object">
+      <type full="Silex\ControllerCollection" namespace="Silex" name="ControllerCollection"/>
+    </parameter>
+  </method>
+  <method name="match" start="80" end="88" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Maps a pattern to a callable.">You can optionally specify HTTP methods that should be matched.</description>
+      <param description="Matched route pattern" type="string" variable="$pattern"/>
+      <param description="Callback that returns the response when matched" type="mixed" variable="$to"/>
+      <return type="object">
+        <type full="Silex\Controller" namespace="Silex" name="Controller"/>
+      </return>
+    </docblock>
+    <parameter name="pattern" byreference="false" type="{unknown}"/>
+    <parameter name="to" byreference="false" type="{unknown}" default="null"/>
+  </method>
+  <method name="get" start="98" end="101" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Maps a GET request to a callable."/>
+      <param description="Matched route pattern" type="string" variable="$pattern"/>
+      <param description="Callback that returns the response when matched" type="mixed" variable="$to"/>
+      <return type="object">
+        <type full="Silex\Controller" namespace="Silex" name="Controller"/>
+      </return>
+    </docblock>
+    <parameter name="pattern" byreference="false" type="{unknown}"/>
+    <parameter name="to" byreference="false" type="{unknown}" default="null"/>
+  </method>
+  <method name="post" start="111" end="114" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Maps a POST request to a callable."/>
+      <param description="Matched route pattern" type="string" variable="$pattern"/>
+      <param description="Callback that returns the response when matched" type="mixed" variable="$to"/>
+      <return type="object">
+        <type full="Silex\Controller" namespace="Silex" name="Controller"/>
+      </return>
+    </docblock>
+    <parameter name="pattern" byreference="false" type="{unknown}"/>
+    <parameter name="to" byreference="false" type="{unknown}" default="null"/>
+  </method>
+  <method name="put" start="124" end="127" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Maps a PUT request to a callable."/>
+      <param description="Matched route pattern" type="string" variable="$pattern"/>
+      <param description="Callback that returns the response when matched" type="mixed" variable="$to"/>
+      <return type="object">
+        <type full="Silex\Controller" namespace="Silex" name="Controller"/>
+      </return>
+    </docblock>
+    <parameter name="pattern" byreference="false" type="{unknown}"/>
+    <parameter name="to" byreference="false" type="{unknown}" default="null"/>
+  </method>
+  <method name="delete" start="137" end="140" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Maps a DELETE request to a callable."/>
+      <param description="Matched route pattern" type="string" variable="$pattern"/>
+      <param description="Callback that returns the response when matched" type="mixed" variable="$to"/>
+      <return type="object">
+        <type full="Silex\Controller" namespace="Silex" name="Controller"/>
+      </return>
+    </docblock>
+    <parameter name="pattern" byreference="false" type="{unknown}"/>
+    <parameter name="to" byreference="false" type="{unknown}" default="null"/>
+  </method>
+  <method name="patch" start="150" end="153" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Maps a PATCH request to a callable."/>
+      <param description="Matched route pattern" type="string" variable="$pattern"/>
+      <param description="Callback that returns the response when matched" type="mixed" variable="$to"/>
+      <return type="object">
+        <type full="Silex\Controller" namespace="Silex" name="Controller"/>
+      </return>
+    </docblock>
+    <parameter name="pattern" byreference="false" type="{unknown}"/>
+    <parameter name="to" byreference="false" type="{unknown}" default="null"/>
+  </method>
+  <method name="__call" start="155" end="170" abstract="false" final="false" static="false" visibility="public">
+    <parameter name="method" byreference="false" type="{unknown}"/>
+    <parameter name="arguments" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="flush" start="179" end="204" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Persists and freezes staged controllers."/>
+      <param type="string" variable="$prefix"/>
+      <return description="A RouteCollection instance" type="object">
+        <type full="Symfony\Component\Routing\RouteCollection" namespace="Symfony\Component\Routing" name="RouteCollection"/>
+      </return>
+    </docblock>
+    <parameter name="prefix" byreference="false" type="string" default="''"/>
+  </method>
+</class>

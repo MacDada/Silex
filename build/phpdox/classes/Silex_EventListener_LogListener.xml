@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src#" full="Silex\EventListener\LogListener" namespace="Silex\EventListener" name="LogListener" abstract="false" final="false" start="29" end="128">
+  <file path="/metrics/Silex/src/Silex/EventListener" file="LogListener.php" realpath="/metrics/Silex/src/Silex/EventListener/LogListener.php" size="3756" time="2014-05-30T00:20:20+02:00" unixtime="1401402020" sha1="6f188dc3355263ee1c175d7c1c026c07c93d1ee4"/>
+  <docblock>
+    <description compact="Log request, response and exceptions"/>
+  </docblock>
+  <implements full="Symfony\Component\EventDispatcher\EventSubscriberInterface" namespace="Symfony\Component\EventDispatcher" name="EventSubscriberInterface"/>
+  <member name="logger" type="{unknown}" visibility="protected" line="31"/>
+  <constructor name="__construct" start="33" end="36" abstract="false" final="false" static="false" visibility="public">
+    <parameter name="logger" byreference="false" type="object">
+      <type full="Psr\Log\LoggerInterface" namespace="Psr\Log" name="LoggerInterface"/>
+    </parameter>
+  </constructor>
+  <method name="onKernelRequest" start="43" end="50" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Logs master requests on event KernelEvents::REQUEST"/>
+      <param type="object" variable="$event">
+        <type full="Symfony\Component\HttpKernel\Event\GetResponseEvent" namespace="Symfony\Component\HttpKernel\Event" name="GetResponseEvent"/>
+      </param>
+    </docblock>
+    <parameter name="event" byreference="false" type="object">
+      <type full="Symfony\Component\HttpKernel\Event\GetResponseEvent" namespace="Symfony\Component\HttpKernel\Event" name="GetResponseEvent"/>
+    </parameter>
+  </method>
+  <method name="onKernelResponse" start="57" end="64" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Logs master response on event KernelEvents::RESPONSE"/>
+      <param type="object" variable="$event">
+        <type full="Symfony\Component\HttpKernel\Event\FilterResponseEvent" namespace="Symfony\Component\HttpKernel\Event" name="FilterResponseEvent"/>
+      </param>
+    </docblock>
+    <parameter name="event" byreference="false" type="object">
+      <type full="Symfony\Component\HttpKernel\Event\FilterResponseEvent" namespace="Symfony\Component\HttpKernel\Event" name="FilterResponseEvent"/>
+    </parameter>
+  </method>
+  <method name="onKernelException" start="71" end="74" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Logs uncaught exceptions on event KernelEvents::EXCEPTION"/>
+      <param type="object" variable="$event">
+        <type full="Symfony\Component\HttpKernel\Event\GetResponseForExceptionEvent" namespace="Symfony\Component\HttpKernel\Event" name="GetResponseForExceptionEvent"/>
+      </param>
+    </docblock>
+    <parameter name="event" byreference="false" type="object">
+      <type full="Symfony\Component\HttpKernel\Event\GetResponseForExceptionEvent" namespace="Symfony\Component\HttpKernel\Event" name="GetResponseForExceptionEvent"/>
+    </parameter>
+  </method>
+  <method name="logRequest" start="81" end="84" abstract="false" final="false" static="false" visibility="protected">
+    <docblock>
+      <description compact="Logs a request"/>
+      <param type="object" variable="$request">
+        <type full="Symfony\Component\HttpFoundation\Request" namespace="Symfony\Component\HttpFoundation" name="Request"/>
+      </param>
+    </docblock>
+    <parameter name="request" byreference="false" type="object">
+      <type full="Symfony\Component\HttpFoundation\Request" namespace="Symfony\Component\HttpFoundation" name="Request"/>
+    </parameter>
+  </method>
+  <method name="logResponse" start="91" end="98" abstract="false" final="false" static="false" visibility="protected">
+    <docblock>
+      <description compact="Logs a response"/>
+      <param type="object" variable="$response">
+        <type full="Symfony\Component\HttpFoundation\Response" namespace="Symfony\Component\HttpFoundation" name="Response"/>
+      </param>
+    </docblock>
+    <parameter name="response" byreference="false" type="object">
+      <type full="Symfony\Component\HttpFoundation\Response" namespace="Symfony\Component\HttpFoundation" name="Response"/>
+    </parameter>
+  </method>
+  <method name="logException" start="105" end="114" abstract="false" final="false" static="false" visibility="protected">
+    <docblock>
+      <description compact="Logs an exception"/>
+      <param type="object" variable="$e">
+        <type full="Silex\EventListener\Exception" namespace="Silex\EventListener" name="Exception"/>
+      </param>
+    </docblock>
+    <parameter name="e" byreference="false" type="object">
+      <type full="Exception" namespace="" name="Exception"/>
+    </parameter>
+  </method>
+  <method name="getSubscribedEvents" start="116" end="127" abstract="false" final="false" static="true" visibility="public"/>
+</class>

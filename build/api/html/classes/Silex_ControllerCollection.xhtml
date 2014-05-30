@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html SYSTEM "about:legacy-compat">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:pdxf="http://xml.phpdox.net/functions" lang="en">
+  <head>
+    <title>phpDox - Silex\ControllerCollection</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css" media="screen"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  </head>
+  <body>
+    <nav class="topnav">
+      <ul>
+        <li>
+          <div class="logo"><span>/**</span>phpDox</div>
+        </li>
+        <li class="separator">
+          <a href="../index.xhtml">Overview</a>
+        </li>
+        <li class="separator">
+          <a href="../namespaces.xhtml">Namespaces</a>
+        </li>
+        <li>
+          <a href="../interfaces.xhtml">Interfaces</a>
+        </li>
+        <li>
+          <a href="../classes.xhtml">Classes</a>
+        </li>
+        <li>
+          <a href="../traits.xhtml">Traits</a>
+        </li>
+        <li class="separator">
+          <a href="../reports.xhtml">Reports</a>
+        </li>
+      </ul>
+    </nav>
+    <div id="mainstage">
+      <div class="box">
+        <ul class="breadcrumb">
+          <li>
+            <a href="../index.xhtml">Overview</a>
+          </li>
+          <li class="separator">
+            <a href="../classes.xhtml">Classes</a>
+          </li>
+          <li class="separator">
+            <a href="../classes.xhtml#Silex">Silex</a>
+          </li>
+          <li class="separator">ControllerCollection</li>
+        </ul>
+      </div>
+      <nav class="box">
+        <ul>
+          <li>
+            <a href="#introduction">Introduction</a>
+          </li>
+          <li>
+            <a href="#synopsis">Synopsis</a>
+          </li>
+          <li>
+            <a href="#members">Members</a>
+          </li>
+          <li>
+            <a href="#methods">Methods</a>
+          </li>
+        </ul>
+      </nav>
+      <section>
+        <h1 id="introduction"><small>Silex\</small>ControllerCollection</h1>
+        <h4>Builds Silex controllers.</h4>
+        <p>It acts as a staging area for routes. You are able to set the route name<br/>until flush() is called, at which point all controllers are frozen and<br/>converted to a RouteCollection.<br/><br/>__call() forwards method-calls to Route, but returns instance of ControllerCollection<br/>listing Route's methods below, so that IDEs know they are valid</p>
+        <ul>
+          <li>Author: Igor Wiedler &lt;igor@wiedler.ch&gt;</li>
+        </ul>
+        <h2 id="synopsis">Synopsis</h2>
+        <div class="synopsis">class ControllerCollection
+            {<br/><ul class="none"><li>// members</li><li>protected
+                         <a href="#members">$controllers</a>;
+                    </li><li>protected
+                         <a href="#members">$defaultRoute</a>;
+                    </li><li>protected
+                         <a href="#members">$defaultController</a>;
+                    </li><li>protected
+                         <a href="#members">$prefix</a>;
+                    </li></ul><ul class="none"><li>// methods</li><li>public void <a title="Silex\ControllerCollection" href="../classes/Silex_ControllerCollection/__construct.xhtml">__construct</a>()
+                    </li><li>public void <a title="Silex\ControllerCollection" href="../classes/Silex_ControllerCollection/mount.xhtml">mount</a>()
+                    </li><li>public Controller <a title="Silex\ControllerCollection" href="../classes/Silex_ControllerCollection/match.xhtml">match</a>()
+                    </li><li>public Controller <a title="Silex\ControllerCollection" href="../classes/Silex_ControllerCollection/get.xhtml">get</a>()
+                    </li><li>public Controller <a title="Silex\ControllerCollection" href="../classes/Silex_ControllerCollection/post.xhtml">post</a>()
+                    </li><li>public Controller <a title="Silex\ControllerCollection" href="../classes/Silex_ControllerCollection/put.xhtml">put</a>()
+                    </li><li>public Controller <a title="Silex\ControllerCollection" href="../classes/Silex_ControllerCollection/delete.xhtml">delete</a>()
+                    </li><li>public Controller <a title="Silex\ControllerCollection" href="../classes/Silex_ControllerCollection/patch.xhtml">patch</a>()
+                    </li><li>public void <a title="Silex\ControllerCollection" href="../classes/Silex_ControllerCollection/__call.xhtml">__call</a>()
+                    </li><li>public RouteCollection <a title="Silex\ControllerCollection" href="../classes/Silex_ControllerCollection/flush.xhtml">flush</a>()
+                    </li></ul>
+
+            }<br/></div>
+        <h2 id="members">Members</h2>
+        <div class="styled members">
+          <h4>protected</h4>
+          <ul class="members">
+            <li id="controllers">
+              <strong>$controllers</strong>
+            </li>
+            <li id="defaultController">
+              <strong>$defaultController</strong>
+            </li>
+            <li id="defaultRoute">
+              <strong>$defaultRoute</strong>
+            </li>
+            <li id="prefix">
+              <strong>$prefix</strong>
+            </li>
+          </ul>
+        </div>
+        <h2 id="methods">Methods</h2>
+        <div class="styled">
+          <h4>public</h4>
+          <ul>
+            <li id="__construct"><a title="Silex\ControllerCollection" href="../classes/Silex_ControllerCollection/__construct.xhtml">__construct()</a>
+                — Constructor.</li>
+            <li id="__call">
+              <a title="Silex\ControllerCollection" href="../classes/Silex_ControllerCollection/__call.xhtml">__call()</a>
+            </li>
+            <li id="delete"><a title="Silex\ControllerCollection" href="../classes/Silex_ControllerCollection/delete.xhtml">delete()</a>
+                — Maps a DELETE request to a callable.</li>
+            <li id="flush"><a title="Silex\ControllerCollection" href="../classes/Silex_ControllerCollection/flush.xhtml">flush()</a>
+                — Persists and freezes staged controllers.</li>
+            <li id="get"><a title="Silex\ControllerCollection" href="../classes/Silex_ControllerCollection/get.xhtml">get()</a>
+                — Maps a GET request to a callable.</li>
+            <li id="match"><a title="Silex\ControllerCollection" href="../classes/Silex_ControllerCollection/match.xhtml">match()</a>
+                — Maps a pattern to a callable.</li>
+            <li id="mount"><a title="Silex\ControllerCollection" href="../classes/Silex_ControllerCollection/mount.xhtml">mount()</a>
+                — Mounts controllers under the given route prefix.</li>
+            <li id="patch"><a title="Silex\ControllerCollection" href="../classes/Silex_ControllerCollection/patch.xhtml">patch()</a>
+                — Maps a PATCH request to a callable.</li>
+            <li id="post"><a title="Silex\ControllerCollection" href="../classes/Silex_ControllerCollection/post.xhtml">post()</a>
+                — Maps a POST request to a callable.</li>
+            <li id="put"><a title="Silex\ControllerCollection" href="../classes/Silex_ControllerCollection/put.xhtml">put()</a>
+                — Maps a PUT request to a callable.</li>
+          </ul>
+        </div>
+      </section>
+    </div>
+    <footer>
+      <span/>
+    </footer>
+  </body>
+</html>

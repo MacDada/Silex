@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src#" full="Silex\Application" namespace="Silex" name="Application" abstract="false" final="false" start="43" end="552">
+  <file path="/metrics/Silex/src/Silex" file="Application.php" realpath="/metrics/Silex/src/Silex/Application.php" size="18340" time="2014-05-30T00:27:40+02:00" unixtime="1401402460" sha1="7d78ff3e0e8dcbc8c3875040fa4a47c6ffe9adfe"/>
+  <docblock>
+    <description compact="The Silex framework class."/>
+    <author value="Fabien Potencier &lt;fabien@symfony.com&gt;"/>
+  </docblock>
+  <extends full="Pimple" namespace="" name="Pimple"/>
+  <implements full="Symfony\Component\HttpKernel\HttpKernelInterface" namespace="Symfony\Component\HttpKernel" name="HttpKernelInterface"/>
+  <implements full="Symfony\Component\HttpKernel\TerminableInterface" namespace="Symfony\Component\HttpKernel" name="TerminableInterface"/>
+  <constant name="VERSION" value="'1.2.0'"/>
+  <constant name="EARLY_EVENT" value="512"/>
+  <constant name="LATE_EVENT" value="512"/>
+  <member name="providers" type="array" visibility="protected" line="50"/>
+  <member name="booted" type="{unknown}" default="false" visibility="protected" line="51"/>
+  <constructor name="__construct" start="60" end="155" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Instantiate a new Application.">Objects and parameters can be passed as argument to the constructor.</description>
+      <param description="The parameters or objects." type="array" variable="$values"/>
+    </docblock>
+    <parameter name="values" byreference="false" type="array"/>
+  </constructor>
+  <method name="register" start="165" end="176" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Registers a service provider."/>
+      <param description="A ServiceProviderInterface instance" type="object" variable="$provider">
+        <type full="Silex\ServiceProviderInterface" namespace="Silex" name="ServiceProviderInterface"/>
+      </param>
+      <param description="An array of values that customizes the provider" type="array" variable="$values"/>
+      <return type="object">
+        <type full="Silex\Application" namespace="Silex" name="Application"/>
+      </return>
+    </docblock>
+    <parameter name="provider" byreference="false" type="object">
+      <type full="Silex\ServiceProviderInterface" namespace="Silex" name="ServiceProviderInterface"/>
+    </parameter>
+    <parameter name="values" byreference="false" type="array"/>
+  </method>
+  <method name="boot" start="184" end="193" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Boots all service providers.">This method is automatically called by handle(), but you can use it
+to boot all service providers when not handling a request.</description>
+    </docblock>
+  </method>
+  <method name="match" start="205" end="208" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Maps a pattern to a callable.">You can optionally specify HTTP methods that should be matched.</description>
+      <param description="Matched route pattern" type="string" variable="$pattern"/>
+      <param description="Callback that returns the response when matched" type="mixed" variable="$to"/>
+      <return type="object">
+        <type full="Silex\Controller" namespace="Silex" name="Controller"/>
+      </return>
+    </docblock>
+    <parameter name="pattern" byreference="false" type="{unknown}"/>
+    <parameter name="to" byreference="false" type="{unknown}" default="null"/>
+  </method>
+  <method name="get" start="218" end="221" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Maps a GET request to a callable."/>
+      <param description="Matched route pattern" type="string" variable="$pattern"/>
+      <param description="Callback that returns the response when matched" type="mixed" variable="$to"/>
+      <return type="object">
+        <type full="Silex\Controller" namespace="Silex" name="Controller"/>
+      </return>
+    </docblock>
+    <parameter name="pattern" byreference="false" type="{unknown}"/>
+    <parameter name="to" byreference="false" type="{unknown}" default="null"/>
+  </method>
+  <method name="post" start="231" end="234" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Maps a POST request to a callable."/>
+      <param description="Matched route pattern" type="string" variable="$pattern"/>
+      <param description="Callback that returns the response when matched" type="mixed" variable="$to"/>
+      <return type="object">
+        <type full="Silex\Controller" namespace="Silex" name="Controller"/>
+      </return>
+    </docblock>
+    <parameter name="pattern" byreference="false" type="{unknown}"/>
+    <parameter name="to" byreference="false" type="{unknown}" default="null"/>
+  </method>
+  <method name="put" start="244" end="247" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Maps a PUT request to a callable."/>
+      <param description="Matched route pattern" type="string" variable="$pattern"/>
+      <param description="Callback that returns the response when matched" type="mixed" variable="$to"/>
+      <return type="object">
+        <type full="Silex\Controller" namespace="Silex" name="Controller"/>
+      </return>
+    </docblock>
+    <parameter name="pattern" byreference="false" type="{unknown}"/>
+    <parameter name="to" byreference="false" type="{unknown}" default="null"/>
+  </method>
+  <method name="delete" start="257" end="260" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Maps a DELETE request to a callable."/>
+      <param description="Matched route pattern" type="string" variable="$pattern"/>
+      <param description="Callback that returns the response when matched" type="mixed" variable="$to"/>
+      <return type="object">
+        <type full="Silex\Controller" namespace="Silex" name="Controller"/>
+      </return>
+    </docblock>
+    <parameter name="pattern" byreference="false" type="{unknown}"/>
+    <parameter name="to" byreference="false" type="{unknown}" default="null"/>
+  </method>
+  <method name="patch" start="270" end="273" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Maps a PATCH request to a callable."/>
+      <param description="Matched route pattern" type="string" variable="$pattern"/>
+      <param description="Callback that returns the response when matched" type="mixed" variable="$to"/>
+      <return type="object">
+        <type full="Silex\Controller" namespace="Silex" name="Controller"/>
+      </return>
+    </docblock>
+    <parameter name="pattern" byreference="false" type="{unknown}"/>
+    <parameter name="to" byreference="false" type="{unknown}" default="null"/>
+  </method>
+  <method name="on" start="283" end="296" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Adds an event listener that listens on the specified events."/>
+      <param description="The event to listen on" type="string" variable="$eventName"/>
+      <param description="The listener" type="object" variable="$callback">
+        <type full="Silex\callable" namespace="Silex" name="callable"/>
+      </param>
+      <param description="The higher this value, the earlier an event" type="integer" variable="$priority">listener will be triggered in the chain (defaults to 0)</param>
+    </docblock>
+    <parameter name="eventName" byreference="false" type="{unknown}"/>
+    <parameter name="callback" byreference="false" type="{unknown}"/>
+    <parameter name="priority" byreference="false" type="integer" default="0"/>
+  </method>
+  <method name="before" start="307" end="322" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Registers a before filter.">Before filters are run before any route has been matched.</description>
+      <param description="Before filter callback" type="mixed" variable="$callback"/>
+      <param description="The higher this value, the earlier an event" type="integer" variable="$priority">listener will be triggered in the chain (defaults to 0)</param>
+    </docblock>
+    <parameter name="callback" byreference="false" type="{unknown}"/>
+    <parameter name="priority" byreference="false" type="integer" default="0"/>
+  </method>
+  <method name="after" start="333" end="344" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Registers an after filter.">After filters are run after the controller has been executed.</description>
+      <param description="After filter callback" type="mixed" variable="$callback"/>
+      <param description="The higher this value, the earlier an event" type="integer" variable="$priority">listener will be triggered in the chain (defaults to 0)</param>
+    </docblock>
+    <parameter name="callback" byreference="false" type="{unknown}"/>
+    <parameter name="priority" byreference="false" type="integer" default="0"/>
+  </method>
+  <method name="finish" start="355" end="362" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Registers a finish filter.">Finish filters are run after the response has been sent.</description>
+      <param description="Finish filter callback" type="mixed" variable="$callback"/>
+      <param description="The higher this value, the earlier an event" type="integer" variable="$priority">listener will be triggered in the chain (defaults to 0)</param>
+    </docblock>
+    <parameter name="callback" byreference="false" type="{unknown}"/>
+    <parameter name="priority" byreference="false" type="integer" default="0"/>
+  </method>
+  <method name="abort" start="371" end="374" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Aborts the current request by sending a proper HTTP error."/>
+      <param description="The HTTP status code" type="integer" variable="$statusCode"/>
+      <param description="The status message" type="string" variable="$message"/>
+      <param description="An array of HTTP headers" type="array" variable="$headers"/>
+    </docblock>
+    <parameter name="statusCode" byreference="false" type="{unknown}"/>
+    <parameter name="message" byreference="false" type="string" default="''"/>
+    <parameter name="headers" byreference="false" type="array"/>
+  </method>
+  <method name="error" start="393" end="396" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Registers an error handler.">Error handlers are simple callables which take a single Exception
+as an argument. If a controller throws an exception, an error handler
+can return a specific response.
+
+When an exception occurs, all handlers will be called, until one returns
+something (a string or a Response object), at which point that will be
+returned to the client.
+
+For this reason you should add logging handlers before output handlers.</description>
+      <param description="Error handler callback, takes an Exception argument" type="mixed" variable="$callback"/>
+      <param description="The higher this value, the earlier an event" type="integer" variable="$priority">listener will be triggered in the chain (defaults to -8)</param>
+    </docblock>
+    <parameter name="callback" byreference="false" type="{unknown}"/>
+    <parameter name="priority" byreference="false" type="integer" default="8"/>
+  </method>
+  <method name="flush" start="403" end="406" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Flushes the controller collection."/>
+      <param description="The route prefix" type="string" variable="$prefix"/>
+    </docblock>
+    <parameter name="prefix" byreference="false" type="string" default="''"/>
+  </method>
+  <method name="redirect" start="416" end="419" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Redirects the user to another URL."/>
+      <param description="The URL to redirect to" type="string" variable="$url"/>
+      <param description="The status code (302 by default)" type="integer" variable="$status"/>
+      <return type="object">
+        <type full="Symfony\Component\HttpFoundation\RedirectResponse" namespace="Symfony\Component\HttpFoundation" name="RedirectResponse"/>
+      </return>
+    </docblock>
+    <parameter name="url" byreference="false" type="{unknown}"/>
+    <parameter name="status" byreference="false" type="integer" default="302"/>
+  </method>
+  <method name="stream" start="430" end="433" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Creates a streaming response."/>
+      <param description="A valid PHP callback" type="mixed" variable="$callback"/>
+      <param description="The response status code" type="integer" variable="$status"/>
+      <param description="An array of response headers" type="array" variable="$headers"/>
+      <return type="object">
+        <type full="Symfony\Component\HttpFoundation\StreamedResponse" namespace="Symfony\Component\HttpFoundation" name="StreamedResponse"/>
+      </return>
+    </docblock>
+    <parameter name="callback" byreference="false" type="{unknown}" default="null"/>
+    <parameter name="status" byreference="false" type="integer" default="200"/>
+    <parameter name="headers" byreference="false" type="array"/>
+  </method>
+  <method name="escape" start="445" end="448" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Escapes a text for HTML."/>
+      <param description="The input text to be escaped" type="string" variable="$text"/>
+      <param description="The flags (@see htmlspecialchars)" type="integer" variable="$flags"/>
+      <param description="The charset" type="string" variable="$charset"/>
+      <param description="Whether to try to avoid double escaping or not" type="object" variable="$doubleEncode">
+        <type full="Silex\Boolean" namespace="Silex" name="Boolean"/>
+      </param>
+      <return description="Escaped text" type="string"/>
+    </docblock>
+    <parameter name="text" byreference="false" type="{unknown}"/>
+    <parameter name="flags" byreference="false" type="{unknown}" default="ENT_COMPAT"/>
+    <parameter name="charset" byreference="false" type="{unknown}" default="null"/>
+    <parameter name="doubleEncode" byreference="false" type="{unknown}" default="true"/>
+  </method>
+  <method name="json" start="459" end="462" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Convert some data into a JSON response."/>
+      <param description="The response data" type="mixed" variable="$data"/>
+      <param description="The response status code" type="integer" variable="$status"/>
+      <param description="An array of response headers" type="array" variable="$headers"/>
+      <return type="object">
+        <type full="Symfony\Component\HttpFoundation\JsonResponse" namespace="Symfony\Component\HttpFoundation" name="JsonResponse"/>
+      </return>
+    </docblock>
+    <parameter name="data" byreference="false" type="array"/>
+    <parameter name="status" byreference="false" type="integer" default="200"/>
+    <parameter name="headers" byreference="false" type="array"/>
+  </method>
+  <method name="sendFile" start="476" end="479" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Sends a file."/>
+      <param description="The file to stream" type="object" variable="$file">
+        <type full="\SplFileInfo|string" namespace="" name="SplFileInfo|string"/>
+      </param>
+      <param description="The response status code" type="integer" variable="$status"/>
+      <param description="An array of response headers" type="array" variable="$headers"/>
+      <param description="The type of Content-Disposition to set automatically with the filename" type="object" variable="$contentDisposition">
+        <type full="Silex\null|string" namespace="Silex" name="null|string"/>
+      </param>
+      <return type="object">
+        <type full="Symfony\Component\HttpFoundation\BinaryFileResponse" namespace="Symfony\Component\HttpFoundation" name="BinaryFileResponse"/>
+      </return>
+      <throws description="When the feature is not supported, before http-foundation v2.2" type="object">
+        <type full="\RuntimeException" namespace="" name="RuntimeException"/>
+      </throws>
+    </docblock>
+    <parameter name="file" byreference="false" type="{unknown}"/>
+    <parameter name="status" byreference="false" type="integer" default="200"/>
+    <parameter name="headers" byreference="false" type="array"/>
+    <parameter name="contentDisposition" byreference="false" type="{unknown}" default="null"/>
+  </method>
+  <method name="mount" start="489" end="502" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Mounts controllers under the given route prefix."/>
+      <param description="The route prefix" type="string" variable="$prefix"/>
+      <param description="A ControllerCollection or a ControllerProviderInterface instance" type="object" variable="$controllers">
+        <type full="Silex\ControllerCollection|ControllerProviderInterface" namespace="Silex" name="ControllerCollection|ControllerProviderInterface"/>
+      </param>
+      <return type="object">
+        <type full="Silex\Application" namespace="Silex" name="Application"/>
+      </return>
+    </docblock>
+    <parameter name="prefix" byreference="false" type="{unknown}"/>
+    <parameter name="controllers" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="run" start="509" end="518" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Handles the request and delivers the response."/>
+      <param description="Request to process" type="object" variable="$request">
+        <type full="Silex\Request|null" namespace="Silex" name="Request|null"/>
+      </param>
+    </docblock>
+    <parameter name="request" byreference="false" type="object" default="null">
+      <type full="Symfony\Component\HttpFoundation\Request" namespace="Symfony\Component\HttpFoundation" name="Request"/>
+    </parameter>
+  </method>
+  <method name="handle" start="526" end="543" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="{@inheritdoc}">If you call this method directly instead of run(), you must call the
+terminate() method yourself if you want the finish filters to be run.</description>
+    </docblock>
+    <parameter name="request" byreference="false" type="object">
+      <type full="Symfony\Component\HttpFoundation\Request" namespace="Symfony\Component\HttpFoundation" name="Request"/>
+    </parameter>
+    <parameter name="type" byreference="false" type="{unknown}" default="HttpKernelInterface::MASTER_REQUEST"/>
+    <parameter name="catch" byreference="false" type="{unknown}" default="true"/>
+  </method>
+  <method name="terminate" start="548" end="551" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="{@inheritdoc}"/>
+    </docblock>
+    <parameter name="request" byreference="false" type="object">
+      <type full="Symfony\Component\HttpFoundation\Request" namespace="Symfony\Component\HttpFoundation" name="Request"/>
+    </parameter>
+    <parameter name="response" byreference="false" type="object">
+      <type full="Symfony\Component\HttpFoundation\Response" namespace="Symfony\Component\HttpFoundation" name="Response"/>
+    </parameter>
+  </method>
+</class>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src#" full="Silex\Controller" namespace="Silex" name="Controller" abstract="false" final="false" start="32" end="118">
+  <file path="/metrics/Silex/src/Silex" file="Controller.php" realpath="/metrics/Silex/src/Silex/Controller.php" size="3013" time="2014-05-30T00:20:20+02:00" unixtime="1401402020" sha1="8f6d74a2321447b78959bbf52f105f9584fc9c8e"/>
+  <docblock>
+    <description compact="A wrapper for a controller, mapped to a route.">__call() forwards method-calls to Route, but returns instance of Controller
+listing Route's methods below, so that IDEs know they are valid</description>
+    <method value="\Silex\Controller assert(string $variable, string $regexp)"/>
+    <method value="\Silex\Controller value(string $variable, mixed $default)"/>
+    <method value="\Silex\Controller convert(string $variable, mixed $callback)"/>
+    <method value="\Silex\Controller method(string $method)"/>
+    <method value="\Silex\Controller requireHttp()"/>
+    <method value="\Silex\Controller requireHttps()"/>
+    <method value="\Silex\Controller before(mixed $callback)"/>
+    <method value="\Silex\Controller after(mixed $callback)"/>
+    <author value="Igor Wiedler &lt;igor@wiedler.ch&gt;"/>
+  </docblock>
+  <member name="route" type="{unknown}" visibility="private" line="34"/>
+  <member name="routeName" type="{unknown}" visibility="private" line="35"/>
+  <member name="isFrozen" type="{unknown}" default="false" visibility="private" line="36"/>
+  <constructor name="__construct" start="43" end="46" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Constructor."/>
+      <param type="object" variable="$route">
+        <type full="Silex\Route" namespace="Silex" name="Route"/>
+      </param>
+    </docblock>
+    <parameter name="route" byreference="false" type="object">
+      <type full="Silex\Route" namespace="Silex" name="Route"/>
+    </parameter>
+  </constructor>
+  <method name="getRoute" start="53" end="56" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Gets the controller's route."/>
+      <return type="object">
+        <type full="Silex\Route" namespace="Silex" name="Route"/>
+      </return>
+    </docblock>
+  </method>
+  <method name="getRouteName" start="63" end="66" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Gets the controller's route name."/>
+      <return type="string"/>
+    </docblock>
+  </method>
+  <method name="bind" start="75" end="84" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Sets the controller's route."/>
+      <param type="string" variable="$routeName"/>
+      <return description="$this The current Controller instance" type="object">
+        <type full="Silex\Controller" namespace="Silex" name="Controller"/>
+      </return>
+    </docblock>
+    <parameter name="routeName" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="__call" start="86" end="95" abstract="false" final="false" static="false" visibility="public">
+    <parameter name="method" byreference="false" type="{unknown}"/>
+    <parameter name="arguments" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="freeze" start="102" end="105" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Freezes the controller.">Once the controller is frozen, you can no longer change the route name</description>
+    </docblock>
+  </method>
+  <method name="generateRouteName" start="107" end="117" abstract="false" final="false" static="false" visibility="public">
+    <parameter name="prefix" byreference="false" type="{unknown}"/>
+  </method>
+</class>

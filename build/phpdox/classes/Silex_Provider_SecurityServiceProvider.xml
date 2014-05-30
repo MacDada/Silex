@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src#" full="Silex\Provider\SecurityServiceProvider" namespace="Silex\Provider" name="SecurityServiceProvider" abstract="false" final="false" start="60" end="553">
+  <file path="/metrics/Silex/src/Silex/Provider" file="SecurityServiceProvider.php" realpath="/metrics/Silex/src/Silex/Provider/SecurityServiceProvider.php" size="25261" time="2014-05-30T00:27:40+02:00" unixtime="1401402460" sha1="4ef16f0518a35521c84fd8bbb931ad76b35eae2a"/>
+  <docblock>
+    <description compact="Symfony Security component Provider."/>
+    <author value="Fabien Potencier &lt;fabien@symfony.com&gt;"/>
+  </docblock>
+  <implements full="Silex\ServiceProviderInterface" namespace="Silex" name="ServiceProviderInterface"/>
+  <member name="fakeRoutes" type="{unknown}" visibility="protected" line="62"/>
+  <method name="register" start="64" end="536" abstract="false" final="false" static="false" visibility="public">
+    <parameter name="app" byreference="false" type="object">
+      <type full="Silex\Application" namespace="Silex" name="Application"/>
+    </parameter>
+    <inline>
+      <comment value="used to register routes for login_check and logout" line="66"/>
+      <comment value="by default, all users use the digest encoder" line="86"/>
+      <comment value="generate the build-in authentication factories" line="124"/>
+      <comment value="prototypes (used by the Firewall Map)" line="322"/>
+    </inline>
+  </method>
+  <method name="boot" start="538" end="547" abstract="false" final="false" static="false" visibility="public">
+    <parameter name="app" byreference="false" type="object">
+      <type full="Silex\Application" namespace="Silex" name="Application"/>
+    </parameter>
+  </method>
+  <method name="addFakeRoute" start="549" end="552" abstract="false" final="false" static="false" visibility="public">
+    <parameter name="method" byreference="false" type="{unknown}"/>
+    <parameter name="pattern" byreference="false" type="{unknown}"/>
+    <parameter name="name" byreference="false" type="{unknown}"/>
+  </method>
+  <interface full="Silex\ServiceProviderInterface" namepsace="Silex" name="ServiceProviderInterface">
+    <method name="register" start="29" end="29" abstract="false" final="false" static="false" visibility="public">
+      <docblock>
+        <description compact="Registers services on the given app.">This method should only be used to configure services and parameters.
+It should not get services.</description>
+        <param description="An Application instance" type="object" variable="$app">
+          <type full="Silex\Application" namespace="Silex" name="Application"/>
+        </param>
+      </docblock>
+      <parameter name="app" byreference="false" type="object">
+        <type full="Silex\Application" namespace="Silex" name="Application"/>
+      </parameter>
+    </method>
+    <method name="boot" start="38" end="38" abstract="false" final="false" static="false" visibility="public">
+      <docblock>
+        <description compact="Bootstraps the application.">This method is called after all services are registered
+and should be used for "dynamic" configuration (whenever
+a service must be requested).</description>
+      </docblock>
+      <parameter name="app" byreference="false" type="object">
+        <type full="Silex\Application" namespace="Silex" name="Application"/>
+      </parameter>
+    </method>
+  </interface>
+</class>

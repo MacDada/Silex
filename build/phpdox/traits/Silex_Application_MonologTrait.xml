@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<trait xmlns="http://xml.phpdox.net/src#" full="Silex\Application\MonologTrait" namespace="Silex\Application" name="MonologTrait" abstract="false" final="false" start="21" end="36">
+  <file path="/metrics/Silex/src/Silex/Application" file="MonologTrait.php" realpath="/metrics/Silex/src/Silex/Application/MonologTrait.php" size="817" time="2014-05-30T00:27:40+02:00" unixtime="1401402460" sha1="14b1f1070fe5a1a3df34470cdf96d3c22feb3103"/>
+  <docblock>
+    <description compact="Monolog trait."/>
+    <author value="Fabien Potencier &lt;fabien@symfony.com&gt;"/>
+  </docblock>
+  <method name="log" start="32" end="35" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Adds a log record."/>
+      <param description="The log message" type="string" variable="$message"/>
+      <param description="The log context" type="array" variable="$context"/>
+      <param description="The logging level" type="integer" variable="$level"/>
+      <return description="Whether the record has been processed" type="object">
+        <type full="Silex\Application\Boolean" namespace="Silex\Application" name="Boolean"/>
+      </return>
+    </docblock>
+    <parameter name="message" byreference="false" type="{unknown}"/>
+    <parameter name="context" byreference="false" type="array"/>
+    <parameter name="level" byreference="false" type="{unknown}" default="Logger::INFO"/>
+  </method>
+</trait>

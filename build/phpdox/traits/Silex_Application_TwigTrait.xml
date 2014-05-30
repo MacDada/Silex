@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<trait xmlns="http://xml.phpdox.net/src#" full="Silex\Application\TwigTrait" namespace="Silex\Application" name="TwigTrait" abstract="false" final="false" start="22" end="65">
+  <file path="/metrics/Silex/src/Silex/Application" file="TwigTrait.php" realpath="/metrics/Silex/src/Silex/Application/TwigTrait.php" size="1772" time="2014-05-30T00:20:20+02:00" unixtime="1401402020" sha1="6b0077c25a1850f8bacf0ef62d1582bf871658f2"/>
+  <docblock>
+    <description compact="Twig trait."/>
+    <author value="Fabien Potencier &lt;fabien@symfony.com&gt;"/>
+  </docblock>
+  <method name="render" start="35" end="51" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Renders a view and returns a Response.">To stream a view, pass an instance of StreamedResponse as a third argument.</description>
+      <param description="The view name" type="string" variable="$view"/>
+      <param description="An array of parameters to pass to the view" type="array" variable="$parameters"/>
+      <param description="A Response instance" type="object" variable="$response">
+        <type full="Symfony\Component\HttpFoundation\Response" namespace="Symfony\Component\HttpFoundation" name="Response"/>
+      </param>
+      <return description="A Response instance" type="object">
+        <type full="Symfony\Component\HttpFoundation\Response" namespace="Symfony\Component\HttpFoundation" name="Response"/>
+      </return>
+    </docblock>
+    <parameter name="view" byreference="false" type="{unknown}"/>
+    <parameter name="parameters" byreference="false" type="array"/>
+    <parameter name="response" byreference="false" type="object" default="null">
+      <type full="Symfony\Component\HttpFoundation\Response" namespace="Symfony\Component\HttpFoundation" name="Response"/>
+    </parameter>
+  </method>
+  <method name="renderView" start="61" end="64" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Renders a view."/>
+      <param description="The view name" type="string" variable="$view"/>
+      <param description="An array of parameters to pass to the view" type="array" variable="$parameters"/>
+      <return description="A Response instance" type="object">
+        <type full="Symfony\Component\HttpFoundation\Response" namespace="Symfony\Component\HttpFoundation" name="Response"/>
+      </return>
+    </docblock>
+    <parameter name="view" byreference="false" type="{unknown}"/>
+    <parameter name="parameters" byreference="false" type="array"/>
+  </method>
+</trait>

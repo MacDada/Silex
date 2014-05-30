@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src#" full="Silex\ConstraintValidatorFactory" namespace="Silex" name="ConstraintValidatorFactory" abstract="false" final="false" start="24" end="87">
+  <file path="/metrics/Silex/src/Silex" file="ConstraintValidatorFactory.php" realpath="/metrics/Silex/src/Silex/ConstraintValidatorFactory.php" size="2144" time="2014-05-30T00:27:40+02:00" unixtime="1401402460" sha1="99a7ef1e95b168aa5e5870fcf6c89241ac289736"/>
+  <docblock>
+    <description compact="Uses a service container to create constraint validators with dependencies."/>
+    <author value="Kris Wallsmith &lt;kris@symfony.com&gt;"/>
+    <author value="Alex Kalyvitis &lt;alex.kalyvitis@gmail.com&gt;"/>
+  </docblock>
+  <implements full="Symfony\Component\Validator\ConstraintValidatorFactoryInterface" namespace="Symfony\Component\Validator" name="ConstraintValidatorFactoryInterface"/>
+  <member name="container" type="{unknown}" visibility="protected" line="29">
+    <docblock>
+      <description compact=""/>
+      <var type="object">
+        <type full="\Pimple" namespace="" name="Pimple"/>
+      </var>
+    </docblock>
+  </member>
+  <member name="serviceNames" type="{unknown}" visibility="protected" line="34">
+    <docblock>
+      <description compact=""/>
+      <var type="array"/>
+    </docblock>
+  </member>
+  <member name="validators" type="{unknown}" visibility="protected" line="39">
+    <docblock>
+      <description compact=""/>
+      <var type="array"/>
+    </docblock>
+  </member>
+  <constructor name="__construct" start="47" end="52" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Constructor"/>
+      <param description="DI container" type="object" variable="$container">
+        <type full="\Pimple" namespace="" name="Pimple"/>
+      </param>
+      <param description="Validator service names" type="array" variable="$serviceNames"/>
+    </docblock>
+    <parameter name="container" byreference="false" type="object">
+      <type full="Pimple" namespace="" name="Pimple"/>
+    </parameter>
+    <parameter name="serviceNames" byreference="false" type="array"/>
+  </constructor>
+  <method name="getInstance" start="60" end="71" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Returns the validator for the supplied constraint."/>
+      <param description="A constraint" type="object" variable="$constraint">
+        <type full="Symfony\Component\Validator\Constraint" namespace="Symfony\Component\Validator" name="Constraint"/>
+      </param>
+      <return description="A validator for the supplied constraint" type="object">
+        <type full="Symfony\Component\Validator\ConstraintValidator" namespace="Symfony\Component\Validator" name="ConstraintValidator"/>
+      </return>
+    </docblock>
+    <parameter name="constraint" byreference="false" type="object">
+      <type full="Symfony\Component\Validator\Constraint" namespace="Symfony\Component\Validator" name="Constraint"/>
+    </parameter>
+  </method>
+  <method name="createValidator" start="79" end="86" abstract="false" final="false" static="false" visibility="private">
+    <docblock>
+      <description compact="Returns the validator instance"/>
+      <param type="string" variable="$name"/>
+      <return type="object">
+        <type full="Symfony\Component\Validator\ConstraintValidator" namespace="Symfony\Component\Validator" name="ConstraintValidator"/>
+      </return>
+    </docblock>
+    <parameter name="name" byreference="false" type="{unknown}"/>
+  </method>
+</class>

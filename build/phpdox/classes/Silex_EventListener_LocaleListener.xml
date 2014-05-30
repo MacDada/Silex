@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src#" full="Silex\EventListener\LocaleListener" namespace="Silex\EventListener" name="LocaleListener" abstract="false" final="false" start="25" end="42">
+  <file path="/metrics/Silex/src/Silex/EventListener" file="LocaleListener.php" realpath="/metrics/Silex/src/Silex/EventListener/LocaleListener.php" size="1157" time="2014-05-30T00:27:40+02:00" unixtime="1401402460" sha1="10ae9797599b6f6948939d5dd961e8c16f241d3c"/>
+  <docblock>
+    <description compact="Initializes the locale based on the current request."/>
+    <author value="Fabien Potencier &lt;fabien@symfony.com&gt;"/>
+  </docblock>
+  <extends full="Symfony\Component\HttpKernel\EventListener\LocaleListener" namespace="Symfony\Component\HttpKernel\EventListener" name="LocaleListener"/>
+  <member name="app" type="{unknown}" visibility="protected" line="27"/>
+  <constructor name="__construct" start="29" end="34" abstract="false" final="false" static="false" visibility="public">
+    <parameter name="app" byreference="false" type="object">
+      <type full="Silex\Application" namespace="Silex" name="Application"/>
+    </parameter>
+    <parameter name="router" byreference="false" type="object" default="null">
+      <type full="Symfony\Component\Routing\RequestContextAwareInterface" namespace="Symfony\Component\Routing" name="RequestContextAwareInterface"/>
+    </parameter>
+    <parameter name="requestStack" byreference="false" type="object" default="null">
+      <type full="Symfony\Component\HttpFoundation\RequestStack" namespace="Symfony\Component\HttpFoundation" name="RequestStack"/>
+    </parameter>
+  </constructor>
+  <method name="onKernelRequest" start="36" end="41" abstract="false" final="false" static="false" visibility="public">
+    <parameter name="event" byreference="false" type="object">
+      <type full="Symfony\Component\HttpKernel\Event\GetResponseEvent" namespace="Symfony\Component\HttpKernel\Event" name="GetResponseEvent"/>
+    </parameter>
+  </method>
+</class>

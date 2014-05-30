@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src#" full="Silex\Translator" namespace="Silex" name="Translator" abstract="false" final="false" start="22" end="37">
+  <file path="/metrics/Silex/src/Silex" file="Translator.php" realpath="/metrics/Silex/src/Silex/Translator.php" size="813" time="2014-05-30T00:27:40+02:00" unixtime="1401402460" sha1="50edf00688418dc14792a6c11effa2c591ebed81"/>
+  <docblock>
+    <description compact="Translator that gets the current locale from the Silex application."/>
+    <author value="Fabien Potencier &lt;fabien@symfony.com&gt;"/>
+  </docblock>
+  <extends full="Symfony\Component\Translation\Translator" namespace="Symfony\Component\Translation" name="Translator"/>
+  <member name="app" type="{unknown}" visibility="protected" line="24"/>
+  <constructor name="__construct" start="26" end="31" abstract="false" final="false" static="false" visibility="public">
+    <parameter name="app" byreference="false" type="object">
+      <type full="Silex\Application" namespace="Silex" name="Application"/>
+    </parameter>
+    <parameter name="selector" byreference="false" type="object">
+      <type full="Symfony\Component\Translation\MessageSelector" namespace="Symfony\Component\Translation" name="MessageSelector"/>
+    </parameter>
+  </constructor>
+  <method name="getLocale" start="33" end="36" abstract="false" final="false" static="false" visibility="public"/>
+</class>

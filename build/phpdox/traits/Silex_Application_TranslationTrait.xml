@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<trait xmlns="http://xml.phpdox.net/src#" full="Silex\Application\TranslationTrait" namespace="Silex\Application" name="TranslationTrait" abstract="false" final="false" start="19" end="51">
+  <file path="/metrics/Silex/src/Silex/Application" file="TranslationTrait.php" realpath="/metrics/Silex/src/Silex/Application/TranslationTrait.php" size="1601" time="2014-05-30T00:27:40+02:00" unixtime="1401402460" sha1="e2c951e8b403910f88ad44222f676be0bdf05bb3"/>
+  <docblock>
+    <description compact="Translation trait."/>
+    <author value="Fabien Potencier &lt;fabien@symfony.com&gt;"/>
+  </docblock>
+  <method name="trans" start="31" end="34" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Translates the given message."/>
+      <param description="The message id" type="string" variable="$id"/>
+      <param description="An array of parameters for the message" type="array" variable="$parameters"/>
+      <param description="The domain for the message" type="string" variable="$domain"/>
+      <param description="The locale" type="string" variable="$locale"/>
+      <return description="The translated string" type="string"/>
+    </docblock>
+    <parameter name="id" byreference="false" type="{unknown}"/>
+    <parameter name="parameters" byreference="false" type="array"/>
+    <parameter name="domain" byreference="false" type="string" default="'messages'"/>
+    <parameter name="locale" byreference="false" type="{unknown}" default="null"/>
+  </method>
+  <method name="transChoice" start="47" end="50" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Translates the given choice message by choosing a translation according to a number."/>
+      <param description="The message id" type="string" variable="$id"/>
+      <param description="The number to use to find the indice of the message" type="integer" variable="$number"/>
+      <param description="An array of parameters for the message" type="array" variable="$parameters"/>
+      <param description="The domain for the message" type="string" variable="$domain"/>
+      <param description="The locale" type="string" variable="$locale"/>
+      <return description="The translated string" type="string"/>
+    </docblock>
+    <parameter name="id" byreference="false" type="{unknown}"/>
+    <parameter name="number" byreference="false" type="{unknown}"/>
+    <parameter name="parameters" byreference="false" type="array"/>
+    <parameter name="domain" byreference="false" type="string" default="'messages'"/>
+    <parameter name="locale" byreference="false" type="{unknown}" default="null"/>
+  </method>
+</trait>

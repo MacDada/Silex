@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<trait xmlns="http://xml.phpdox.net/src#" full="Silex\Application\SecurityTrait" namespace="Silex\Application" name="SecurityTrait" abstract="false" final="false" start="22" end="58">
+  <file path="/metrics/Silex/src/Silex/Application" file="SecurityTrait.php" realpath="/metrics/Silex/src/Silex/Application/SecurityTrait.php" size="1402" time="2014-05-30T00:20:20+02:00" unixtime="1401402020" sha1="1bcc402dc7c5a39454f115c4a389748871c92253"/>
+  <docblock>
+    <description compact="Security trait."/>
+    <author value="Fabien Potencier &lt;fabien@symfony.com&gt;"/>
+  </docblock>
+  <method name="user" start="31" end="42" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Gets a user from the Security Context."/>
+      <return type="mixed"/>
+      <see value="TokenInterface::getUser()"/>
+    </docblock>
+  </method>
+  <method name="encodePassword" start="54" end="57" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Encodes the raw password."/>
+      <param description="A UserInterface instance" type="object" variable="$user">
+        <type full="Symfony\Component\Security\Core\User\UserInterface" namespace="Symfony\Component\Security\Core\User" name="UserInterface"/>
+      </param>
+      <param description="The password to encode" type="string" variable="$password"/>
+      <return description="The encoded password" type="string"/>
+      <throws description="when no password encoder could be found for the user" type="object">
+        <type full="\RuntimeException" namespace="" name="RuntimeException"/>
+      </throws>
+    </docblock>
+    <parameter name="user" byreference="false" type="object">
+      <type full="Symfony\Component\Security\Core\User\UserInterface" namespace="Symfony\Component\Security\Core\User" name="UserInterface"/>
+    </parameter>
+    <parameter name="password" byreference="false" type="{unknown}"/>
+  </method>
+</trait>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src#" full="Silex\ControllerResolver" namespace="Silex" name="ControllerResolver" abstract="false" final="false" start="23" end="52">
+  <file path="/metrics/Silex/src/Silex" file="ControllerResolver.php" realpath="/metrics/Silex/src/Silex/ControllerResolver.php" size="1375" time="2014-05-30T00:20:20+02:00" unixtime="1401402020" sha1="e3a9b346b4b217ac0b639be4225f687f1f68800d"/>
+  <docblock>
+    <description compact="Adds Application as a valid argument for controllers."/>
+    <author value="Fabien Potencier &lt;fabien@symfony.com&gt;"/>
+  </docblock>
+  <extends full="Symfony\Component\HttpKernel\Controller\ControllerResolver" namespace="Symfony\Component\HttpKernel\Controller" name="ControllerResolver"/>
+  <member name="app" type="{unknown}" visibility="protected" line="25"/>
+  <constructor name="__construct" start="33" end="38" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Constructor."/>
+      <param description="An Application instance" type="object" variable="$app">
+        <type full="Silex\Application" namespace="Silex" name="Application"/>
+      </param>
+      <param description="A LoggerInterface instance" type="object" variable="$logger">
+        <type full="Psr\Log\LoggerInterface" namespace="Psr\Log" name="LoggerInterface"/>
+      </param>
+    </docblock>
+    <parameter name="app" byreference="false" type="object">
+      <type full="Silex\Application" namespace="Silex" name="Application"/>
+    </parameter>
+    <parameter name="logger" byreference="false" type="object" default="null">
+      <type full="Psr\Log\LoggerInterface" namespace="Psr\Log" name="LoggerInterface"/>
+    </parameter>
+  </constructor>
+  <method name="doGetArguments" start="40" end="51" abstract="false" final="false" static="false" visibility="protected">
+    <parameter name="request" byreference="false" type="object">
+      <type full="Symfony\Component\HttpFoundation\Request" namespace="Symfony\Component\HttpFoundation" name="Request"/>
+    </parameter>
+    <parameter name="controller" byreference="false" type="{unknown}"/>
+    <parameter name="parameters" byreference="false" type="array"/>
+  </method>
+</class>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src#" full="Silex\Provider\SwiftmailerServiceProvider" namespace="Silex\Provider" name="SwiftmailerServiceProvider" abstract="false" final="false" start="22" end="97">
+  <file path="/metrics/Silex/src/Silex/Provider" file="SwiftmailerServiceProvider.php" realpath="/metrics/Silex/src/Silex/Provider/SwiftmailerServiceProvider.php" size="3359" time="2014-05-30T00:27:40+02:00" unixtime="1401402460" sha1="c8132eb9fdd810f61baeb667aa369a9dc6a86984"/>
+  <docblock>
+    <description compact="Swiftmailer Provider."/>
+    <author value="Fabien Potencier &lt;fabien@symfony.com&gt;"/>
+  </docblock>
+  <implements full="Silex\ServiceProviderInterface" namespace="Silex" name="ServiceProviderInterface"/>
+  <method name="register" start="24" end="85" abstract="false" final="false" static="false" visibility="public">
+    <parameter name="app" byreference="false" type="object">
+      <type full="Silex\Application" namespace="Silex" name="Application"/>
+    </parameter>
+  </method>
+  <method name="boot" start="87" end="96" abstract="false" final="false" static="false" visibility="public">
+    <parameter name="app" byreference="false" type="object">
+      <type full="Silex\Application" namespace="Silex" name="Application"/>
+    </parameter>
+  </method>
+  <interface full="Silex\ServiceProviderInterface" namepsace="Silex" name="ServiceProviderInterface">
+    <method name="register" start="29" end="29" abstract="false" final="false" static="false" visibility="public">
+      <docblock>
+        <description compact="Registers services on the given app.">This method should only be used to configure services and parameters.
+It should not get services.</description>
+        <param description="An Application instance" type="object" variable="$app">
+          <type full="Silex\Application" namespace="Silex" name="Application"/>
+        </param>
+      </docblock>
+      <parameter name="app" byreference="false" type="object">
+        <type full="Silex\Application" namespace="Silex" name="Application"/>
+      </parameter>
+    </method>
+    <method name="boot" start="38" end="38" abstract="false" final="false" static="false" visibility="public">
+      <docblock>
+        <description compact="Bootstraps the application.">This method is called after all services are registered
+and should be used for "dynamic" configuration (whenever
+a service must be requested).</description>
+      </docblock>
+      <parameter name="app" byreference="false" type="object">
+        <type full="Silex\Application" namespace="Silex" name="Application"/>
+      </parameter>
+    </method>
+  </interface>
+</class>

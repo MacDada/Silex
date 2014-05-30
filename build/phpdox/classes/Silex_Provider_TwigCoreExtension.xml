@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src#" full="Silex\Provider\TwigCoreExtension" namespace="Silex\Provider" name="TwigCoreExtension" abstract="false" final="false" start="24" end="56">
+  <file path="/metrics/Silex/src/Silex/Provider" file="TwigCoreExtension.php" realpath="/metrics/Silex/src/Silex/Provider/TwigCoreExtension.php" size="1611" time="2014-05-30T00:27:40+02:00" unixtime="1401402460" sha1="ea07b3275f79bc8d8219b8ad75b13e087b172453"/>
+  <docblock>
+    <description compact="Twig extension."/>
+    <author value="Fabien Potencier &lt;fabien@symfony.com&gt;"/>
+    <deprecated value="deprecated since 1.2, will be removed in 1.3. Use HttpFragmentServiceProvider instead"/>
+  </docblock>
+  <extends full="Twig_Extension" namespace="" name="Twig_Extension"/>
+  <method name="getFunctions" start="26" end="31" abstract="false" final="false" static="false" visibility="public"/>
+  <method name="render" start="33" end="50" abstract="false" final="false" static="false" visibility="public">
+    <parameter name="twig" byreference="false" type="object">
+      <type full="Twig_Environment" namespace="" name="Twig_Environment"/>
+    </parameter>
+    <parameter name="uri" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="getName" start="52" end="55" abstract="false" final="false" static="false" visibility="public"/>
+</class>

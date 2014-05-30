@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<index xmlns="http://xml.phpdox.net/src#">
+  <namespace name="Silex\Application">
+    <trait name="FormTrait" src="/metrics/Silex/src/Silex/Application/FormTrait.php" description="Form trait." xml="traits/Silex_Application_FormTrait.xml"/>
+    <trait name="MonologTrait" src="/metrics/Silex/src/Silex/Application/MonologTrait.php" description="Monolog trait." xml="traits/Silex_Application_MonologTrait.xml"/>
+    <trait name="SecurityTrait" src="/metrics/Silex/src/Silex/Application/SecurityTrait.php" description="Security trait." xml="traits/Silex_Application_SecurityTrait.xml"/>
+    <trait name="SwiftmailerTrait" src="/metrics/Silex/src/Silex/Application/SwiftmailerTrait.php" description="Swiftmailer trait." xml="traits/Silex_Application_SwiftmailerTrait.xml"/>
+    <trait name="TranslationTrait" src="/metrics/Silex/src/Silex/Application/TranslationTrait.php" description="Translation trait." xml="traits/Silex_Application_TranslationTrait.xml"/>
+    <trait name="TwigTrait" src="/metrics/Silex/src/Silex/Application/TwigTrait.php" description="Twig trait." xml="traits/Silex_Application_TwigTrait.xml"/>
+    <trait name="UrlGeneratorTrait" src="/metrics/Silex/src/Silex/Application/UrlGeneratorTrait.php" description="UrlGenerator trait." xml="traits/Silex_Application_UrlGeneratorTrait.xml"/>
+  </namespace>
+  <namespace name="Silex">
+    <class name="Application" src="/metrics/Silex/src/Silex/Application.php" description="The Silex framework class." xml="classes/Silex_Application.xml"/>
+    <class name="CallbackResolver" src="/metrics/Silex/src/Silex/CallbackResolver.php" xml="classes/Silex_CallbackResolver.xml"/>
+    <class name="ConstraintValidatorFactory" src="/metrics/Silex/src/Silex/ConstraintValidatorFactory.php" description="Uses a service container to create constraint validators with dependencies." xml="classes/Silex_ConstraintValidatorFactory.xml"/>
+    <class name="Controller" src="/metrics/Silex/src/Silex/Controller.php" description="A wrapper for a controller, mapped to a route." xml="classes/Silex_Controller.xml"/>
+    <class name="ControllerCollection" src="/metrics/Silex/src/Silex/ControllerCollection.php" description="Builds Silex controllers." xml="classes/Silex_ControllerCollection.xml"/>
+    <interface name="ControllerProviderInterface" src="/metrics/Silex/src/Silex/ControllerProviderInterface.php" description="Interface for controller providers." xml="interfaces/Silex_ControllerProviderInterface.xml"/>
+    <class name="ControllerResolver" src="/metrics/Silex/src/Silex/ControllerResolver.php" description="Adds Application as a valid argument for controllers." xml="classes/Silex_ControllerResolver.xml"/>
+    <class name="ExceptionHandler" src="/metrics/Silex/src/Silex/ExceptionHandler.php" description="Defaults exception handler." xml="classes/Silex_ExceptionHandler.xml"/>
+    <class name="ExceptionListenerWrapper" src="/metrics/Silex/src/Silex/ExceptionListenerWrapper.php" description="Wraps exception listeners." xml="classes/Silex_ExceptionListenerWrapper.xml"/>
+    <class name="HttpCache" src="/metrics/Silex/src/Silex/HttpCache.php" description="HTTP Cache extension to allow using the run() shortcut." xml="classes/Silex_HttpCache.xml"/>
+    <class name="LazyUrlMatcher" src="/metrics/Silex/src/Silex/LazyUrlMatcher.php" description="Implements a lazy UrlMatcher." xml="classes/Silex_LazyUrlMatcher.xml"/>
+    <class name="RedirectableUrlMatcher" src="/metrics/Silex/src/Silex/RedirectableUrlMatcher.php" description="Implements the RedirectableUrlMatcherInterface for Silex." xml="classes/Silex_RedirectableUrlMatcher.xml"/>
+    <class name="Route" src="/metrics/Silex/src/Silex/Route.php" description="A wrapper for a controller, mapped to a route." xml="classes/Silex_Route.xml"/>
+    <class name="ServiceControllerResolver" src="/metrics/Silex/src/Silex/ServiceControllerResolver.php" description="Enables name_of_service:method_name syntax for declaring controllers." xml="classes/Silex_ServiceControllerResolver.xml"/>
+    <interface name="ServiceProviderInterface" src="/metrics/Silex/src/Silex/ServiceProviderInterface.php" description="Interface that all Silex service providers must implement." xml="interfaces/Silex_ServiceProviderInterface.xml"/>
+    <class name="Translator" src="/metrics/Silex/src/Silex/Translator.php" description="Translator that gets the current locale from the Silex application." xml="classes/Silex_Translator.xml"/>
+    <class name="WebTestCase" src="/metrics/Silex/src/Silex/WebTestCase.php" description="WebTestCase is the base class for functional tests." xml="classes/Silex_WebTestCase.xml"/>
+  </namespace>
+  <namespace name="Silex\EventListener">
+    <class name="ConverterListener" src="/metrics/Silex/src/Silex/EventListener/ConverterListener.php" description="Handles converters." xml="classes/Silex_EventListener_ConverterListener.xml"/>
+    <class name="LocaleListener" src="/metrics/Silex/src/Silex/EventListener/LocaleListener.php" description="Initializes the locale based on the current request." xml="classes/Silex_EventListener_LocaleListener.xml"/>
+    <class name="LogListener" src="/metrics/Silex/src/Silex/EventListener/LogListener.php" description="Log request, response and exceptions" xml="classes/Silex_EventListener_LogListener.xml"/>
+    <class name="MiddlewareListener" src="/metrics/Silex/src/Silex/EventListener/MiddlewareListener.php" description="Manages the route middlewares." xml="classes/Silex_EventListener_MiddlewareListener.xml"/>
+    <class name="StringToResponseListener" src="/metrics/Silex/src/Silex/EventListener/StringToResponseListener.php" description="Converts string responses to proper Response instances." xml="classes/Silex_EventListener_StringToResponseListener.xml"/>
+  </namespace>
+  <namespace name="Silex\Exception">
+    <class name="ControllerFrozenException" src="/metrics/Silex/src/Silex/Exception/ControllerFrozenException.php" description="Exception, is thrown when a frozen controller is modified" xml="classes/Silex_Exception_ControllerFrozenException.xml"/>
+  </namespace>
+  <namespace name="Silex\Provider">
+    <class name="DoctrineServiceProvider" src="/metrics/Silex/src/Silex/Provider/DoctrineServiceProvider.php" description="Doctrine DBAL Provider." xml="classes/Silex_Provider_DoctrineServiceProvider.xml"/>
+    <class name="FormServiceProvider" src="/metrics/Silex/src/Silex/Provider/FormServiceProvider.php" description="Symfony Form component Provider." xml="classes/Silex_Provider_FormServiceProvider.xml"/>
+    <class name="HttpCacheServiceProvider" src="/metrics/Silex/src/Silex/Provider/HttpCacheServiceProvider.php" description="Symfony HttpKernel component Provider for HTTP cache." xml="classes/Silex_Provider_HttpCacheServiceProvider.xml"/>
+    <class name="HttpFragmentServiceProvider" src="/metrics/Silex/src/Silex/Provider/HttpFragmentServiceProvider.php" description="HttpKernel Fragment integration for Silex." xml="classes/Silex_Provider_HttpFragmentServiceProvider.xml"/>
+    <class name="MonologServiceProvider" src="/metrics/Silex/src/Silex/Provider/MonologServiceProvider.php" description="Monolog Provider." xml="classes/Silex_Provider_MonologServiceProvider.xml"/>
+    <class name="RememberMeServiceProvider" src="/metrics/Silex/src/Silex/Provider/RememberMeServiceProvider.php" description="Remember-me authentication for the SecurityServiceProvider" xml="classes/Silex_Provider_RememberMeServiceProvider.xml"/>
+    <class name="SecurityServiceProvider" src="/metrics/Silex/src/Silex/Provider/SecurityServiceProvider.php" description="Symfony Security component Provider." xml="classes/Silex_Provider_SecurityServiceProvider.xml"/>
+    <class name="SerializerServiceProvider" src="/metrics/Silex/src/Silex/Provider/SerializerServiceProvider.php" description="Symfony Serializer component Provider." xml="classes/Silex_Provider_SerializerServiceProvider.xml"/>
+    <class name="ServiceControllerServiceProvider" src="/metrics/Silex/src/Silex/Provider/ServiceControllerServiceProvider.php" xml="classes/Silex_Provider_ServiceControllerServiceProvider.xml"/>
+    <class name="SessionServiceProvider" src="/metrics/Silex/src/Silex/Provider/SessionServiceProvider.php" description="Symfony HttpFoundation component Provider for sessions." xml="classes/Silex_Provider_SessionServiceProvider.xml"/>
+    <class name="SwiftmailerServiceProvider" src="/metrics/Silex/src/Silex/Provider/SwiftmailerServiceProvider.php" description="Swiftmailer Provider." xml="classes/Silex_Provider_SwiftmailerServiceProvider.xml"/>
+    <class name="TranslationServiceProvider" src="/metrics/Silex/src/Silex/Provider/TranslationServiceProvider.php" description="Symfony Translation component Provider." xml="classes/Silex_Provider_TranslationServiceProvider.xml"/>
+    <class name="TwigCoreExtension" src="/metrics/Silex/src/Silex/Provider/TwigCoreExtension.php" description="Twig extension." xml="classes/Silex_Provider_TwigCoreExtension.xml"/>
+    <class name="TwigServiceProvider" src="/metrics/Silex/src/Silex/Provider/TwigServiceProvider.php" description="Twig integration for Silex." xml="classes/Silex_Provider_TwigServiceProvider.xml"/>
+    <class name="UrlGeneratorServiceProvider" src="/metrics/Silex/src/Silex/Provider/UrlGeneratorServiceProvider.php" description="Symfony Routing component Provider for URL generation." xml="classes/Silex_Provider_UrlGeneratorServiceProvider.xml"/>
+    <class name="ValidatorServiceProvider" src="/metrics/Silex/src/Silex/Provider/ValidatorServiceProvider.php" description="Symfony Validator component Provider." xml="classes/Silex_Provider_ValidatorServiceProvider.xml"/>
+  </namespace>
+  <namespace name="Silex\Route">
+    <trait name="SecurityTrait" src="/metrics/Silex/src/Silex/Route/SecurityTrait.php" description="Security trait." xml="traits/Silex_Route_SecurityTrait.xml"/>
+  </namespace>
+  <namespace name="Silex\Util">
+    <class name="Compiler" src="/metrics/Silex/src/Silex/Util/Compiler.php" description="The Compiler class compiles the Silex framework." xml="classes/Silex_Util_Compiler.xml"/>
+  </namespace>
+  <namespace name="">
+    <class name="RuntimeException" xml="classes/RuntimeException.xml"/>
+    <class name="Exception" xml="classes/Exception.xml"/>
+  </namespace>
+</index>

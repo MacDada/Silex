@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src#" full="Silex\ServiceControllerResolver" namespace="Silex" name="ServiceControllerResolver" abstract="false" final="false" start="22" end="60">
+  <file path="/metrics/Silex/src/Silex" file="ServiceControllerResolver.php" realpath="/metrics/Silex/src/Silex/ServiceControllerResolver.php" size="1749" time="2014-05-30T00:27:40+02:00" unixtime="1401402460" sha1="23e8092bcf1902d981541f20a6877fce1767923a"/>
+  <docblock>
+    <description compact="Enables name_of_service:method_name syntax for declaring controllers."/>
+    <link value="http://silex.sensiolabs.org/doc/providers/service_controller.html"/>
+  </docblock>
+  <implements full="Symfony\Component\HttpKernel\Controller\ControllerResolverInterface" namespace="Symfony\Component\HttpKernel\Controller" name="ControllerResolverInterface"/>
+  <member name="controllerResolver" type="{unknown}" visibility="protected" line="24"/>
+  <member name="callbackResolver" type="{unknown}" visibility="protected" line="25"/>
+  <constructor name="__construct" start="33" end="37" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Constructor."/>
+      <param description="A ControllerResolverInterface instance to delegate to" type="object" variable="$controllerResolver">
+        <type full="Symfony\Component\HttpKernel\Controller\ControllerResolverInterface" namespace="Symfony\Component\HttpKernel\Controller" name="ControllerResolverInterface"/>
+      </param>
+      <param description="A service resolver instance" type="object" variable="$callbackResolver">
+        <type full="Silex\CallbackResolver" namespace="Silex" name="CallbackResolver"/>
+      </param>
+    </docblock>
+    <parameter name="controllerResolver" byreference="false" type="object">
+      <type full="Symfony\Component\HttpKernel\Controller\ControllerResolverInterface" namespace="Symfony\Component\HttpKernel\Controller" name="ControllerResolverInterface"/>
+    </parameter>
+    <parameter name="callbackResolver" byreference="false" type="object">
+      <type full="Silex\CallbackResolver" namespace="Silex" name="CallbackResolver"/>
+    </parameter>
+  </constructor>
+  <method name="getController" start="42" end="51" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="{@inheritdoc}"/>
+    </docblock>
+    <parameter name="request" byreference="false" type="object">
+      <type full="Symfony\Component\HttpFoundation\Request" namespace="Symfony\Component\HttpFoundation" name="Request"/>
+    </parameter>
+  </method>
+  <method name="getArguments" start="56" end="59" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="{@inheritdoc}"/>
+    </docblock>
+    <parameter name="request" byreference="false" type="object">
+      <type full="Symfony\Component\HttpFoundation\Request" namespace="Symfony\Component\HttpFoundation" name="Request"/>
+    </parameter>
+    <parameter name="controller" byreference="false" type="{unknown}"/>
+  </method>
+</class>

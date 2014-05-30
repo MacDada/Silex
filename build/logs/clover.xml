@@ -1,0 +1,2031 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1401457439">
+  <project timestamp="1401457439">
+    <package name="Silex">
+      <file name="/metrics/Silex/src/Silex/Application.php">
+        <class name="Application" namespace="Silex">
+          <metrics methods="26" coveredmethods="26" conditionals="0" coveredconditionals="0" statements="146" coveredstatements="141" elements="172" coveredelements="167"/>
+        </class>
+        <line num="0" type="stmt" count="2"/>
+        <line num="60" type="method" name="__construct" crap="4" count="181"/>
+        <line num="62" type="stmt" count="178"/>
+        <line num="64" type="stmt" count="178"/>
+        <line num="66" type="stmt" count="181"/>
+        <line num="68" type="stmt" count="178"/>
+        <line num="69" type="stmt" count="111"/>
+        <line num="70" type="stmt" count="178"/>
+        <line num="73" type="stmt" count="113"/>
+        <line num="74" type="stmt" count="178"/>
+        <line num="77" type="stmt" count="112"/>
+        <line num="80" type="stmt" count="178"/>
+        <line num="82" type="stmt" count="114"/>
+        <line num="86" type="stmt" count="108"/>
+        <line num="87" type="stmt" count="178"/>
+        <line num="89" type="stmt" count="178"/>
+        <line num="91" type="stmt" count="108"/>
+        <line num="94" type="stmt" count="112"/>
+        <line num="95" type="stmt" count="108"/>
+        <line num="96" type="stmt" count="108"/>
+        <line num="97" type="stmt" count="114"/>
+        <line num="98" type="stmt" count="116"/>
+        <line num="99" type="stmt" count="108"/>
+        <line num="100" type="stmt" count="111"/>
+        <line num="101" type="stmt" count="114"/>
+        <line num="102" type="stmt" count="108"/>
+        <line num="103" type="stmt" count="108"/>
+        <line num="104" type="stmt" count="108"/>
+        <line num="106" type="stmt" count="108"/>
+        <line num="107" type="stmt" count="178"/>
+        <line num="110" type="stmt" count="108"/>
+        <line num="111" type="stmt" count="178"/>
+        <line num="114" type="stmt" count="104"/>
+        <line num="115" type="stmt" count="178"/>
+        <line num="118" type="stmt" count="107"/>
+        <line num="119" type="stmt" count="178"/>
+        <line num="122" type="stmt" count="108"/>
+        <line num="123" type="stmt" count="108"/>
+        <line num="124" type="stmt" count="3"/>
+        <line num="125" type="stmt" count="178"/>
+        <line num="128" type="stmt" count="108"/>
+        <line num="130" type="stmt" count="108"/>
+        <line num="131" type="stmt" count="108"/>
+        <line num="133" type="stmt" count="109"/>
+        <line num="134" type="stmt" count="178"/>
+        <line num="137" type="stmt" count="106"/>
+        <line num="138" type="stmt" count="178"/>
+        <line num="140" type="stmt" count="178"/>
+        <line num="141" type="stmt" count="2"/>
+        <line num="142" type="stmt" count="178"/>
+        <line num="144" type="stmt" count="178"/>
+        <line num="146" type="stmt" count="178"/>
+        <line num="147" type="stmt" count="178"/>
+        <line num="148" type="stmt" count="178"/>
+        <line num="149" type="stmt" count="178"/>
+        <line num="150" type="stmt" count="178"/>
+        <line num="152" type="stmt" count="178"/>
+        <line num="153" type="stmt" count="1"/>
+        <line num="154" type="stmt" count="178"/>
+        <line num="155" type="stmt" count="178"/>
+        <line num="165" type="method" name="register" crap="2" count="83"/>
+        <line num="167" type="stmt" count="83"/>
+        <line num="169" type="stmt" count="83"/>
+        <line num="171" type="stmt" count="83"/>
+        <line num="172" type="stmt" count="23"/>
+        <line num="173" type="stmt" count="83"/>
+        <line num="175" type="stmt" count="83"/>
+        <line num="184" type="method" name="boot" crap="3" count="108"/>
+        <line num="186" type="stmt" count="108"/>
+        <line num="187" type="stmt" count="108"/>
+        <line num="188" type="stmt" count="35"/>
+        <line num="189" type="stmt" count="107"/>
+        <line num="191" type="stmt" count="107"/>
+        <line num="192" type="stmt" count="107"/>
+        <line num="193" type="stmt" count="107"/>
+        <line num="205" type="method" name="match" crap="1" count="43"/>
+        <line num="207" type="stmt" count="43"/>
+        <line num="218" type="method" name="get" crap="1" count="66"/>
+        <line num="220" type="stmt" count="66"/>
+        <line num="231" type="method" name="post" crap="1" count="3"/>
+        <line num="233" type="stmt" count="3"/>
+        <line num="244" type="method" name="put" crap="1" count="5"/>
+        <line num="246" type="stmt" count="5"/>
+        <line num="257" type="method" name="delete" crap="1" count="3"/>
+        <line num="259" type="stmt" count="3"/>
+        <line num="270" type="method" name="patch" crap="1" count="14"/>
+        <line num="272" type="stmt" count="14"/>
+        <line num="283" type="method" name="on" crap="2" count="45"/>
+        <line num="285" type="stmt" count="35"/>
+        <line num="286" type="stmt" count="1"/>
+        <line num="288" type="stmt" count="1"/>
+        <line num="292" type="stmt" count="33"/>
+        <line num="294" type="stmt" count="33"/>
+        <line num="295" type="stmt" count="34"/>
+        <line num="296" type="stmt" count="45"/>
+        <line num="307" type="method" name="before" crap="3" count="12"/>
+        <line num="308" type="stmt" count="11"/>
+        <line num="309" type="stmt" count="12"/>
+        <line num="312" type="stmt" count="10"/>
+        <line num="313" type="stmt" count="1"/>
+        <line num="316" type="stmt" count="10"/>
+        <line num="318" type="stmt" count="10"/>
+        <line num="319" type="stmt" count="2"/>
+        <line num="320" type="stmt" count="2"/>
+        <line num="321" type="stmt" count="12"/>
+        <line num="322" type="stmt" count="12"/>
+        <line num="333" type="method" name="after" crap="2.02" count="8"/>
+        <line num="335" type="stmt" count="8"/>
+        <line num="338" type="stmt" count="8"/>
+        <line num="339" type="stmt" count="0"/>
+        <line num="342" type="stmt" count="8"/>
+        <line num="343" type="stmt" count="8"/>
+        <line num="344" type="stmt" count="8"/>
+        <line num="355" type="method" name="finish" crap="1" count="17"/>
+        <line num="357" type="stmt" count="6"/>
+        <line num="360" type="stmt" count="5"/>
+        <line num="361" type="stmt" count="6"/>
+        <line num="362" type="stmt" count="17"/>
+        <line num="371" type="method" name="abort" crap="1" count="11"/>
+        <line num="373" type="stmt" count="1"/>
+        <line num="374" type="stmt" count="11"/>
+        <line num="393" type="method" name="error" crap="1" count="15"/>
+        <line num="395" type="stmt" count="15"/>
+        <line num="396" type="stmt" count="15"/>
+        <line num="403" type="method" name="flush" crap="1" count="108"/>
+        <line num="405" type="stmt" count="108"/>
+        <line num="406" type="stmt" count="108"/>
+        <line num="416" type="method" name="redirect" crap="1" count="11"/>
+        <line num="418" type="stmt" count="3"/>
+        <line num="419" type="stmt" count="11"/>
+        <line num="430" type="method" name="stream" crap="1" count="11"/>
+        <line num="431" type="stmt" count="11"/>
+        <line num="432" type="stmt" count="2"/>
+        <line num="445" type="method" name="escape" crap="2" count="6"/>
+        <line num="447" type="stmt" count="6"/>
+        <line num="459" type="method" name="json" crap="1" count="4"/>
+        <line num="461" type="stmt" count="4"/>
+        <line num="476" type="method" name="sendFile" crap="1" count="11"/>
+        <line num="478" type="stmt" count="1"/>
+        <line num="489" type="method" name="mount" crap="3.21" count="14"/>
+        <line num="491" type="stmt" count="3"/>
+        <line num="492" type="stmt" count="11"/>
+        <line num="493" type="stmt" count="0"/>
+        <line num="495" type="stmt" count="3"/>
+        <line num="496" type="stmt" count="0"/>
+        <line num="499" type="stmt" count="3"/>
+        <line num="501" type="stmt" count="14"/>
+        <line num="509" type="method" name="run" crap="2.09" count="2"/>
+        <line num="511" type="stmt" count="2"/>
+        <line num="512" type="stmt" count="0"/>
+        <line num="513" type="stmt" count="0"/>
+        <line num="515" type="stmt" count="2"/>
+        <line num="516" type="stmt" count="2"/>
+        <line num="517" type="stmt" count="2"/>
+        <line num="518" type="stmt" count="2"/>
+        <line num="526" type="method" name="handle" crap="3" count="105"/>
+        <line num="528" type="stmt" count="105"/>
+        <line num="529" type="stmt" count="103"/>
+        <line num="530" type="stmt" count="103"/>
+        <line num="532" type="stmt" count="104"/>
+        <line num="534" type="stmt" count="105"/>
+        <line num="536" type="stmt" count="104"/>
+        <line num="538" type="stmt" count="104"/>
+        <line num="540" type="stmt" count="98"/>
+        <line num="542" type="stmt" count="95"/>
+        <line num="548" type="method" name="terminate" crap="1" count="15"/>
+        <line num="550" type="stmt" count="15"/>
+        <line num="551" type="stmt" count="15"/>
+        <line num="553" type="stmt" count="1"/>
+        <metrics loc="552" ncloc="334" classes="1" methods="26" coveredmethods="23" conditionals="0" coveredconditionals="0" statements="144" coveredstatements="139" elements="170" coveredelements="162"/>
+      </file>
+      <file name="/metrics/Silex/src/Silex/CallbackResolver.php">
+        <class name="CallbackResolver" namespace="Silex">
+          <metrics methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="8" coveredstatements="8" elements="12" coveredelements="12"/>
+        </class>
+        <line num="20" type="method" name="__construct" crap="1" count="111"/>
+        <line num="22" type="stmt" count="111"/>
+        <line num="23" type="stmt" count="111"/>
+        <line num="32" type="method" name="isValid" crap="2" count="49"/>
+        <line num="34" type="stmt" count="49"/>
+        <line num="46" type="method" name="convertCallback" crap="2" count="3"/>
+        <line num="48" type="stmt" count="3"/>
+        <line num="50" type="stmt" count="3"/>
+        <line num="51" type="stmt" count="1"/>
+        <line num="54" type="stmt" count="2"/>
+        <line num="66" type="method" name="resolveCallback" crap="2" count="42"/>
+        <line num="68" type="stmt" count="42"/>
+        <line num="71" type="stmt" count="1"/>
+        <metrics loc="70" ncloc="37" classes="1" methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="8" coveredstatements="8" elements="12" coveredelements="12"/>
+      </file>
+      <file name="/metrics/Silex/src/Silex/ConstraintValidatorFactory.php">
+        <class name="ConstraintValidatorFactory" namespace="Silex">
+          <metrics methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="12" coveredstatements="12" elements="15" coveredelements="15"/>
+        </class>
+        <line num="0" type="stmt" count="1"/>
+        <line num="47" type="method" name="__construct" crap="1" count="5"/>
+        <line num="49" type="stmt" count="5"/>
+        <line num="50" type="stmt" count="5"/>
+        <line num="51" type="stmt" count="5"/>
+        <line num="52" type="stmt" count="5"/>
+        <line num="60" type="method" name="getInstance" crap="2" count="4"/>
+        <line num="62" type="stmt" count="4"/>
+        <line num="64" type="stmt" count="4"/>
+        <line num="65" type="stmt" count="3"/>
+        <line num="68" type="stmt" count="4"/>
+        <line num="70" type="stmt" count="4"/>
+        <line num="79" type="method" name="createValidator" crap="2" count="4"/>
+        <line num="81" type="stmt" count="4"/>
+        <line num="82" type="stmt" count="1"/>
+        <line num="85" type="stmt" count="3"/>
+        <line num="88" type="stmt" count="1"/>
+        <metrics loc="87" ncloc="46" classes="1" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="12" coveredstatements="12" elements="15" coveredelements="15"/>
+      </file>
+      <file name="/metrics/Silex/src/Silex/Controller.php">
+        <class name="Controller" namespace="Silex">
+          <metrics methods="7" coveredmethods="7" conditionals="0" coveredconditionals="0" statements="20" coveredstatements="20" elements="27" coveredelements="27"/>
+        </class>
+        <line num="43" type="method" name="__construct" crap="1" count="126"/>
+        <line num="45" type="stmt" count="126"/>
+        <line num="46" type="stmt" count="126"/>
+        <line num="53" type="method" name="getRoute" crap="1" count="114"/>
+        <line num="55" type="stmt" count="114"/>
+        <line num="63" type="method" name="getRouteName" crap="1" count="109"/>
+        <line num="65" type="stmt" count="109"/>
+        <line num="75" type="method" name="bind" crap="2" count="110"/>
+        <line num="77" type="stmt" count="110"/>
+        <line num="78" type="stmt" count="2"/>
+        <line num="81" type="stmt" count="110"/>
+        <line num="83" type="stmt" count="110"/>
+        <line num="86" type="method" name="__call" crap="2" count="88"/>
+        <line num="88" type="stmt" count="88"/>
+        <line num="89" type="stmt" count="1"/>
+        <line num="92" type="stmt" count="87"/>
+        <line num="94" type="stmt" count="87"/>
+        <line num="102" type="method" name="freeze" crap="1" count="105"/>
+        <line num="104" type="stmt" count="105"/>
+        <line num="106" type="stmt" count="105"/>
+        <line num="111" type="method" name="generateRouteName" crap="2" count="103"/>
+        <line num="113" type="stmt" count="103"/>
+        <line num="114" type="stmt" count="103"/>
+        <line num="116" type="stmt" count="103"/>
+        <line num="117" type="stmt" count="103"/>
+        <line num="118" type="stmt" count="103"/>
+        <line num="120" type="stmt" count="103"/>
+        <line num="123" type="stmt" count="1"/>
+        <metrics loc="122" ncloc="71" classes="1" methods="7" coveredmethods="7" conditionals="0" coveredconditionals="0" statements="20" coveredstatements="20" elements="27" coveredelements="27"/>
+      </file>
+      <file name="/metrics/Silex/src/Silex/ControllerCollection.php">
+        <class name="ControllerCollection" namespace="Silex">
+          <metrics methods="11" coveredmethods="11" conditionals="0" coveredconditionals="0" statements="46" coveredstatements="46" elements="57" coveredelements="57"/>
+        </class>
+        <line num="0" type="stmt" count="7"/>
+        <line num="49" type="method" name="__construct" crap="1" count="125"/>
+        <line num="51" type="stmt" count="125"/>
+        <line num="52" type="method" name="anonymous function" crap="1" count="125"/>
+        <line num="53" type="stmt" count="1"/>
+        <line num="55" type="stmt" count="125"/>
+        <line num="63" type="method" name="mount" crap="1" count="3"/>
+        <line num="65" type="stmt" count="3"/>
+        <line num="67" type="stmt" count="3"/>
+        <line num="68" type="stmt" count="3"/>
+        <line num="80" type="method" name="match" crap="2" count="114"/>
+        <line num="82" type="stmt" count="114"/>
+        <line num="83" type="stmt" count="114"/>
+        <line num="84" type="stmt" count="114"/>
+        <line num="85" type="stmt" count="114"/>
+        <line num="87" type="stmt" count="114"/>
+        <line num="98" type="method" name="get" crap="1" count="68"/>
+        <line num="100" type="stmt" count="68"/>
+        <line num="111" type="method" name="post" crap="1" count="3"/>
+        <line num="113" type="stmt" count="3"/>
+        <line num="124" type="method" name="put" crap="1" count="5"/>
+        <line num="126" type="stmt" count="5"/>
+        <line num="137" type="method" name="delete" crap="1" count="3"/>
+        <line num="139" type="stmt" count="3"/>
+        <line num="150" type="method" name="patch" crap="1" count="3"/>
+        <line num="152" type="stmt" count="3"/>
+        <line num="155" type="method" name="__call" crap="4" count="8"/>
+        <line num="157" type="stmt" count="8"/>
+        <line num="158" type="stmt" count="1"/>
+        <line num="161" type="stmt" count="7"/>
+        <line num="163" type="stmt" count="7"/>
+        <line num="164" type="stmt" count="6"/>
+        <line num="165" type="stmt" count="6"/>
+        <line num="166" type="stmt" count="6"/>
+        <line num="167" type="stmt" count="7"/>
+        <line num="169" type="stmt" count="7"/>
+        <line num="179" type="method" name="flush" crap="5" count="113"/>
+        <line num="181" type="stmt" count="113"/>
+        <line num="183" type="stmt" count="113"/>
+        <line num="184" type="stmt" count="104"/>
+        <line num="185" type="stmt" count="104"/>
+        <line num="186" type="stmt" count="99"/>
+        <line num="187" type="stmt" count="99"/>
+        <line num="188" type="stmt" count="1"/>
+        <line num="189" type="stmt" count="1"/>
+        <line num="190" type="stmt" count="99"/>
+        <line num="191" type="stmt" count="99"/>
+        <line num="192" type="stmt" count="104"/>
+        <line num="193" type="stmt" count="104"/>
+        <line num="194" type="stmt" count="104"/>
+        <line num="195" type="stmt" count="2"/>
+        <line num="197" type="stmt" count="113"/>
+        <line num="199" type="stmt" count="113"/>
+        <line num="201" type="stmt" count="113"/>
+        <line num="203" type="stmt" count="113"/>
+        <line num="206" type="stmt" count="1"/>
+        <metrics loc="205" ncloc="109" classes="1" methods="11" coveredmethods="11" conditionals="0" coveredconditionals="0" statements="44" coveredstatements="44" elements="55" coveredelements="55"/>
+      </file>
+      <file name="/metrics/Silex/src/Silex/ControllerDuplicated.php">
+        <class name="ControllerDuplicated" namespace="Silex">
+          <metrics methods="7" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="41" coveredstatements="0" elements="48" coveredelements="0"/>
+        </class>
+        <line num="10" type="stmt" count="0"/>
+        <line num="43" type="method" name="__construct" crap="2" count="0"/>
+        <line num="44" type="stmt" count="0"/>
+        <line num="45" type="stmt" count="0"/>
+        <line num="46" type="stmt" count="0"/>
+        <line num="53" type="method" name="getRoute" crap="2" count="0"/>
+        <line num="54" type="stmt" count="0"/>
+        <line num="55" type="stmt" count="0"/>
+        <line num="56" type="stmt" count="0"/>
+        <line num="63" type="method" name="getRouteName" crap="2" count="0"/>
+        <line num="64" type="stmt" count="0"/>
+        <line num="65" type="stmt" count="0"/>
+        <line num="66" type="stmt" count="0"/>
+        <line num="75" type="method" name="bind" crap="6" count="0"/>
+        <line num="76" type="stmt" count="0"/>
+        <line num="77" type="stmt" count="0"/>
+        <line num="78" type="stmt" count="0"/>
+        <line num="79" type="stmt" count="0"/>
+        <line num="81" type="stmt" count="0"/>
+        <line num="83" type="stmt" count="0"/>
+        <line num="84" type="stmt" count="0"/>
+        <line num="86" type="method" name="__call" crap="6" count="0"/>
+        <line num="87" type="stmt" count="0"/>
+        <line num="88" type="stmt" count="0"/>
+        <line num="89" type="stmt" count="0"/>
+        <line num="90" type="stmt" count="0"/>
+        <line num="92" type="stmt" count="0"/>
+        <line num="94" type="stmt" count="0"/>
+        <line num="95" type="stmt" count="0"/>
+        <line num="102" type="method" name="freeze" crap="2" count="0"/>
+        <line num="103" type="stmt" count="0"/>
+        <line num="104" type="stmt" count="0"/>
+        <line num="105" type="stmt" count="0"/>
+        <line num="107" type="method" name="generateRouteName" crap="6" count="0"/>
+        <line num="108" type="stmt" count="0"/>
+        <line num="109" type="stmt" count="0"/>
+        <line num="110" type="stmt" count="0"/>
+        <line num="112" type="stmt" count="0"/>
+        <line num="113" type="stmt" count="0"/>
+        <line num="114" type="stmt" count="0"/>
+        <line num="116" type="stmt" count="0"/>
+        <line num="117" type="stmt" count="0"/>
+        <metrics loc="118" ncloc="67" classes="1" methods="7" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="42" coveredstatements="0" elements="49" coveredelements="0"/>
+      </file>
+      <file name="/metrics/Silex/src/Silex/ControllerResolver.php">
+        <class name="ControllerResolver" namespace="Silex">
+          <metrics methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="9" coveredstatements="9" elements="11" coveredelements="11"/>
+        </class>
+        <line num="33" type="method" name="__construct" crap="1" count="105"/>
+        <line num="35" type="stmt" count="105"/>
+        <line num="37" type="stmt" count="105"/>
+        <line num="38" type="stmt" count="105"/>
+        <line num="40" type="method" name="doGetArguments" crap="4" count="89"/>
+        <line num="42" type="stmt" count="89"/>
+        <line num="43" type="stmt" count="20"/>
+        <line num="44" type="stmt" count="2"/>
+        <line num="46" type="stmt" count="2"/>
+        <line num="48" type="stmt" count="89"/>
+        <line num="50" type="stmt" count="89"/>
+        <line num="53" type="stmt" count="1"/>
+        <metrics loc="52" ncloc="33" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="9" coveredstatements="9" elements="11" coveredelements="11"/>
+      </file>
+      <file name="/metrics/Silex/src/Silex/ExceptionHandler.php">
+        <class name="ExceptionHandler" namespace="Silex">
+          <metrics methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="11" coveredstatements="11" elements="15" coveredelements="15"/>
+        </class>
+        <line num="0" type="stmt" count="1"/>
+        <line num="29" type="method" name="__construct" crap="1" count="108"/>
+        <line num="31" type="stmt" count="108"/>
+        <line num="32" type="stmt" count="108"/>
+        <line num="33" type="stmt" count="108"/>
+        <line num="35" type="method" name="disable" crap="1" count="8"/>
+        <line num="37" type="stmt" count="8"/>
+        <line num="38" type="stmt" count="8"/>
+        <line num="40" type="method" name="onSilexError" crap="2" count="26"/>
+        <line num="42" type="stmt" count="26"/>
+        <line num="43" type="stmt" count="6"/>
+        <line num="46" type="stmt" count="20"/>
+        <line num="48" type="stmt" count="20"/>
+        <line num="49" type="stmt" count="20"/>
+        <line num="54" type="method" name="getSubscribedEvents" crap="1" count="108"/>
+        <line num="56" type="stmt" count="108"/>
+        <line num="59" type="stmt" count="1"/>
+        <metrics loc="58" ncloc="42" classes="1" methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="11" coveredstatements="11" elements="15" coveredelements="15"/>
+      </file>
+      <file name="/metrics/Silex/src/Silex/ExceptionListenerWrapper.php">
+        <class name="ExceptionListenerWrapper" namespace="Silex">
+          <metrics methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="34" coveredstatements="31" elements="38" coveredelements="35"/>
+        </class>
+        <line num="36" type="method" name="__construct" crap="1" count="15"/>
+        <line num="38" type="stmt" count="15"/>
+        <line num="39" type="stmt" count="15"/>
+        <line num="40" type="stmt" count="15"/>
+        <line num="42" type="method" name="__invoke" crap="3" count="15"/>
+        <line num="44" type="stmt" count="15"/>
+        <line num="45" type="stmt" count="15"/>
+        <line num="47" type="stmt" count="15"/>
+        <line num="48" type="stmt" count="1"/>
+        <line num="51" type="stmt" count="15"/>
+        <line num="53" type="stmt" count="15"/>
+        <line num="55" type="stmt" count="14"/>
+        <line num="56" type="stmt" count="14"/>
+        <line num="58" type="method" name="shouldRun" crap="7.48" count="15"/>
+        <line num="60" type="stmt" count="15"/>
+        <line num="61" type="stmt" count="1"/>
+        <line num="62" type="stmt" count="15"/>
+        <line num="63" type="stmt" count="0"/>
+        <line num="64" type="stmt" count="0"/>
+        <line num="65" type="stmt" count="0"/>
+        <line num="66" type="stmt" count="14"/>
+        <line num="69" type="stmt" count="15"/>
+        <line num="70" type="stmt" count="12"/>
+        <line num="71" type="stmt" count="12"/>
+        <line num="72" type="stmt" count="12"/>
+        <line num="73" type="stmt" count="1"/>
+        <line num="75" type="stmt" count="12"/>
+        <line num="77" type="stmt" count="15"/>
+        <line num="80" type="method" name="ensureResponse" crap="3" count="14"/>
+        <line num="82" type="stmt" count="14"/>
+        <line num="83" type="stmt" count="5"/>
+        <line num="84" type="stmt" count="5"/>
+        <line num="85" type="stmt" count="10"/>
+        <line num="86" type="stmt" count="10"/>
+        <line num="88" type="stmt" count="10"/>
+        <line num="89" type="stmt" count="8"/>
+        <line num="90" type="stmt" count="8"/>
+        <line num="92" type="stmt" count="14"/>
+        <line num="94" type="stmt" count="1"/>
+        <line num="160" type="stmt" count="2"/>
+        <metrics loc="93" ncloc="75" classes="1" methods="4" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="34" coveredstatements="31" elements="38" coveredelements="34"/>
+      </file>
+      <file name="/metrics/Silex/src/Silex/HttpCache.php">
+        <class name="HttpCache" namespace="Silex">
+          <metrics methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="5" elements="8" coveredelements="6"/>
+        </class>
+        <line num="29" type="method" name="run" crap="2.09" count="1"/>
+        <line num="31" type="stmt" count="1"/>
+        <line num="32" type="stmt" count="0"/>
+        <line num="33" type="stmt" count="0"/>
+        <line num="35" type="stmt" count="1"/>
+        <line num="36" type="stmt" count="1"/>
+        <line num="37" type="stmt" count="1"/>
+        <line num="38" type="stmt" count="1"/>
+        <line num="40" type="stmt" count="1"/>
+        <metrics loc="39" ncloc="21" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="5" elements="8" coveredelements="5"/>
+      </file>
+      <file name="/metrics/Silex/src/Silex/LazyUrlMatcher.php">
+        <class name="LazyUrlMatcher" namespace="Silex">
+          <metrics methods="5" coveredmethods="5" conditionals="0" coveredconditionals="0" statements="10" coveredstatements="10" elements="15" coveredelements="15"/>
+        </class>
+        <line num="26" type="method" name="__construct" crap="1" count="109"/>
+        <line num="28" type="stmt" count="109"/>
+        <line num="29" type="stmt" count="109"/>
+        <line num="36" type="method" name="getUrlMatcher" crap="2" count="106"/>
+        <line num="38" type="stmt" count="106"/>
+        <line num="39" type="stmt" count="106"/>
+        <line num="40" type="stmt" count="1"/>
+        <line num="43" type="stmt" count="105"/>
+        <line num="49" type="method" name="match" crap="1" count="106"/>
+        <line num="51" type="stmt" count="106"/>
+        <line num="57" type="method" name="setContext" crap="1" count="1"/>
+        <line num="59" type="stmt" count="1"/>
+        <line num="60" type="stmt" count="1"/>
+        <line num="65" type="method" name="getContext" crap="1" count="95"/>
+        <line num="67" type="stmt" count="95"/>
+        <line num="70" type="stmt" count="1"/>
+        <line num="94" type="stmt" count="104"/>
+        <metrics loc="69" ncloc="42" classes="1" methods="5" coveredmethods="5" conditionals="0" coveredconditionals="0" statements="10" coveredstatements="10" elements="15" coveredelements="15"/>
+      </file>
+      <file name="/metrics/Silex/src/Silex/RedirectableUrlMatcher.php">
+        <class name="RedirectableUrlMatcher" namespace="Silex">
+          <metrics methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="21" coveredstatements="18" elements="23" coveredelements="20"/>
+        </class>
+        <line num="27" type="method" name="redirect" crap="9.53" count="9"/>
+        <line num="29" type="stmt" count="9"/>
+        <line num="30" type="stmt" count="9"/>
+        <line num="32" type="stmt" count="9"/>
+        <line num="33" type="stmt" count="2"/>
+        <line num="34" type="stmt" count="2"/>
+        <line num="36" type="stmt" count="9"/>
+        <line num="37" type="stmt" count="9"/>
+        <line num="38" type="stmt" count="6"/>
+        <line num="39" type="stmt" count="6"/>
+        <line num="40" type="stmt" count="0"/>
+        <line num="41" type="stmt" count="6"/>
+        <line num="42" type="stmt" count="0"/>
+        <line num="43" type="stmt" count="0"/>
+        <line num="45" type="stmt" count="6"/>
+        <line num="46" type="stmt" count="6"/>
+        <line num="47" type="stmt" count="9"/>
+        <line num="50" type="method" name="anonymous function" crap="1" count="9"/>
+        <line num="51" type="stmt" count="9"/>
+        <line num="52" type="stmt" count="9"/>
+        <line num="53" type="stmt" count="9"/>
+        <line num="56" type="stmt" count="1"/>
+        <metrics loc="55" ncloc="39" classes="1" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="20" coveredstatements="17" elements="22" coveredelements="18"/>
+      </file>
+      <file name="/metrics/Silex/src/Silex/Route.php">
+        <class name="Route" namespace="Silex">
+          <metrics methods="11" coveredmethods="11" conditionals="0" coveredconditionals="0" statements="28" coveredstatements="28" elements="39" coveredelements="39"/>
+        </class>
+        <line num="38" type="method" name="__construct" crap="1" count="135"/>
+        <line num="41" type="stmt" count="135"/>
+        <line num="42" type="stmt" count="135"/>
+        <line num="51" type="method" name="run" crap="1" count="6"/>
+        <line num="53" type="stmt" count="6"/>
+        <line num="55" type="stmt" count="6"/>
+        <line num="66" type="method" name="assert" crap="1" count="2"/>
+        <line num="68" type="stmt" count="2"/>
+        <line num="70" type="stmt" count="2"/>
+        <line num="81" type="method" name="value" crap="1" count="2"/>
+        <line num="83" type="stmt" count="2"/>
+        <line num="85" type="stmt" count="2"/>
+        <line num="96" type="method" name="convert" crap="1" count="3"/>
+        <line num="98" type="stmt" count="3"/>
+        <line num="99" type="stmt" count="3"/>
+        <line num="100" type="stmt" count="3"/>
+        <line num="102" type="stmt" count="3"/>
+        <line num="112" type="method" name="method" crap="1" count="70"/>
+        <line num="114" type="stmt" count="70"/>
+        <line num="116" type="stmt" count="70"/>
+        <line num="126" type="method" name="host" crap="1" count="2"/>
+        <line num="128" type="stmt" count="2"/>
+        <line num="130" type="stmt" count="2"/>
+        <line num="138" type="method" name="requireHttp" crap="1" count="4"/>
+        <line num="140" type="stmt" count="4"/>
+        <line num="142" type="stmt" count="4"/>
+        <line num="150" type="method" name="requireHttps" crap="1" count="6"/>
+        <line num="152" type="stmt" count="6"/>
+        <line num="154" type="stmt" count="6"/>
+        <line num="164" type="method" name="before" crap="1" count="8"/>
+        <line num="166" type="stmt" count="8"/>
+        <line num="167" type="stmt" count="8"/>
+        <line num="168" type="stmt" count="8"/>
+        <line num="170" type="stmt" count="8"/>
+        <line num="180" type="method" name="after" crap="1" count="5"/>
+        <line num="182" type="stmt" count="5"/>
+        <line num="183" type="stmt" count="5"/>
+        <line num="184" type="stmt" count="5"/>
+        <line num="186" type="stmt" count="5"/>
+        <metrics loc="188" ncloc="89" classes="1" methods="11" coveredmethods="11" conditionals="0" coveredconditionals="0" statements="28" coveredstatements="28" elements="39" coveredelements="39"/>
+      </file>
+      <file name="/metrics/Silex/src/Silex/ServiceControllerResolver.php">
+        <class name="ServiceControllerResolver" namespace="Silex">
+          <metrics methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="8" coveredstatements="8" elements="11" coveredelements="11"/>
+        </class>
+        <line num="33" type="method" name="__construct" crap="1" count="8"/>
+        <line num="35" type="stmt" count="8"/>
+        <line num="36" type="stmt" count="8"/>
+        <line num="37" type="stmt" count="8"/>
+        <line num="42" type="method" name="getController" crap="2" count="7"/>
+        <line num="44" type="stmt" count="7"/>
+        <line num="46" type="stmt" count="7"/>
+        <line num="47" type="stmt" count="5"/>
+        <line num="50" type="stmt" count="2"/>
+        <line num="56" type="method" name="getArguments" crap="1" count="6"/>
+        <line num="58" type="stmt" count="6"/>
+        <line num="61" type="stmt" count="1"/>
+        <metrics loc="60" ncloc="35" classes="1" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="8" coveredstatements="8" elements="11" coveredelements="11"/>
+      </file>
+      <file name="/metrics/Silex/src/Silex/Translator.php">
+        <class name="Translator" namespace="Silex">
+          <metrics methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="4" elements="6" coveredelements="6"/>
+        </class>
+        <line num="26" type="method" name="__construct" crap="1" count="19"/>
+        <line num="28" type="stmt" count="19"/>
+        <line num="30" type="stmt" count="19"/>
+        <line num="31" type="stmt" count="19"/>
+        <line num="33" type="method" name="getLocale" crap="1" count="7"/>
+        <line num="35" type="stmt" count="7"/>
+        <line num="38" type="stmt" count="1"/>
+        <metrics loc="37" ncloc="24" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="4" elements="6" coveredelements="6"/>
+      </file>
+      <file name="/metrics/Silex/src/Silex/WebTestCase.php">
+        <class name="WebTestCase" namespace="Silex">
+          <metrics methods="3" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="6" coveredelements="5"/>
+        </class>
+        <line num="0" type="stmt" count="1"/>
+        <line num="32" type="method" name="setUp" crap="1" count="12"/>
+        <line num="34" type="stmt" count="12"/>
+        <line num="35" type="stmt" count="12"/>
+        <line num="42" type="method" name="createApplication" crap="1" count="0"/>
+        <line num="51" type="method" name="createClient" crap="1" count="4"/>
+        <line num="53" type="stmt" count="4"/>
+        <line num="56" type="stmt" count="1"/>
+        <line num="57" type="stmt" count="1"/>
+        <line num="65" type="stmt" count="1"/>
+        <line num="188" type="stmt" count="6"/>
+        <metrics loc="55" ncloc="24" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="5" coveredelements="5"/>
+      </file>
+    </package>
+    <package name="Silex\Application">
+      <file name="/metrics/Silex/src/Silex/Application/FormTrait.php">
+        <class name="FormTrait" namespace="Silex\Application">
+          <metrics methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+        </class>
+        <line num="31" type="method" name="form" crap="1" count="1"/>
+        <line num="33" type="stmt" count="1"/>
+        <line num="36" type="stmt" count="1"/>
+        <metrics loc="35" ncloc="14" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+      </file>
+      <file name="/metrics/Silex/src/Silex/Application/MonologTrait.php">
+        <class name="MonologTrait" namespace="Silex\Application">
+          <metrics methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+        </class>
+        <line num="32" type="method" name="log" crap="1" count="1"/>
+        <line num="34" type="stmt" count="1"/>
+        <line num="37" type="stmt" count="1"/>
+        <metrics loc="36" ncloc="14" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+      </file>
+      <file name="/metrics/Silex/src/Silex/Application/SecurityTrait.php">
+        <class name="SecurityTrait" namespace="Silex\Application">
+          <metrics methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="5" elements="8" coveredelements="7"/>
+        </class>
+        <line num="31" type="method" name="user" crap="3.07" count="1"/>
+        <line num="33" type="stmt" count="1"/>
+        <line num="34" type="stmt" count="1"/>
+        <line num="37" type="stmt" count="1"/>
+        <line num="38" type="stmt" count="0"/>
+        <line num="41" type="stmt" count="1"/>
+        <line num="54" type="method" name="encodePassword" crap="1" count="1"/>
+        <line num="56" type="stmt" count="1"/>
+        <line num="59" type="stmt" count="1"/>
+        <metrics loc="58" ncloc="28" classes="1" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="5" elements="8" coveredelements="6"/>
+      </file>
+      <file name="/metrics/Silex/src/Silex/Application/SwiftmailerTrait.php">
+        <class name="SwiftmailerTrait" namespace="Silex\Application">
+          <metrics methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+        </class>
+        <line num="29" type="method" name="mail" crap="1" count="1"/>
+        <line num="31" type="stmt" count="1"/>
+        <line num="34" type="stmt" count="1"/>
+        <metrics loc="33" ncloc="12" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+      </file>
+      <file name="/metrics/Silex/src/Silex/Application/TranslationTrait.php">
+        <class name="TranslationTrait" namespace="Silex\Application">
+          <metrics methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
+        </class>
+        <line num="31" type="method" name="trans" crap="1" count="1"/>
+        <line num="33" type="stmt" count="1"/>
+        <line num="47" type="method" name="transChoice" crap="1" count="1"/>
+        <line num="49" type="stmt" count="1"/>
+        <line num="52" type="stmt" count="1"/>
+        <metrics loc="51" ncloc="17" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
+      </file>
+      <file name="/metrics/Silex/src/Silex/Application/TwigTrait.php">
+        <class name="TwigTrait" namespace="Silex\Application">
+          <metrics methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="13" coveredstatements="13" elements="16" coveredelements="16"/>
+        </class>
+        <line num="35" type="method" name="render" crap="3" count="3"/>
+        <line num="37" type="stmt" count="3"/>
+        <line num="39" type="stmt" count="3"/>
+        <line num="41" type="stmt" count="1"/>
+        <line num="42" type="stmt" count="1"/>
+        <line num="43" type="stmt" count="1"/>
+        <line num="44" type="stmt" count="2"/>
+        <line num="45" type="stmt" count="1"/>
+        <line num="46" type="stmt" count="1"/>
+        <line num="47" type="stmt" count="2"/>
+        <line num="50" type="stmt" count="3"/>
+        <line num="61" type="method" name="renderView" crap="1" count="1"/>
+        <line num="63" type="stmt" count="1"/>
+        <line num="66" type="stmt" count="1"/>
+        <metrics loc="65" ncloc="33" classes="1" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="11" coveredstatements="11" elements="14" coveredelements="14"/>
+      </file>
+      <file name="/metrics/Silex/src/Silex/Application/UrlGeneratorTrait.php">
+        <class name="UrlGeneratorTrait" namespace="Silex\Application">
+          <metrics methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
+        </class>
+        <line num="31" type="method" name="path" crap="1" count="1"/>
+        <line num="33" type="stmt" count="1"/>
+        <line num="44" type="method" name="url" crap="1" count="1"/>
+        <line num="46" type="stmt" count="1"/>
+        <line num="49" type="stmt" count="1"/>
+        <metrics loc="48" ncloc="19" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
+      </file>
+    </package>
+    <file name="/metrics/Silex/src/Silex/ControllerProviderInterface.php">
+      <line num="10" type="stmt" count="0"/>
+      <metrics loc="29" ncloc="9" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="0" elements="1" coveredelements="0"/>
+    </file>
+    <package name="Silex\EventListener">
+      <file name="/metrics/Silex/src/Silex/EventListener/ConverterListener.php">
+        <class name="ConverterListener" namespace="Silex\EventListener">
+          <metrics methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="14" coveredstatements="14" elements="17" coveredelements="17"/>
+        </class>
+        <line num="36" type="method" name="__construct" crap="1" count="108"/>
+        <line num="38" type="stmt" count="108"/>
+        <line num="39" type="stmt" count="108"/>
+        <line num="40" type="stmt" count="108"/>
+        <line num="47" type="method" name="onKernelController" crap="4" count="88"/>
+        <line num="49" type="stmt" count="88"/>
+        <line num="50" type="stmt" count="88"/>
+        <line num="51" type="stmt" count="88"/>
+        <line num="52" type="stmt" count="1"/>
+        <line num="53" type="stmt" count="1"/>
+        <line num="55" type="stmt" count="1"/>
+        <line num="56" type="stmt" count="1"/>
+        <line num="57" type="stmt" count="1"/>
+        <line num="58" type="stmt" count="88"/>
+        <line num="60" type="method" name="getSubscribedEvents" crap="1" count="108"/>
+        <line num="63" type="stmt" count="108"/>
+        <line num="64" type="stmt" count="108"/>
+        <line num="67" type="stmt" count="1"/>
+        <metrics loc="66" ncloc="42" classes="1" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="14" coveredstatements="14" elements="17" coveredelements="17"/>
+      </file>
+      <file name="/metrics/Silex/src/Silex/EventListener/LocaleListener.php">
+        <class name="LocaleListener" namespace="Silex\EventListener">
+          <metrics methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="6" elements="8" coveredelements="8"/>
+        </class>
+        <line num="29" type="method" name="__construct" crap="1" count="108"/>
+        <line num="31" type="stmt" count="108"/>
+        <line num="33" type="stmt" count="108"/>
+        <line num="34" type="stmt" count="108"/>
+        <line num="36" type="method" name="onKernelRequest" crap="1" count="94"/>
+        <line num="38" type="stmt" count="94"/>
+        <line num="40" type="stmt" count="94"/>
+        <line num="41" type="stmt" count="94"/>
+        <line num="43" type="stmt" count="1"/>
+        <metrics loc="42" ncloc="29" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="6" elements="8" coveredelements="8"/>
+      </file>
+      <file name="/metrics/Silex/src/Silex/EventListener/LogListener.php">
+        <class name="LogListener" namespace="Silex\EventListener">
+          <metrics methods="8" coveredmethods="8" conditionals="0" coveredconditionals="0" statements="29" coveredstatements="29" elements="37" coveredelements="37"/>
+        </class>
+        <line num="33" type="method" name="__construct" crap="1" count="9"/>
+        <line num="35" type="stmt" count="9"/>
+        <line num="36" type="stmt" count="9"/>
+        <line num="43" type="method" name="onKernelRequest" crap="2" count="6"/>
+        <line num="45" type="stmt" count="6"/>
+        <line num="46" type="stmt" count="1"/>
+        <line num="49" type="stmt" count="6"/>
+        <line num="50" type="stmt" count="6"/>
+        <line num="57" type="method" name="onKernelResponse" crap="2" count="7"/>
+        <line num="59" type="stmt" count="7"/>
+        <line num="60" type="stmt" count="1"/>
+        <line num="63" type="stmt" count="7"/>
+        <line num="64" type="stmt" count="7"/>
+        <line num="71" type="method" name="onKernelException" crap="1" count="3"/>
+        <line num="73" type="stmt" count="3"/>
+        <line num="74" type="stmt" count="3"/>
+        <line num="81" type="method" name="logRequest" crap="1" count="6"/>
+        <line num="83" type="stmt" count="6"/>
+        <line num="84" type="stmt" count="6"/>
+        <line num="91" type="method" name="logResponse" crap="2" count="7"/>
+        <line num="93" type="stmt" count="7"/>
+        <line num="94" type="stmt" count="2"/>
+        <line num="95" type="stmt" count="2"/>
+        <line num="96" type="stmt" count="5"/>
+        <line num="98" type="stmt" count="7"/>
+        <line num="105" type="method" name="logException" crap="3" count="3"/>
+        <line num="107" type="stmt" count="3"/>
+        <line num="109" type="stmt" count="3"/>
+        <line num="110" type="stmt" count="2"/>
+        <line num="111" type="stmt" count="2"/>
+        <line num="112" type="stmt" count="3"/>
+        <line num="114" type="stmt" count="3"/>
+        <line num="116" type="method" name="getSubscribedEvents" crap="1" count="9"/>
+        <line num="119" type="stmt" count="9"/>
+        <line num="120" type="stmt" count="9"/>
+        <line num="125" type="stmt" count="9"/>
+        <line num="126" type="stmt" count="9"/>
+        <line num="129" type="stmt" count="1"/>
+        <metrics loc="128" ncloc="83" classes="1" methods="8" coveredmethods="8" conditionals="0" coveredconditionals="0" statements="29" coveredstatements="29" elements="37" coveredelements="37"/>
+      </file>
+      <file name="/metrics/Silex/src/Silex/EventListener/MiddlewareListener.php">
+        <class name="MiddlewareListener" namespace="Silex\EventListener">
+          <metrics methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="30" coveredstatements="30" elements="34" coveredelements="34"/>
+        </class>
+        <line num="35" type="method" name="__construct" crap="1" count="108"/>
+        <line num="37" type="stmt" count="108"/>
+        <line num="38" type="stmt" count="108"/>
+        <line num="45" type="method" name="onKernelRequest" crap="5" count="91"/>
+        <line num="47" type="stmt" count="91"/>
+        <line num="48" type="stmt" count="91"/>
+        <line num="49" type="stmt" count="91"/>
+        <line num="50" type="stmt" count="9"/>
+        <line num="53" type="stmt" count="82"/>
+        <line num="54" type="stmt" count="6"/>
+        <line num="55" type="stmt" count="6"/>
+        <line num="56" type="stmt" count="2"/>
+        <line num="58" type="stmt" count="2"/>
+        <line num="59" type="stmt" count="4"/>
+        <line num="60" type="stmt" count="1"/>
+        <line num="62" type="stmt" count="79"/>
+        <line num="63" type="stmt" count="79"/>
+        <line num="70" type="method" name="onKernelResponse" crap="5" count="96"/>
+        <line num="72" type="stmt" count="96"/>
+        <line num="73" type="stmt" count="96"/>
+        <line num="74" type="stmt" count="96"/>
+        <line num="75" type="stmt" count="21"/>
+        <line num="78" type="stmt" count="79"/>
+        <line num="79" type="stmt" count="4"/>
+        <line num="80" type="stmt" count="4"/>
+        <line num="81" type="stmt" count="1"/>
+        <line num="82" type="stmt" count="4"/>
+        <line num="83" type="stmt" count="1"/>
+        <line num="85" type="stmt" count="78"/>
+        <line num="86" type="stmt" count="78"/>
+        <line num="88" type="method" name="getSubscribedEvents" crap="1" count="108"/>
+        <line num="92" type="stmt" count="108"/>
+        <line num="93" type="stmt" count="108"/>
+        <line num="94" type="stmt" count="108"/>
+        <line num="97" type="stmt" count="1"/>
+        <metrics loc="96" ncloc="66" classes="1" methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="30" coveredstatements="30" elements="34" coveredelements="34"/>
+      </file>
+      <file name="/metrics/Silex/src/Silex/EventListener/StringToResponseListener.php">
+        <class name="StringToResponseListener" namespace="Silex\EventListener">
+          <metrics methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="11" coveredstatements="11" elements="13" coveredelements="13"/>
+        </class>
+        <line num="31" type="method" name="onKernelView" crap="6" count="57"/>
+        <line num="33" type="stmt" count="57"/>
+        <line num="36" type="stmt" count="57"/>
+        <line num="37" type="stmt" count="57"/>
+        <line num="38" type="stmt" count="46"/>
+        <line num="39" type="stmt" count="46"/>
+        <line num="40" type="stmt" count="57"/>
+        <line num="41" type="stmt" count="46"/>
+        <line num="42" type="stmt" count="46"/>
+        <line num="43" type="stmt" count="57"/>
+        <line num="45" type="method" name="getSubscribedEvents" crap="1" count="108"/>
+        <line num="48" type="stmt" count="108"/>
+        <line num="49" type="stmt" count="108"/>
+        <line num="52" type="stmt" count="1"/>
+        <metrics loc="51" ncloc="33" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="11" coveredstatements="11" elements="13" coveredelements="13"/>
+      </file>
+    </package>
+    <package name="Silex\Exception">
+      <file name="/metrics/Silex/src/Silex/Exception/ControllerFrozenException.php">
+        <class name="ControllerFrozenException" namespace="Silex\Exception">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <line num="22" type="stmt" count="1"/>
+        <metrics loc="21" ncloc="8" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+    </package>
+    <package name="Silex\Provider">
+      <file name="/metrics/Silex/src/Silex/Provider/DoctrineServiceProvider.php">
+        <class name="DoctrineServiceProvider" namespace="Silex\Provider">
+          <metrics methods="3" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="75" coveredstatements="72" elements="78" coveredelements="74"/>
+        </class>
+        <line num="0" type="stmt" count="3"/>
+        <line num="28" type="method" name="register" crap="13" count="3"/>
+        <line num="30" type="stmt" count="3"/>
+        <line num="31" type="stmt" count="3"/>
+        <line num="32" type="stmt" count="3"/>
+        <line num="33" type="stmt" count="3"/>
+        <line num="34" type="stmt" count="3"/>
+        <line num="35" type="stmt" count="3"/>
+        <line num="36" type="stmt" count="3"/>
+        <line num="40" type="stmt" count="3"/>
+        <line num="42" type="stmt" count="3"/>
+        <line num="43" type="stmt" count="3"/>
+        <line num="46" type="stmt" count="3"/>
+        <line num="48" type="stmt" count="3"/>
+        <line num="49" type="stmt" count="2"/>
+        <line num="50" type="stmt" count="2"/>
+        <line num="52" type="stmt" count="3"/>
+        <line num="53" type="stmt" count="3"/>
+        <line num="54" type="stmt" count="3"/>
+        <line num="56" type="stmt" count="3"/>
+        <line num="57" type="stmt" count="3"/>
+        <line num="58" type="stmt" count="3"/>
+        <line num="59" type="stmt" count="3"/>
+        <line num="60" type="stmt" count="3"/>
+        <line num="61" type="stmt" count="3"/>
+        <line num="63" type="stmt" count="3"/>
+        <line num="64" type="stmt" count="3"/>
+        <line num="66" type="stmt" count="3"/>
+        <line num="67" type="stmt" count="3"/>
+        <line num="68" type="stmt" count="3"/>
+        <line num="70" type="stmt" count="3"/>
+        <line num="71" type="stmt" count="3"/>
+        <line num="72" type="stmt" count="3"/>
+        <line num="73" type="stmt" count="1"/>
+        <line num="74" type="stmt" count="1"/>
+        <line num="78" type="stmt" count="3"/>
+        <line num="79" type="stmt" count="3"/>
+        <line num="80" type="stmt" count="3"/>
+        <line num="82" type="stmt" count="3"/>
+        <line num="83" type="stmt" count="3"/>
+        <line num="85" type="stmt" count="3"/>
+        <line num="86" type="stmt" count="3"/>
+        <line num="88" type="stmt" count="3"/>
+        <line num="89" type="stmt" count="3"/>
+        <line num="90" type="stmt" count="3"/>
+        <line num="92" type="stmt" count="3"/>
+        <line num="93" type="stmt" count="0"/>
+        <line num="94" type="stmt" count="0"/>
+        <line num="95" type="stmt" count="3"/>
+        <line num="97" type="stmt" count="3"/>
+        <line num="98" type="stmt" count="3"/>
+        <line num="100" type="stmt" count="3"/>
+        <line num="101" type="stmt" count="3"/>
+        <line num="103" type="stmt" count="3"/>
+        <line num="104" type="stmt" count="3"/>
+        <line num="105" type="stmt" count="3"/>
+        <line num="106" type="stmt" count="3"/>
+        <line num="108" type="stmt" count="3"/>
+        <line num="109" type="stmt" count="3"/>
+        <line num="112" type="stmt" count="3"/>
+        <line num="113" type="stmt" count="3"/>
+        <line num="115" type="stmt" count="3"/>
+        <line num="116" type="stmt" count="3"/>
+        <line num="118" type="stmt" count="3"/>
+        <line num="119" type="stmt" count="3"/>
+        <line num="121" type="stmt" count="3"/>
+        <line num="122" type="stmt" count="3"/>
+        <line num="124" type="method" name="anonymous function" crap="1" count="3"/>
+        <line num="125" type="stmt" count="3"/>
+        <line num="127" type="stmt" count="3"/>
+        <line num="128" type="stmt" count="3"/>
+        <line num="129" type="stmt" count="3"/>
+        <line num="131" type="method" name="boot" crap="2" count="0"/>
+        <line num="133" type="stmt" count="0"/>
+        <line num="135" type="stmt" count="1"/>
+        <metrics loc="134" ncloc="117" classes="1" methods="3" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="71" coveredstatements="68" elements="74" coveredelements="69"/>
+      </file>
+      <file name="/metrics/Silex/src/Silex/Provider/FormServiceProvider.php">
+        <class name="FormServiceProvider" namespace="Silex\Provider">
+          <metrics methods="3" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="60" coveredstatements="45" elements="63" coveredelements="47"/>
+        </class>
+        <line num="0" type="stmt" count="3"/>
+        <line num="31" type="method" name="register" crap="9.00" count="8"/>
+        <line num="33" type="stmt" count="8"/>
+        <line num="34" type="stmt" count="0"/>
+        <line num="37" type="stmt" count="8"/>
+        <line num="38" type="stmt" count="0"/>
+        <line num="39" type="stmt" count="0"/>
+        <line num="41" type="stmt" count="0"/>
+        <line num="42" type="stmt" count="0"/>
+        <line num="43" type="stmt" count="0"/>
+        <line num="44" type="stmt" count="0"/>
+        <line num="45" type="stmt" count="0"/>
+        <line num="46" type="stmt" count="0"/>
+        <line num="48" type="stmt" count="8"/>
+        <line num="50" type="stmt" count="8"/>
+        <line num="51" type="stmt" count="8"/>
+        <line num="52" type="stmt" count="8"/>
+        <line num="54" type="stmt" count="8"/>
+        <line num="55" type="stmt" count="8"/>
+        <line num="56" type="stmt" count="8"/>
+        <line num="58" type="stmt" count="8"/>
+        <line num="59" type="stmt" count="8"/>
+        <line num="60" type="stmt" count="1"/>
+        <line num="63" type="stmt" count="7"/>
+        <line num="64" type="stmt" count="8"/>
+        <line num="66" type="stmt" count="8"/>
+        <line num="68" type="stmt" count="8"/>
+        <line num="69" type="stmt" count="8"/>
+        <line num="70" type="stmt" count="8"/>
+        <line num="72" type="stmt" count="8"/>
+        <line num="73" type="stmt" count="3"/>
+        <line num="75" type="stmt" count="3"/>
+        <line num="76" type="stmt" count="0"/>
+        <line num="77" type="stmt" count="0"/>
+        <line num="78" type="stmt" count="0"/>
+        <line num="79" type="stmt" count="3"/>
+        <line num="81" type="stmt" count="8"/>
+        <line num="82" type="stmt" count="8"/>
+        <line num="84" type="stmt" count="8"/>
+        <line num="85" type="stmt" count="8"/>
+        <line num="86" type="stmt" count="8"/>
+        <line num="87" type="stmt" count="8"/>
+        <line num="88" type="stmt" count="8"/>
+        <line num="89" type="stmt" count="8"/>
+        <line num="90" type="stmt" count="8"/>
+        <line num="91" type="stmt" count="8"/>
+        <line num="92" type="stmt" count="8"/>
+        <line num="94" type="stmt" count="8"/>
+        <line num="95" type="stmt" count="8"/>
+        <line num="96" type="stmt" count="8"/>
+        <line num="98" type="method" name="anonymous function" crap="2.03" count="8"/>
+        <line num="99" type="stmt" count="7"/>
+        <line num="100" type="stmt" count="0"/>
+        <line num="103" type="stmt" count="7"/>
+        <line num="104" type="stmt" count="8"/>
+        <line num="105" type="stmt" count="8"/>
+        <line num="107" type="method" name="boot" crap="2" count="0"/>
+        <line num="109" type="stmt" count="0"/>
+        <line num="111" type="stmt" count="1"/>
+        <metrics loc="110" ncloc="97" classes="1" methods="3" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="55" coveredstatements="41" elements="58" coveredelements="41"/>
+      </file>
+      <file name="/metrics/Silex/src/Silex/Provider/HttpCacheServiceProvider.php">
+        <class name="HttpCacheServiceProvider" namespace="Silex\Provider">
+          <metrics methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="23" coveredstatements="23" elements="26" coveredelements="26"/>
+        </class>
+        <line num="28" type="method" name="register" crap="1" count="3"/>
+        <line num="30" type="stmt" count="3"/>
+        <line num="31" type="stmt" count="3"/>
+        <line num="33" type="stmt" count="3"/>
+        <line num="34" type="stmt" count="3"/>
+        <line num="35" type="stmt" count="3"/>
+        <line num="37" type="stmt" count="3"/>
+        <line num="38" type="stmt" count="3"/>
+        <line num="40" type="stmt" count="3"/>
+        <line num="41" type="stmt" count="3"/>
+        <line num="42" type="stmt" count="3"/>
+        <line num="44" type="stmt" count="3"/>
+        <line num="45" type="stmt" count="3"/>
+        <line num="46" type="stmt" count="3"/>
+        <line num="48" type="method" name="anonymous function" crap="1" count="3"/>
+        <line num="49" type="stmt" count="2"/>
+        <line num="50" type="stmt" count="3"/>
+        <line num="52" type="stmt" count="3"/>
+        <line num="53" type="stmt" count="3"/>
+        <line num="55" type="method" name="boot" crap="1" count="2"/>
+        <line num="57" type="stmt" count="2"/>
+        <line num="58" type="stmt" count="2"/>
+        <line num="60" type="stmt" count="1"/>
+        <metrics loc="59" ncloc="46" classes="1" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="20" coveredstatements="20" elements="23" coveredelements="23"/>
+      </file>
+      <file name="/metrics/Silex/src/Silex/Provider/HttpFragmentServiceProvider.php">
+        <class name="HttpFragmentServiceProvider" namespace="Silex\Provider">
+          <metrics methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="46" coveredstatements="45" elements="49" coveredelements="48"/>
+        </class>
+        <line num="32" type="method" name="register" crap="3" count="1"/>
+        <line num="34" type="stmt" count="1"/>
+        <line num="35" type="stmt" count="0"/>
+        <line num="38" type="stmt" count="1"/>
+        <line num="39" type="stmt" count="1"/>
+        <line num="40" type="stmt" count="1"/>
+        <line num="42" type="stmt" count="1"/>
+        <line num="43" type="stmt" count="1"/>
+        <line num="44" type="stmt" count="1"/>
+        <line num="46" type="stmt" count="1"/>
+        <line num="47" type="stmt" count="1"/>
+        <line num="49" type="stmt" count="1"/>
+        <line num="50" type="stmt" count="1"/>
+        <line num="51" type="stmt" count="1"/>
+        <line num="53" type="stmt" count="1"/>
+        <line num="54" type="stmt" count="1"/>
+        <line num="56" type="stmt" count="1"/>
+        <line num="57" type="stmt" count="1"/>
+        <line num="58" type="stmt" count="1"/>
+        <line num="60" type="stmt" count="1"/>
+        <line num="61" type="stmt" count="1"/>
+        <line num="63" type="stmt" count="1"/>
+        <line num="64" type="stmt" count="1"/>
+        <line num="65" type="stmt" count="1"/>
+        <line num="67" type="stmt" count="1"/>
+        <line num="68" type="stmt" count="1"/>
+        <line num="69" type="stmt" count="1"/>
+        <line num="71" type="stmt" count="1"/>
+        <line num="72" type="stmt" count="1"/>
+        <line num="73" type="stmt" count="1"/>
+        <line num="74" type="method" name="anonymous function" crap="2" count="1"/>
+        <line num="75" type="stmt" count="1"/>
+        <line num="77" type="stmt" count="1"/>
+        <line num="78" type="stmt" count="1"/>
+        <line num="79" type="stmt" count="1"/>
+        <line num="81" type="stmt" count="1"/>
+        <line num="82" type="stmt" count="1"/>
+        <line num="83" type="stmt" count="1"/>
+        <line num="85" type="method" name="boot" crap="1" count="1"/>
+        <line num="87" type="stmt" count="1"/>
+        <line num="88" type="stmt" count="1"/>
+        <line num="90" type="stmt" count="1"/>
+        <metrics loc="89" ncloc="74" classes="1" methods="3" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="39" coveredstatements="38" elements="42" coveredelements="40"/>
+      </file>
+      <file name="/metrics/Silex/src/Silex/Provider/MonologServiceProvider.php">
+        <class name="MonologServiceProvider" namespace="Silex\Provider">
+          <metrics methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="35" coveredstatements="31" elements="39" coveredelements="35"/>
+        </class>
+        <line num="0" type="stmt" count="1"/>
+        <line num="28" type="method" name="register" crap="5.27" count="10"/>
+        <line num="31" type="stmt" count="7"/>
+        <line num="34" type="stmt" count="10"/>
+        <line num="36" type="stmt" count="0"/>
+        <line num="38" type="stmt" count="0"/>
+        <line num="40" type="stmt" count="10"/>
+        <line num="42" type="stmt" count="10"/>
+        <line num="44" type="stmt" count="10"/>
+        <line num="45" type="stmt" count="8"/>
+        <line num="47" type="stmt" count="8"/>
+        <line num="49" type="stmt" count="8"/>
+        <line num="50" type="stmt" count="0"/>
+        <line num="51" type="stmt" count="0"/>
+        <line num="53" type="stmt" count="8"/>
+        <line num="54" type="stmt" count="10"/>
+        <line num="57" type="stmt" count="1"/>
+        <line num="59" type="stmt" count="1"/>
+        <line num="62" type="stmt" count="10"/>
+        <line num="63" type="stmt" count="7"/>
+        <line num="67" type="stmt" count="6"/>
+        <line num="68" type="stmt" count="10"/>
+        <line num="70" type="stmt" count="10"/>
+        <line num="71" type="stmt" count="10"/>
+        <line num="73" type="method" name="boot" crap="2" count="7"/>
+        <line num="75" type="stmt" count="7"/>
+        <line num="76" type="stmt" count="6"/>
+        <line num="77" type="stmt" count="6"/>
+        <line num="78" type="stmt" count="7"/>
+        <line num="80" type="method" name="translateLevel" crap="3" count="9"/>
+        <line num="83" type="stmt" count="9"/>
+        <line num="84" type="stmt" count="7"/>
+        <line num="87" type="stmt" count="2"/>
+        <line num="88" type="stmt" count="2"/>
+        <line num="90" type="stmt" count="2"/>
+        <line num="91" type="stmt" count="1"/>
+        <line num="94" type="stmt" count="1"/>
+        <line num="97" type="stmt" count="1"/>
+        <metrics loc="96" ncloc="81" classes="1" methods="4" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="33" coveredstatements="29" elements="37" coveredelements="32"/>
+      </file>
+      <file name="/metrics/Silex/src/Silex/Provider/RememberMeServiceProvider.php">
+        <class name="RememberMeServiceProvider" namespace="Silex\Provider">
+          <metrics methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="52" coveredstatements="51" elements="55" coveredelements="54"/>
+        </class>
+        <line num="28" type="method" name="register" crap="5" count="1"/>
+        <line num="30" type="stmt" count="1"/>
+        <line num="31" type="stmt" count="1"/>
+        <line num="32" type="stmt" count="1"/>
+        <line num="35" type="stmt" count="1"/>
+        <line num="36" type="stmt" count="1"/>
+        <line num="37" type="stmt" count="1"/>
+        <line num="39" type="stmt" count="1"/>
+        <line num="40" type="stmt" count="1"/>
+        <line num="41" type="stmt" count="1"/>
+        <line num="43" type="stmt" count="1"/>
+        <line num="44" type="stmt" count="1"/>
+        <line num="45" type="stmt" count="1"/>
+        <line num="47" type="stmt" count="1"/>
+        <line num="48" type="stmt" count="1"/>
+        <line num="49" type="stmt" count="1"/>
+        <line num="52" type="stmt" count="1"/>
+        <line num="53" type="stmt" count="1"/>
+        <line num="54" type="stmt" count="1"/>
+        <line num="56" type="stmt" count="1"/>
+        <line num="57" type="stmt" count="1"/>
+        <line num="61" type="stmt" count="1"/>
+        <line num="62" type="stmt" count="1"/>
+        <line num="63" type="stmt" count="1"/>
+        <line num="64" type="stmt" count="1"/>
+        <line num="65" type="stmt" count="1"/>
+        <line num="66" type="stmt" count="1"/>
+        <line num="67" type="stmt" count="1"/>
+        <line num="68" type="stmt" count="1"/>
+        <line num="69" type="stmt" count="1"/>
+        <line num="70" type="stmt" count="1"/>
+        <line num="72" type="stmt" count="1"/>
+        <line num="73" type="stmt" count="1"/>
+        <line num="74" type="stmt" count="1"/>
+        <line num="78" type="stmt" count="1"/>
+        <line num="79" type="stmt" count="1"/>
+        <line num="80" type="stmt" count="1"/>
+        <line num="81" type="stmt" count="1"/>
+        <line num="82" type="stmt" count="1"/>
+        <line num="83" type="stmt" count="1"/>
+        <line num="85" type="stmt" count="1"/>
+        <line num="86" type="stmt" count="1"/>
+        <line num="87" type="stmt" count="1"/>
+        <line num="91" type="stmt" count="1"/>
+        <line num="92" type="stmt" count="1"/>
+        <line num="93" type="stmt" count="1"/>
+        <line num="94" type="stmt" count="1"/>
+        <line num="96" type="method" name="boot" crap="2.06" count="1"/>
+        <line num="98" type="stmt" count="1"/>
+        <line num="99" type="stmt" count="0"/>
+        <line num="102" type="stmt" count="1"/>
+        <line num="103" type="stmt" count="1"/>
+        <line num="105" type="stmt" count="1"/>
+        <metrics loc="104" ncloc="89" classes="1" methods="3" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="50" coveredstatements="49" elements="53" coveredelements="51"/>
+      </file>
+      <file name="/metrics/Silex/src/Silex/Provider/SecurityServiceProvider.php">
+        <class name="SecurityServiceProvider" namespace="Silex\Provider">
+          <metrics methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="352" coveredstatements="334" elements="356" coveredelements="338"/>
+        </class>
+        <line num="0" type="stmt" count="1"/>
+        <line num="64" type="method" name="register" crap="68.74" count="11"/>
+        <line num="67" type="stmt" count="11"/>
+        <line num="69" type="stmt" count="11"/>
+        <line num="71" type="stmt" count="11"/>
+        <line num="72" type="stmt" count="11"/>
+        <line num="73" type="stmt" count="11"/>
+        <line num="75" type="stmt" count="11"/>
+        <line num="76" type="stmt" count="9"/>
+        <line num="77" type="stmt" count="11"/>
+        <line num="79" type="stmt" count="11"/>
+        <line num="80" type="stmt" count="9"/>
+        <line num="81" type="stmt" count="9"/>
+        <line num="83" type="stmt" count="9"/>
+        <line num="84" type="stmt" count="11"/>
+        <line num="87" type="stmt" count="11"/>
+        <line num="88" type="stmt" count="10"/>
+        <line num="89" type="stmt" count="10"/>
+        <line num="90" type="stmt" count="10"/>
+        <line num="91" type="stmt" count="11"/>
+        <line num="93" type="stmt" count="11"/>
+        <line num="94" type="stmt" count="10"/>
+        <line num="95" type="stmt" count="11"/>
+        <line num="97" type="stmt" count="11"/>
+        <line num="98" type="stmt" count="9"/>
+        <line num="99" type="stmt" count="11"/>
+        <line num="101" type="stmt" count="11"/>
+        <line num="102" type="stmt" count="9"/>
+        <line num="103" type="stmt" count="11"/>
+        <line num="105" type="stmt" count="11"/>
+        <line num="107" type="stmt" count="9"/>
+        <line num="108" type="stmt" count="9"/>
+        <line num="109" type="stmt" count="9"/>
+        <line num="110" type="stmt" count="11"/>
+        <line num="112" type="stmt" count="11"/>
+        <line num="113" type="stmt" count="10"/>
+        <line num="114" type="stmt" count="11"/>
+        <line num="116" type="stmt" count="11"/>
+        <line num="117" type="stmt" count="9"/>
+        <line num="118" type="stmt" count="9"/>
+        <line num="119" type="stmt" count="9"/>
+        <line num="120" type="stmt" count="9"/>
+        <line num="121" type="stmt" count="9"/>
+        <line num="122" type="stmt" count="11"/>
+        <line num="125" type="stmt" count="11"/>
+        <line num="126" type="stmt" count="11"/>
+        <line num="127" type="stmt" count="11"/>
+        <line num="128" type="stmt" count="11"/>
+        <line num="129" type="stmt" count="11"/>
+        <line num="130" type="stmt" count="11"/>
+        <line num="131" type="stmt" count="11"/>
+        <line num="134" type="stmt" count="9"/>
+        <line num="135" type="stmt" count="8"/>
+        <line num="136" type="stmt" count="8"/>
+        <line num="138" type="stmt" count="9"/>
+        <line num="139" type="stmt" count="9"/>
+        <line num="140" type="stmt" count="9"/>
+        <line num="142" type="stmt" count="9"/>
+        <line num="143" type="stmt" count="9"/>
+        <line num="144" type="stmt" count="9"/>
+        <line num="145" type="stmt" count="9"/>
+        <line num="148" type="stmt" count="9"/>
+        <line num="149" type="stmt" count="9"/>
+        <line num="150" type="stmt" count="9"/>
+        <line num="152" type="stmt" count="9"/>
+        <line num="153" type="stmt" count="11"/>
+        <line num="154" type="stmt" count="11"/>
+        <line num="156" type="stmt" count="11"/>
+        <line num="157" type="stmt" count="10"/>
+        <line num="158" type="stmt" count="10"/>
+        <line num="159" type="stmt" count="10"/>
+        <line num="160" type="stmt" count="10"/>
+        <line num="161" type="stmt" count="10"/>
+        <line num="162" type="stmt" count="10"/>
+        <line num="163" type="stmt" count="10"/>
+        <line num="164" type="stmt" count="10"/>
+        <line num="165" type="stmt" count="10"/>
+        <line num="166" type="stmt" count="10"/>
+        <line num="168" type="stmt" count="10"/>
+        <line num="170" type="stmt" count="10"/>
+        <line num="172" type="stmt" count="10"/>
+        <line num="173" type="stmt" count="10"/>
+        <line num="174" type="stmt" count="10"/>
+        <line num="175" type="stmt" count="10"/>
+        <line num="176" type="stmt" count="10"/>
+        <line num="178" type="stmt" count="10"/>
+        <line num="179" type="stmt" count="10"/>
+        <line num="181" type="stmt" count="10"/>
+        <line num="182" type="stmt" count="10"/>
+        <line num="183" type="stmt" count="10"/>
+        <line num="185" type="stmt" count="10"/>
+        <line num="186" type="stmt" count="10"/>
+        <line num="187" type="stmt" count="10"/>
+        <line num="188" type="stmt" count="10"/>
+        <line num="190" type="stmt" count="10"/>
+        <line num="191" type="stmt" count="10"/>
+        <line num="192" type="stmt" count="0"/>
+        <line num="196" type="stmt" count="10"/>
+        <line num="197" type="stmt" count="10"/>
+        <line num="198" type="stmt" count="0"/>
+        <line num="201" type="stmt" count="10"/>
+        <line num="202" type="stmt" count="10"/>
+        <line num="204" type="stmt" count="10"/>
+        <line num="205" type="stmt" count="1"/>
+        <line num="208" type="stmt" count="9"/>
+        <line num="210" type="stmt" count="9"/>
+        <line num="211" type="stmt" count="8"/>
+        <line num="212" type="stmt" count="8"/>
+        <line num="214" type="stmt" count="9"/>
+        <line num="215" type="stmt" count="9"/>
+        <line num="216" type="stmt" count="9"/>
+        <line num="218" type="stmt" count="9"/>
+        <line num="219" type="stmt" count="9"/>
+        <line num="220" type="stmt" count="9"/>
+        <line num="221" type="stmt" count="9"/>
+        <line num="222" type="stmt" count="9"/>
+        <line num="224" type="stmt" count="9"/>
+        <line num="226" type="stmt" count="9"/>
+        <line num="227" type="stmt" count="0"/>
+        <line num="229" type="stmt" count="0"/>
+        <line num="230" type="stmt" count="0"/>
+        <line num="232" type="stmt" count="9"/>
+        <line num="233" type="stmt" count="9"/>
+        <line num="234" type="stmt" count="1"/>
+        <line num="235" type="stmt" count="1"/>
+        <line num="236" type="stmt" count="9"/>
+        <line num="237" type="stmt" count="9"/>
+        <line num="238" type="stmt" count="9"/>
+        <line num="240" type="stmt" count="9"/>
+        <line num="241" type="stmt" count="9"/>
+        <line num="244" type="stmt" count="9"/>
+        <line num="245" type="stmt" count="9"/>
+        <line num="247" type="stmt" count="9"/>
+        <line num="248" type="stmt" count="9"/>
+        <line num="249" type="stmt" count="9"/>
+        <line num="250" type="stmt" count="9"/>
+        <line num="252" type="stmt" count="9"/>
+        <line num="254" type="stmt" count="9"/>
+        <line num="255" type="stmt" count="1"/>
+        <line num="256" type="stmt" count="1"/>
+        <line num="257" type="stmt" count="1"/>
+        <line num="258" type="stmt" count="1"/>
+        <line num="259" type="stmt" count="1"/>
+        <line num="260" type="stmt" count="1"/>
+        <line num="261" type="stmt" count="1"/>
+        <line num="263" type="stmt" count="9"/>
+        <line num="264" type="stmt" count="9"/>
+        <line num="265" type="stmt" count="9"/>
+        <line num="266" type="stmt" count="9"/>
+        <line num="267" type="stmt" count="9"/>
+        <line num="269" type="stmt" count="9"/>
+        <line num="270" type="stmt" count="11"/>
+        <line num="272" type="stmt" count="11"/>
+        <line num="273" type="stmt" count="9"/>
+        <line num="274" type="stmt" count="9"/>
+        <line num="275" type="stmt" count="9"/>
+        <line num="276" type="stmt" count="9"/>
+        <line num="277" type="stmt" count="9"/>
+        <line num="278" type="stmt" count="9"/>
+        <line num="279" type="stmt" count="9"/>
+        <line num="280" type="stmt" count="11"/>
+        <line num="282" type="stmt" count="11"/>
+        <line num="283" type="stmt" count="9"/>
+        <line num="285" type="stmt" count="9"/>
+        <line num="286" type="stmt" count="3"/>
+        <line num="287" type="stmt" count="3"/>
+        <line num="288" type="stmt" count="3"/>
+        <line num="290" type="stmt" count="3"/>
+        <line num="291" type="stmt" count="9"/>
+        <line num="293" type="stmt" count="9"/>
+        <line num="294" type="stmt" count="11"/>
+        <line num="296" type="stmt" count="11"/>
+        <line num="297" type="stmt" count="9"/>
+        <line num="298" type="stmt" count="11"/>
+        <line num="300" type="stmt" count="11"/>
+        <line num="301" type="stmt" count="3"/>
+        <line num="302" type="stmt" count="11"/>
+        <line num="304" type="stmt" count="11"/>
+        <line num="305" type="stmt" count="9"/>
+        <line num="306" type="stmt" count="11"/>
+        <line num="308" type="stmt" count="11"/>
+        <line num="309" type="stmt" count="2"/>
+        <line num="310" type="stmt" count="0"/>
+        <line num="313" type="stmt" count="2"/>
+        <line num="314" type="stmt" count="2"/>
+        <line num="315" type="stmt" count="2"/>
+        <line num="316" type="stmt" count="2"/>
+        <line num="318" type="stmt" count="2"/>
+        <line num="320" type="stmt" count="11"/>
+        <line num="326" type="stmt" count="9"/>
+        <line num="327" type="stmt" count="9"/>
+        <line num="328" type="stmt" count="9"/>
+        <line num="329" type="stmt" count="9"/>
+        <line num="330" type="stmt" count="9"/>
+        <line num="331" type="stmt" count="9"/>
+        <line num="332" type="stmt" count="9"/>
+        <line num="333" type="stmt" count="10"/>
+        <line num="334" type="stmt" count="11"/>
+        <line num="338" type="stmt" count="10"/>
+        <line num="339" type="stmt" count="10"/>
+        <line num="340" type="stmt" count="7"/>
+        <line num="341" type="stmt" count="10"/>
+        <line num="343" type="stmt" count="10"/>
+        <line num="344" type="stmt" count="10"/>
+        <line num="345" type="stmt" count="11"/>
+        <line num="349" type="stmt" count="9"/>
+        <line num="350" type="stmt" count="9"/>
+        <line num="351" type="stmt" count="9"/>
+        <line num="352" type="stmt" count="9"/>
+        <line num="353" type="stmt" count="9"/>
+        <line num="354" type="stmt" count="9"/>
+        <line num="355" type="stmt" count="9"/>
+        <line num="356" type="stmt" count="9"/>
+        <line num="357" type="stmt" count="9"/>
+        <line num="358" type="stmt" count="9"/>
+        <line num="359" type="stmt" count="9"/>
+        <line num="360" type="stmt" count="11"/>
+        <line num="364" type="stmt" count="3"/>
+        <line num="365" type="stmt" count="3"/>
+        <line num="367" type="stmt" count="3"/>
+        <line num="368" type="stmt" count="3"/>
+        <line num="370" type="stmt" count="3"/>
+        <line num="371" type="stmt" count="3"/>
+        <line num="372" type="stmt" count="11"/>
+        <line num="376" type="stmt" count="3"/>
+        <line num="377" type="stmt" count="3"/>
+        <line num="378" type="stmt" count="3"/>
+        <line num="379" type="stmt" count="3"/>
+        <line num="380" type="stmt" count="3"/>
+        <line num="381" type="stmt" count="3"/>
+        <line num="382" type="stmt" count="3"/>
+        <line num="383" type="stmt" count="11"/>
+        <line num="387" type="stmt" count="3"/>
+        <line num="388" type="stmt" count="3"/>
+        <line num="389" type="stmt" count="3"/>
+        <line num="390" type="stmt" count="3"/>
+        <line num="391" type="stmt" count="3"/>
+        <line num="393" type="stmt" count="3"/>
+        <line num="395" type="stmt" count="3"/>
+        <line num="396" type="stmt" count="3"/>
+        <line num="397" type="stmt" count="3"/>
+        <line num="399" type="stmt" count="3"/>
+        <line num="400" type="stmt" count="3"/>
+        <line num="401" type="stmt" count="3"/>
+        <line num="403" type="stmt" count="3"/>
+        <line num="404" type="stmt" count="3"/>
+        <line num="405" type="stmt" count="3"/>
+        <line num="406" type="stmt" count="3"/>
+        <line num="407" type="stmt" count="3"/>
+        <line num="408" type="stmt" count="3"/>
+        <line num="409" type="stmt" count="3"/>
+        <line num="410" type="stmt" count="3"/>
+        <line num="411" type="stmt" count="3"/>
+        <line num="412" type="stmt" count="3"/>
+        <line num="413" type="stmt" count="3"/>
+        <line num="414" type="stmt" count="3"/>
+        <line num="415" type="stmt" count="3"/>
+        <line num="416" type="stmt" count="3"/>
+        <line num="417" type="stmt" count="11"/>
+        <line num="421" type="stmt" count="5"/>
+        <line num="422" type="stmt" count="5"/>
+        <line num="423" type="stmt" count="5"/>
+        <line num="424" type="stmt" count="5"/>
+        <line num="425" type="stmt" count="5"/>
+        <line num="426" type="stmt" count="5"/>
+        <line num="427" type="stmt" count="5"/>
+        <line num="428" type="stmt" count="5"/>
+        <line num="429" type="stmt" count="11"/>
+        <line num="433" type="stmt" count="2"/>
+        <line num="434" type="stmt" count="2"/>
+        <line num="435" type="stmt" count="2"/>
+        <line num="436" type="stmt" count="2"/>
+        <line num="437" type="stmt" count="2"/>
+        <line num="438" type="stmt" count="2"/>
+        <line num="439" type="stmt" count="11"/>
+        <line num="443" type="stmt" count="4"/>
+        <line num="444" type="stmt" count="4"/>
+        <line num="445" type="stmt" count="4"/>
+        <line num="446" type="stmt" count="4"/>
+        <line num="447" type="stmt" count="4"/>
+        <line num="448" type="stmt" count="11"/>
+        <line num="452" type="stmt" count="4"/>
+        <line num="453" type="stmt" count="4"/>
+        <line num="454" type="stmt" count="4"/>
+        <line num="455" type="stmt" count="4"/>
+        <line num="456" type="stmt" count="4"/>
+        <line num="458" type="stmt" count="4"/>
+        <line num="459" type="stmt" count="4"/>
+        <line num="460" type="stmt" count="4"/>
+        <line num="462" type="stmt" count="4"/>
+        <line num="463" type="stmt" count="4"/>
+        <line num="464" type="stmt" count="4"/>
+        <line num="465" type="stmt" count="4"/>
+        <line num="466" type="stmt" count="4"/>
+        <line num="467" type="stmt" count="4"/>
+        <line num="468" type="stmt" count="4"/>
+        <line num="470" type="stmt" count="4"/>
+        <line num="472" type="stmt" count="4"/>
+        <line num="473" type="stmt" count="4"/>
+        <line num="474" type="stmt" count="11"/>
+        <line num="478" type="stmt" count="0"/>
+        <line num="479" type="stmt" count="0"/>
+        <line num="480" type="stmt" count="0"/>
+        <line num="481" type="stmt" count="0"/>
+        <line num="482" type="stmt" count="0"/>
+        <line num="483" type="stmt" count="0"/>
+        <line num="484" type="stmt" count="0"/>
+        <line num="485" type="stmt" count="0"/>
+        <line num="486" type="stmt" count="0"/>
+        <line num="487" type="stmt" count="0"/>
+        <line num="488" type="stmt" count="0"/>
+        <line num="489" type="stmt" count="0"/>
+        <line num="490" type="stmt" count="11"/>
+        <line num="494" type="stmt" count="4"/>
+        <line num="495" type="stmt" count="4"/>
+        <line num="497" type="stmt" count="4"/>
+        <line num="498" type="stmt" count="4"/>
+        <line num="499" type="stmt" count="11"/>
+        <line num="503" type="stmt" count="5"/>
+        <line num="504" type="stmt" count="5"/>
+        <line num="505" type="stmt" count="11"/>
+        <line num="509" type="stmt" count="9"/>
+        <line num="510" type="stmt" count="9"/>
+        <line num="511" type="stmt" count="9"/>
+        <line num="512" type="stmt" count="9"/>
+        <line num="513" type="stmt" count="9"/>
+        <line num="514" type="stmt" count="9"/>
+        <line num="515" type="stmt" count="9"/>
+        <line num="516" type="stmt" count="9"/>
+        <line num="517" type="stmt" count="11"/>
+        <line num="521" type="stmt" count="2"/>
+        <line num="522" type="stmt" count="2"/>
+        <line num="523" type="stmt" count="11"/>
+        <line num="525" type="stmt" count="11"/>
+        <line num="526" type="method" name="anonymous function" crap="1" count="1"/>
+        <line num="527" type="stmt" count="1"/>
+        <line num="528" type="stmt" count="1"/>
+        <line num="530" type="stmt" count="1"/>
+        <line num="531" type="stmt" count="1"/>
+        <line num="532" type="stmt" count="1"/>
+        <line num="534" type="stmt" count="1"/>
+        <line num="535" type="stmt" count="1"/>
+        <line num="536" type="stmt" count="11"/>
+        <line num="538" type="method" name="boot" crap="2" count="10"/>
+        <line num="540" type="stmt" count="10"/>
+        <line num="542" type="stmt" count="9"/>
+        <line num="543" type="stmt" count="4"/>
+        <line num="545" type="stmt" count="4"/>
+        <line num="546" type="stmt" count="9"/>
+        <line num="547" type="stmt" count="9"/>
+        <line num="549" type="method" name="addFakeRoute" crap="1" count="4"/>
+        <line num="551" type="stmt" count="4"/>
+        <line num="552" type="stmt" count="4"/>
+        <line num="554" type="stmt" count="1"/>
+        <metrics loc="553" ncloc="526" classes="1" methods="4" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="349" coveredstatements="331" elements="353" coveredelements="334"/>
+      </file>
+      <file name="/metrics/Silex/src/Silex/Provider/SerializerServiceProvider.php">
+        <class name="SerializerServiceProvider" namespace="Silex\Provider">
+          <metrics methods="3" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="13" coveredstatements="12" elements="16" coveredelements="14"/>
+        </class>
+        <line num="0" type="stmt" count="1"/>
+        <line num="38" type="method" name="register" crap="1" count="1"/>
+        <line num="41" type="stmt" count="1"/>
+        <line num="42" type="stmt" count="1"/>
+        <line num="44" type="stmt" count="1"/>
+        <line num="45" type="stmt" count="1"/>
+        <line num="46" type="stmt" count="1"/>
+        <line num="48" type="method" name="anonymous function" crap="1" count="1"/>
+        <line num="49" type="stmt" count="1"/>
+        <line num="50" type="stmt" count="1"/>
+        <line num="51" type="stmt" count="1"/>
+        <line num="60" type="method" name="boot" crap="2" count="0"/>
+        <line num="62" type="stmt" count="0"/>
+        <line num="64" type="stmt" count="1"/>
+        <metrics loc="63" ncloc="34" classes="1" methods="3" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="10" coveredstatements="9" elements="13" coveredelements="11"/>
+      </file>
+      <file name="/metrics/Silex/src/Silex/Provider/ServiceControllerServiceProvider.php">
+        <class name="ServiceControllerServiceProvider" namespace="Silex\Provider">
+          <metrics methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="8" coveredstatements="8" elements="11" coveredelements="11"/>
+        </class>
+        <line num="20" type="method" name="register" crap="1" count="5"/>
+        <line num="22" type="method" name="anonymous function" crap="1" count="5"/>
+        <line num="23" type="stmt" count="5"/>
+        <line num="24" type="stmt" count="5"/>
+        <line num="25" type="stmt" count="5"/>
+        <line num="27" type="method" name="boot" crap="1" count="5"/>
+        <line num="30" type="stmt" count="5"/>
+        <line num="32" type="stmt" count="1"/>
+        <metrics loc="31" ncloc="21" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="5" elements="7" coveredelements="7"/>
+      </file>
+      <file name="/metrics/Silex/src/Silex/Provider/SessionServiceProvider.php">
+        <class name="SessionServiceProvider" namespace="Silex\Provider">
+          <metrics methods="6" coveredmethods="6" conditionals="0" coveredconditionals="0" statements="58" coveredstatements="54" elements="64" coveredelements="60"/>
+        </class>
+        <line num="0" type="stmt" count="1"/>
+        <line num="35" type="method" name="register" crap="3" count="9"/>
+        <line num="37" type="stmt" count="9"/>
+        <line num="39" type="stmt" count="9"/>
+        <line num="41" type="stmt" count="9"/>
+        <line num="42" type="stmt" count="6"/>
+        <line num="43" type="stmt" count="6"/>
+        <line num="44" type="stmt" count="6"/>
+        <line num="45" type="stmt" count="6"/>
+        <line num="46" type="stmt" count="0"/>
+        <line num="48" type="stmt" count="6"/>
+        <line num="50" type="stmt" count="6"/>
+        <line num="51" type="stmt" count="9"/>
+        <line num="53" type="stmt" count="9"/>
+        <line num="54" type="stmt" count="1"/>
+        <line num="55" type="stmt" count="9"/>
+        <line num="57" type="stmt" count="9"/>
+        <line num="58" type="stmt" count="1"/>
+        <line num="59" type="stmt" count="1"/>
+        <line num="60" type="stmt" count="1"/>
+        <line num="61" type="stmt" count="1"/>
+        <line num="62" type="stmt" count="9"/>
+        <line num="64" type="method" name="anonymous function" crap="1" count="9"/>
+        <line num="65" type="stmt" count="6"/>
+        <line num="66" type="stmt" count="9"/>
+        <line num="68" type="stmt" count="9"/>
+        <line num="69" type="stmt" count="9"/>
+        <line num="70" type="stmt" count="9"/>
+        <line num="71" type="stmt" count="9"/>
+        <line num="73" type="method" name="onEarlyKernelRequest" crap="1" count="6"/>
+        <line num="75" type="stmt" count="6"/>
+        <line num="76" type="stmt" count="6"/>
+        <line num="78" type="method" name="onKernelRequest" crap="4.10" count="6"/>
+        <line num="80" type="stmt" count="6"/>
+        <line num="81" type="stmt" count="0"/>
+        <line num="85" type="stmt" count="6"/>
+        <line num="86" type="stmt" count="0"/>
+        <line num="89" type="stmt" count="6"/>
+        <line num="90" type="stmt" count="6"/>
+        <line num="92" type="stmt" count="6"/>
+        <line num="93" type="stmt" count="6"/>
+        <line num="94" type="stmt" count="6"/>
+        <line num="95" type="stmt" count="6"/>
+        <line num="97" type="stmt" count="6"/>
+        <line num="99" type="method" name="onKernelResponse" crap="5.03" count="6"/>
+        <line num="101" type="stmt" count="6"/>
+        <line num="102" type="stmt" count="0"/>
+        <line num="105" type="stmt" count="6"/>
+        <line num="106" type="stmt" count="6"/>
+        <line num="107" type="stmt" count="6"/>
+        <line num="109" type="stmt" count="6"/>
+        <line num="111" type="stmt" count="6"/>
+        <line num="112" type="stmt" count="6"/>
+        <line num="113" type="stmt" count="6"/>
+        <line num="115" type="method" name="boot" crap="2" count="6"/>
+        <line num="117" type="stmt" count="6"/>
+        <line num="119" type="stmt" count="6"/>
+        <line num="120" type="stmt" count="6"/>
+        <line num="121" type="stmt" count="6"/>
+        <line num="122" type="stmt" count="6"/>
+        <line num="123" type="stmt" count="6"/>
+        <line num="125" type="stmt" count="1"/>
+        <metrics loc="124" ncloc="109" classes="1" methods="6" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="55" coveredstatements="51" elements="61" coveredelements="54"/>
+      </file>
+      <file name="/metrics/Silex/src/Silex/Provider/SwiftmailerServiceProvider.php">
+        <class name="SwiftmailerServiceProvider" namespace="Silex\Provider">
+          <metrics methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="57" coveredstatements="57" elements="60" coveredelements="60"/>
+        </class>
+        <line num="24" type="method" name="register" crap="1" count="4"/>
+        <line num="26" type="stmt" count="4"/>
+        <line num="28" type="stmt" count="4"/>
+        <line num="30" type="stmt" count="4"/>
+        <line num="31" type="stmt" count="2"/>
+        <line num="33" type="stmt" count="2"/>
+        <line num="34" type="stmt" count="4"/>
+        <line num="36" type="stmt" count="4"/>
+        <line num="37" type="stmt" count="2"/>
+        <line num="38" type="stmt" count="4"/>
+        <line num="40" type="stmt" count="4"/>
+        <line num="41" type="stmt" count="1"/>
+        <line num="42" type="stmt" count="4"/>
+        <line num="44" type="stmt" count="4"/>
+        <line num="45" type="stmt" count="1"/>
+        <line num="46" type="stmt" count="1"/>
+        <line num="47" type="stmt" count="1"/>
+        <line num="48" type="stmt" count="1"/>
+        <line num="49" type="stmt" count="1"/>
+        <line num="51" type="stmt" count="1"/>
+        <line num="52" type="stmt" count="1"/>
+        <line num="53" type="stmt" count="1"/>
+        <line num="54" type="stmt" count="1"/>
+        <line num="55" type="stmt" count="1"/>
+        <line num="56" type="stmt" count="1"/>
+        <line num="57" type="stmt" count="1"/>
+        <line num="58" type="stmt" count="1"/>
+        <line num="60" type="stmt" count="1"/>
+        <line num="61" type="stmt" count="1"/>
+        <line num="62" type="stmt" count="1"/>
+        <line num="63" type="stmt" count="1"/>
+        <line num="64" type="stmt" count="1"/>
+        <line num="65" type="stmt" count="1"/>
+        <line num="67" type="stmt" count="1"/>
+        <line num="68" type="stmt" count="4"/>
+        <line num="70" type="stmt" count="4"/>
+        <line num="71" type="stmt" count="1"/>
+        <line num="72" type="stmt" count="4"/>
+        <line num="74" type="stmt" count="4"/>
+        <line num="75" type="stmt" count="1"/>
+        <line num="76" type="stmt" count="1"/>
+        <line num="77" type="stmt" count="1"/>
+        <line num="78" type="stmt" count="1"/>
+        <line num="79" type="stmt" count="1"/>
+        <line num="80" type="stmt" count="4"/>
+        <line num="82" type="stmt" count="4"/>
+        <line num="83" type="stmt" count="1"/>
+        <line num="84" type="stmt" count="4"/>
+        <line num="85" type="stmt" count="4"/>
+        <line num="87" type="method" name="boot" crap="2" count="3"/>
+        <line num="92" type="stmt" count="2"/>
+        <line num="93" type="stmt" count="1"/>
+        <line num="94" type="stmt" count="1"/>
+        <line num="95" type="stmt" count="3"/>
+        <line num="96" type="stmt" count="3"/>
+        <line num="98" type="stmt" count="1"/>
+        <metrics loc="97" ncloc="80" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="53" coveredstatements="53" elements="55" coveredelements="55"/>
+      </file>
+      <file name="/metrics/Silex/src/Silex/Provider/TranslationServiceProvider.php">
+        <class name="TranslationServiceProvider" namespace="Silex\Provider">
+          <metrics methods="3" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="25" coveredstatements="24" elements="28" coveredelements="26"/>
+        </class>
+        <line num="28" type="method" name="register" crap="4" count="21"/>
+        <line num="30" type="stmt" count="21"/>
+        <line num="31" type="stmt" count="19"/>
+        <line num="34" type="stmt" count="19"/>
+        <line num="35" type="stmt" count="1"/>
+        <line num="36" type="stmt" count="1"/>
+        <line num="38" type="stmt" count="19"/>
+        <line num="40" type="stmt" count="19"/>
+        <line num="41" type="stmt" count="19"/>
+        <line num="43" type="stmt" count="19"/>
+        <line num="44" type="stmt" count="19"/>
+        <line num="45" type="stmt" count="19"/>
+        <line num="46" type="stmt" count="19"/>
+        <line num="47" type="stmt" count="19"/>
+        <line num="49" type="stmt" count="19"/>
+        <line num="50" type="stmt" count="21"/>
+        <line num="52" type="method" name="anonymous function" crap="1" count="21"/>
+        <line num="53" type="stmt" count="19"/>
+        <line num="54" type="stmt" count="21"/>
+        <line num="56" type="stmt" count="21"/>
+        <line num="57" type="stmt" count="21"/>
+        <line num="58" type="stmt" count="21"/>
+        <line num="60" type="method" name="boot" crap="2" count="0"/>
+        <line num="62" type="stmt" count="0"/>
+        <line num="64" type="stmt" count="1"/>
+        <metrics loc="63" ncloc="48" classes="1" methods="3" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="22" coveredstatements="21" elements="25" coveredelements="23"/>
+      </file>
+      <file name="/metrics/Silex/src/Silex/Provider/TwigCoreExtension.php">
+        <class name="TwigCoreExtension" namespace="Silex\Provider">
+          <metrics methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="13" coveredstatements="10" elements="16" coveredelements="13"/>
+        </class>
+        <line num="26" type="method" name="getFunctions" crap="1" count="2"/>
+        <line num="29" type="stmt" count="2"/>
+        <line num="30" type="stmt" count="2"/>
+        <line num="33" type="method" name="render" crap="3.24" count="1"/>
+        <line num="35" type="stmt" count="1"/>
+        <line num="36" type="stmt" count="1"/>
+        <line num="38" type="stmt" count="1"/>
+        <line num="39" type="stmt" count="1"/>
+        <line num="40" type="stmt" count="0"/>
+        <line num="41" type="stmt" count="0"/>
+        <line num="43" type="stmt" count="1"/>
+        <line num="45" type="stmt" count="1"/>
+        <line num="46" type="stmt" count="0"/>
+        <line num="49" type="stmt" count="1"/>
+        <line num="52" type="method" name="getName" crap="1" count="2"/>
+        <line num="54" type="stmt" count="2"/>
+        <line num="57" type="stmt" count="1"/>
+        <line num="532" type="stmt" count="1"/>
+        <line num="534" type="stmt" count="1"/>
+        <line num="538" type="stmt" count="1"/>
+        <line num="540" type="stmt" count="1"/>
+        <metrics loc="56" ncloc="41" classes="1" methods="3" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="13" coveredstatements="10" elements="16" coveredelements="12"/>
+      </file>
+      <file name="/metrics/Silex/src/Silex/Provider/TwigServiceProvider.php">
+        <class name="TwigServiceProvider" namespace="Silex\Provider">
+          <metrics methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="66" coveredstatements="47" elements="69" coveredelements="50"/>
+        </class>
+        <line num="0" type="stmt" count="1"/>
+        <line num="31" type="method" name="register" crap="11.12" count="8"/>
+        <line num="33" type="stmt" count="8"/>
+        <line num="34" type="stmt" count="8"/>
+        <line num="35" type="stmt" count="8"/>
+        <line num="36" type="stmt" count="8"/>
+        <line num="38" type="stmt" count="8"/>
+        <line num="39" type="stmt" count="3"/>
+        <line num="41" type="stmt" count="3"/>
+        <line num="42" type="stmt" count="3"/>
+        <line num="43" type="stmt" count="3"/>
+        <line num="44" type="stmt" count="3"/>
+        <line num="45" type="stmt" count="3"/>
+        <line num="47" type="stmt" count="3"/>
+        <line num="48" type="stmt" count="3"/>
+        <line num="50" type="stmt" count="3"/>
+        <line num="51" type="stmt" count="0"/>
+        <line num="52" type="stmt" count="0"/>
+        <line num="54" type="stmt" count="3"/>
+        <line num="55" type="stmt" count="3"/>
+        <line num="56" type="stmt" count="0"/>
+        <line num="57" type="stmt" count="0"/>
+        <line num="59" type="stmt" count="3"/>
+        <line num="60" type="stmt" count="0"/>
+        <line num="61" type="stmt" count="0"/>
+        <line num="63" type="stmt" count="3"/>
+        <line num="64" type="stmt" count="0"/>
+        <line num="65" type="stmt" count="0"/>
+        <line num="67" type="stmt" count="3"/>
+        <line num="68" type="stmt" count="1"/>
+        <line num="70" type="stmt" count="1"/>
+        <line num="71" type="stmt" count="1"/>
+        <line num="73" type="stmt" count="2"/>
+        <line num="76" type="stmt" count="3"/>
+        <line num="77" type="stmt" count="0"/>
+        <line num="78" type="stmt" count="0"/>
+        <line num="79" type="stmt" count="0"/>
+        <line num="81" type="stmt" count="0"/>
+        <line num="82" type="stmt" count="0"/>
+        <line num="83" type="stmt" count="0"/>
+        <line num="85" type="stmt" count="0"/>
+        <line num="88" type="stmt" count="0"/>
+        <line num="89" type="stmt" count="0"/>
+        <line num="90" type="stmt" count="0"/>
+        <line num="91" type="stmt" count="0"/>
+        <line num="92" type="stmt" count="3"/>
+        <line num="94" type="stmt" count="3"/>
+        <line num="95" type="stmt" count="8"/>
+        <line num="97" type="stmt" count="8"/>
+        <line num="98" type="stmt" count="3"/>
+        <line num="99" type="stmt" count="8"/>
+        <line num="101" type="stmt" count="8"/>
+        <line num="102" type="stmt" count="4"/>
+        <line num="103" type="stmt" count="8"/>
+        <line num="105" type="method" name="anonymous function" crap="1" count="8"/>
+        <line num="106" type="stmt" count="4"/>
+        <line num="107" type="stmt" count="4"/>
+        <line num="108" type="stmt" count="4"/>
+        <line num="109" type="stmt" count="4"/>
+        <line num="110" type="stmt" count="8"/>
+        <line num="111" type="stmt" count="8"/>
+        <line num="113" type="method" name="boot" crap="1" count="3"/>
+        <line num="115" type="stmt" count="3"/>
+        <line num="117" type="stmt" count="1"/>
+        <metrics loc="116" ncloc="99" classes="1" methods="3" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="60" coveredstatements="41" elements="63" coveredelements="43"/>
+      </file>
+      <file name="/metrics/Silex/src/Silex/Provider/UrlGeneratorServiceProvider.php">
+        <class name="UrlGeneratorServiceProvider" namespace="Silex\Provider">
+          <metrics methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="10" coveredstatements="10" elements="13" coveredelements="13"/>
+        </class>
+        <line num="25" type="method" name="register" crap="1" count="7"/>
+        <line num="27" type="method" name="anonymous function" crap="1" count="7"/>
+        <line num="28" type="stmt" count="5"/>
+        <line num="30" type="stmt" count="5"/>
+        <line num="31" type="stmt" count="7"/>
+        <line num="32" type="stmt" count="7"/>
+        <line num="34" type="method" name="boot" crap="1" count="5"/>
+        <line num="36" type="stmt" count="5"/>
+        <line num="38" type="stmt" count="1"/>
+        <line num="405" type="stmt" count="5"/>
+        <metrics loc="37" ncloc="24" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="6" elements="8" coveredelements="8"/>
+      </file>
+      <file name="/metrics/Silex/src/Silex/Provider/ValidatorServiceProvider.php">
+        <class name="ValidatorServiceProvider" namespace="Silex\Provider">
+          <metrics methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="27" coveredstatements="25" elements="30" coveredelements="28"/>
+        </class>
+        <line num="0" type="stmt" count="1"/>
+        <line num="29" type="method" name="register" crap="4.02" count="6"/>
+        <line num="31" type="stmt" count="6"/>
+        <line num="32" type="stmt" count="4"/>
+        <line num="34" type="stmt" count="4"/>
+        <line num="35" type="stmt" count="0"/>
+        <line num="36" type="stmt" count="0"/>
+        <line num="38" type="stmt" count="4"/>
+        <line num="39" type="stmt" count="4"/>
+        <line num="40" type="stmt" count="4"/>
+        <line num="41" type="stmt" count="4"/>
+        <line num="42" type="stmt" count="4"/>
+        <line num="43" type="stmt" count="4"/>
+        <line num="44" type="stmt" count="4"/>
+        <line num="45" type="stmt" count="6"/>
+        <line num="47" type="stmt" count="6"/>
+        <line num="48" type="stmt" count="4"/>
+        <line num="49" type="stmt" count="6"/>
+        <line num="52" type="stmt" count="5"/>
+        <line num="54" type="stmt" count="5"/>
+        <line num="55" type="stmt" count="6"/>
+        <line num="57" type="method" name="anonymous function" crap="1" count="6"/>
+        <line num="58" type="stmt" count="4"/>
+        <line num="59" type="stmt" count="6"/>
+        <line num="60" type="stmt" count="6"/>
+        <line num="62" type="method" name="boot" crap="1" count="1"/>
+        <line num="64" type="stmt" count="1"/>
+        <line num="66" type="stmt" count="1"/>
+        <metrics loc="65" ncloc="52" classes="1" methods="3" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="24" coveredstatements="22" elements="27" coveredelements="24"/>
+      </file>
+    </package>
+    <package name="Silex\Route">
+      <file name="/metrics/Silex/src/Silex/Route/SecurityTrait.php">
+        <class name="SecurityTrait" namespace="Silex\Route">
+          <metrics methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="5" elements="9" coveredelements="7"/>
+        </class>
+        <line num="23" type="method" name="secure" crap="2" count="1"/>
+        <line num="26" type="stmt" count="1"/>
+        <line num="27" type="stmt" count="0"/>
+        <line num="29" type="stmt" count="1"/>
+        <line num="30" type="stmt" count="1"/>
+        <line num="32" type="stmt" count="1"/>
+        <metrics loc="31" ncloc="18" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="3" elements="5" coveredelements="3"/>
+      </file>
+    </package>
+    <file name="/metrics/Silex/src/Silex/ServiceProviderInterface.php">
+      <line num="40" type="stmt" count="1"/>
+      <metrics loc="39" ncloc="11" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+    </file>
+    <package name="Silex\Util">
+      <file name="/metrics/Silex/src/Silex/Util/Compiler.php">
+        <class name="Compiler" namespace="Silex\Util">
+          <metrics methods="4" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="114" coveredstatements="0" elements="118" coveredelements="0"/>
+        </class>
+        <line num="10" type="stmt" count="0"/>
+        <line num="33" type="method" name="compile" crap="20" count="0"/>
+        <line num="34" type="stmt" count="0"/>
+        <line num="35" type="stmt" count="0"/>
+        <line num="36" type="stmt" count="0"/>
+        <line num="37" type="stmt" count="0"/>
+        <line num="39" type="stmt" count="0"/>
+        <line num="40" type="stmt" count="0"/>
+        <line num="41" type="stmt" count="0"/>
+        <line num="42" type="stmt" count="0"/>
+        <line num="43" type="stmt" count="0"/>
+        <line num="45" type="stmt" count="0"/>
+        <line num="46" type="stmt" count="0"/>
+        <line num="48" type="stmt" count="0"/>
+        <line num="50" type="stmt" count="0"/>
+        <line num="52" type="stmt" count="0"/>
+        <line num="53" type="stmt" count="0"/>
+        <line num="54" type="stmt" count="0"/>
+        <line num="55" type="stmt" count="0"/>
+        <line num="56" type="stmt" count="0"/>
+        <line num="57" type="stmt" count="0"/>
+        <line num="58" type="stmt" count="0"/>
+        <line num="59" type="stmt" count="0"/>
+        <line num="60" type="stmt" count="0"/>
+        <line num="61" type="stmt" count="0"/>
+        <line num="62" type="stmt" count="0"/>
+        <line num="63" type="stmt" count="0"/>
+        <line num="64" type="stmt" count="0"/>
+        <line num="65" type="stmt" count="0"/>
+        <line num="66" type="stmt" count="0"/>
+        <line num="67" type="stmt" count="0"/>
+        <line num="69" type="stmt" count="0"/>
+        <line num="70" type="stmt" count="0"/>
+        <line num="71" type="stmt" count="0"/>
+        <line num="73" type="stmt" count="0"/>
+        <line num="74" type="stmt" count="0"/>
+        <line num="75" type="stmt" count="0"/>
+        <line num="76" type="stmt" count="0"/>
+        <line num="77" type="stmt" count="0"/>
+        <line num="80" type="stmt" count="0"/>
+        <line num="82" type="stmt" count="0"/>
+        <line num="84" type="stmt" count="0"/>
+        <line num="85" type="stmt" count="0"/>
+        <line num="87" type="method" name="addFile" crap="6" count="0"/>
+        <line num="88" type="stmt" count="0"/>
+        <line num="89" type="stmt" count="0"/>
+        <line num="91" type="stmt" count="0"/>
+        <line num="92" type="stmt" count="0"/>
+        <line num="93" type="stmt" count="0"/>
+        <line num="94" type="stmt" count="0"/>
+        <line num="96" type="stmt" count="0"/>
+        <line num="98" type="stmt" count="0"/>
+        <line num="99" type="stmt" count="0"/>
+        <line num="101" type="method" name="getStub" crap="2" count="0"/>
+        <line num="102" type="stmt" count="0"/>
+        <line num="103" type="stmt" count="0"/>
+        <line num="104" type="stmt" count="0"/>
+        <line num="105" type="stmt" count="0"/>
+        <line num="106" type="stmt" count="0"/>
+        <line num="107" type="stmt" count="0"/>
+        <line num="108" type="stmt" count="0"/>
+        <line num="109" type="stmt" count="0"/>
+        <line num="110" type="stmt" count="0"/>
+        <line num="111" type="stmt" count="0"/>
+        <line num="112" type="stmt" count="0"/>
+        <line num="114" type="stmt" count="0"/>
+        <line num="116" type="stmt" count="0"/>
+        <line num="118" type="stmt" count="0"/>
+        <line num="119" type="stmt" count="0"/>
+        <line num="120" type="stmt" count="0"/>
+        <line num="121" type="stmt" count="0"/>
+        <line num="122" type="stmt" count="0"/>
+        <line num="124" type="stmt" count="0"/>
+        <line num="125" type="stmt" count="0"/>
+        <line num="127" type="stmt" count="0"/>
+        <line num="128" type="stmt" count="0"/>
+        <line num="130" type="stmt" count="0"/>
+        <line num="131" type="stmt" count="0"/>
+        <line num="132" type="stmt" count="0"/>
+        <line num="133" type="stmt" count="0"/>
+        <line num="134" type="stmt" count="0"/>
+        <line num="135" type="stmt" count="0"/>
+        <line num="137" type="stmt" count="0"/>
+        <line num="138" type="stmt" count="0"/>
+        <line num="139" type="stmt" count="0"/>
+        <line num="141" type="stmt" count="0"/>
+        <line num="142" type="stmt" count="0"/>
+        <line num="143" type="stmt" count="0"/>
+        <line num="145" type="stmt" count="0"/>
+        <line num="146" type="stmt" count="0"/>
+        <line num="148" type="stmt" count="0"/>
+        <line num="149" type="stmt" count="0"/>
+        <line num="150" type="stmt" count="0"/>
+        <line num="161" type="method" name="stripWhitespace" crap="42" count="0"/>
+        <line num="162" type="stmt" count="0"/>
+        <line num="163" type="stmt" count="0"/>
+        <line num="164" type="stmt" count="0"/>
+        <line num="165" type="stmt" count="0"/>
+        <line num="167" type="stmt" count="0"/>
+        <line num="168" type="stmt" count="0"/>
+        <line num="169" type="stmt" count="0"/>
+        <line num="170" type="stmt" count="0"/>
+        <line num="171" type="stmt" count="0"/>
+        <line num="172" type="stmt" count="0"/>
+        <line num="173" type="stmt" count="0"/>
+        <line num="175" type="stmt" count="0"/>
+        <line num="177" type="stmt" count="0"/>
+        <line num="179" type="stmt" count="0"/>
+        <line num="180" type="stmt" count="0"/>
+        <line num="181" type="stmt" count="0"/>
+        <line num="182" type="stmt" count="0"/>
+        <line num="183" type="stmt" count="0"/>
+        <line num="184" type="stmt" count="0"/>
+        <line num="186" type="stmt" count="0"/>
+        <line num="187" type="stmt" count="0"/>
+        <metrics loc="188" ncloc="151" classes="1" methods="4" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="115" coveredstatements="0" elements="119" coveredelements="0"/>
+      </file>
+    </package>
+    <metrics files="49" loc="4674" ncloc="3213" classes="47" methods="180" coveredmethods="144" conditionals="0" coveredconditionals="0" statements="1503" coveredstatements="1259" elements="1683" coveredelements="1403"/>
+  </project>
+</coverage>

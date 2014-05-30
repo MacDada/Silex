@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src#" full="Silex\EventListener\ConverterListener" namespace="Silex\EventListener" name="ConverterListener" abstract="false" final="false" start="25" end="66">
+  <file path="/metrics/Silex/src/Silex/EventListener" file="ConverterListener.php" realpath="/metrics/Silex/src/Silex/EventListener/ConverterListener.php" size="1936" time="2014-05-30T00:27:40+02:00" unixtime="1401402460" sha1="30d67e963dda64b13c89829432da30294a15f99e"/>
+  <docblock>
+    <description compact="Handles converters."/>
+    <author value="Fabien Potencier &lt;fabien@symfony.com&gt;"/>
+  </docblock>
+  <implements full="Symfony\Component\EventDispatcher\EventSubscriberInterface" namespace="Symfony\Component\EventDispatcher" name="EventSubscriberInterface"/>
+  <member name="routes" type="{unknown}" visibility="protected" line="27"/>
+  <member name="callbackResolver" type="{unknown}" visibility="protected" line="28"/>
+  <constructor name="__construct" start="36" end="40" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Constructor."/>
+      <param description="A RouteCollection instance" type="object" variable="$routes">
+        <type full="Symfony\Component\Routing\RouteCollection" namespace="Symfony\Component\Routing" name="RouteCollection"/>
+      </param>
+      <param description="A CallbackResolver instance" type="object" variable="$callbackResolver">
+        <type full="Silex\CallbackResolver" namespace="Silex" name="CallbackResolver"/>
+      </param>
+    </docblock>
+    <parameter name="routes" byreference="false" type="object">
+      <type full="Symfony\Component\Routing\RouteCollection" namespace="Symfony\Component\Routing" name="RouteCollection"/>
+    </parameter>
+    <parameter name="callbackResolver" byreference="false" type="object">
+      <type full="Silex\CallbackResolver" namespace="Silex" name="CallbackResolver"/>
+    </parameter>
+  </constructor>
+  <method name="onKernelController" start="47" end="58" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Handles converters."/>
+      <param description="The event to handle" type="object" variable="$event">
+        <type full="Symfony\Component\HttpKernel\Event\FilterControllerEvent" namespace="Symfony\Component\HttpKernel\Event" name="FilterControllerEvent"/>
+      </param>
+    </docblock>
+    <parameter name="event" byreference="false" type="object">
+      <type full="Symfony\Component\HttpKernel\Event\FilterControllerEvent" namespace="Symfony\Component\HttpKernel\Event" name="FilterControllerEvent"/>
+    </parameter>
+  </method>
+  <method name="getSubscribedEvents" start="60" end="65" abstract="false" final="false" static="true" visibility="public"/>
+</class>

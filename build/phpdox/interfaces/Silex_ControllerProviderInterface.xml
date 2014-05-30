@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface xmlns="http://xml.phpdox.net/src#" full="Silex\ControllerProviderInterface" namespace="Silex" name="ControllerProviderInterface" abstract="false" final="false" start="19" end="29">
+  <file path="/metrics/Silex/src/Silex" file="ControllerProviderInterface.php" realpath="/metrics/Silex/src/Silex/ControllerProviderInterface.php" size="656" time="2014-05-30T00:27:40+02:00" unixtime="1401402460" sha1="9212524be1eed0b59fc696fee6143cbf04778c2b"/>
+  <docblock>
+    <description compact="Interface for controller providers."/>
+    <author value="Fabien Potencier &lt;fabien@symfony.com&gt;"/>
+  </docblock>
+  <method name="connect" start="28" end="28" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Returns routes to connect to the given application."/>
+      <param description="An Application instance" type="object" variable="$app">
+        <type full="Silex\Application" namespace="Silex" name="Application"/>
+      </param>
+      <return description="A ControllerCollection instance" type="object">
+        <type full="Silex\ControllerCollection" namespace="Silex" name="ControllerCollection"/>
+      </return>
+    </docblock>
+    <parameter name="app" byreference="false" type="object">
+      <type full="Silex\Application" namespace="Silex" name="Application"/>
+    </parameter>
+  </method>
+</interface>

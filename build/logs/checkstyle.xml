@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="1.5.3">
+<file name="/metrics/Silex/src/Silex/Application.php">
+ <error line="545" column="5" severity="warning" message="This comment is 50% valid code; is this commented out code?" source="Squiz.PHP.CommentedOutCode.Found"/>
+</file>
+<file name="/metrics/Silex/src/Silex/CallbackResolver.php">
+ <error line="54" column="16" severity="error" message="Array with multiple values cannot be declared on a single line" source="Squiz.Arrays.ArrayDeclaration.SingleLineNotAllowed"/>
+</file>
+<file name="/metrics/Silex/src/Silex/ConstraintValidatorFactory.php">
+ <error line="26" column="5" severity="warning" message="This comment is 43% valid code; is this commented out code?" source="Squiz.PHP.CommentedOutCode.Found"/>
+ <error line="31" column="5" severity="warning" message="This comment is 50% valid code; is this commented out code?" source="Squiz.PHP.CommentedOutCode.Found"/>
+ <error line="36" column="5" severity="warning" message="This comment is 50% valid code; is this commented out code?" source="Squiz.PHP.CommentedOutCode.Found"/>
+ <error line="79" column="13" severity="error" message="Private method name &quot;ConstraintValidatorFactory::createValidator&quot; must be prefixed with an underscore" source="Squiz.NamingConventions.ValidFunctionName.PrivateNoUnderscore"/>
+</file>
+<file name="/metrics/Silex/src/Silex/EventListener/ConverterListener.php">
+ <error line="62" column="16" severity="error" message="Multi-line array contains a single value; use single-line array instead" source="Squiz.Arrays.ArrayDeclaration.MultiLineNotAllowed"/>
+ <error line="64" column="9" severity="error" message="Closing parenthesis not aligned correctly; expected 16 space(s) but found 9" source="Squiz.Arrays.ArrayDeclaration.CloseBraceNotAligned"/>
+</file>
+<file name="/metrics/Silex/src/Silex/EventListener/LogListener.php">
+ <error line="119" column="38" severity="error" message="Array with multiple values cannot be declared on a single line" source="Squiz.Arrays.ArrayDeclaration.SingleLineNotAllowed"/>
+ <error line="120" column="39" severity="error" message="Array with multiple values cannot be declared on a single line" source="Squiz.Arrays.ArrayDeclaration.SingleLineNotAllowed"/>
+ <error line="125" column="40" severity="error" message="Array with multiple values cannot be declared on a single line" source="Squiz.Arrays.ArrayDeclaration.SingleLineNotAllowed"/>
+ <error line="126" column="9" severity="error" message="Closing parenthesis not aligned correctly; expected 16 space(s) but found 9" source="Squiz.Arrays.ArrayDeclaration.CloseBraceNotAligned"/>
+</file>
+<file name="/metrics/Silex/src/Silex/EventListener/MiddlewareListener.php">
+ <error line="92" column="39" severity="error" message="Array with multiple values cannot be declared on a single line" source="Squiz.Arrays.ArrayDeclaration.SingleLineNotAllowed"/>
+ <error line="93" column="39" severity="error" message="Array with multiple values cannot be declared on a single line" source="Squiz.Arrays.ArrayDeclaration.SingleLineNotAllowed"/>
+ <error line="94" column="9" severity="error" message="Closing parenthesis not aligned correctly; expected 16 space(s) but found 9" source="Squiz.Arrays.ArrayDeclaration.CloseBraceNotAligned"/>
+</file>
+<file name="/metrics/Silex/src/Silex/EventListener/StringToResponseListener.php">
+ <error line="48" column="35" severity="error" message="Array with multiple values cannot be declared on a single line" source="Squiz.Arrays.ArrayDeclaration.SingleLineNotAllowed"/>
+ <error line="49" column="9" severity="error" message="Closing parenthesis not aligned correctly; expected 16 space(s) but found 9" source="Squiz.Arrays.ArrayDeclaration.CloseBraceNotAligned"/>
+</file>
+<file name="/metrics/Silex/src/Silex/ExceptionHandler.php">
+ <error line="51" column="5" severity="warning" message="This comment is 50% valid code; is this commented out code?" source="Squiz.PHP.CommentedOutCode.Found"/>
+</file>
+<file name="/metrics/Silex/src/Silex/LazyUrlMatcher.php">
+ <error line="40" column="39" severity="error" message="String &quot;Factory supplied to LazyUrlMatcher must return implementation of UrlMatcherInterface.&quot; does not require double quotes; use single quotes instead" source="Squiz.Strings.DoubleQuoteUsage.NotRequired"/>
+ <error line="46" column="5" severity="warning" message="This comment is 50% valid code; is this commented out code?" source="Squiz.PHP.CommentedOutCode.Found"/>
+ <error line="54" column="5" severity="warning" message="This comment is 50% valid code; is this commented out code?" source="Squiz.PHP.CommentedOutCode.Found"/>
+ <error line="62" column="5" severity="warning" message="This comment is 50% valid code; is this commented out code?" source="Squiz.PHP.CommentedOutCode.Found"/>
+</file>
+<file name="/metrics/Silex/src/Silex/Provider/DoctrineServiceProvider.php">
+ <error line="37" column="9" severity="error" message="Closing parenthesis not aligned correctly; expected 38 space(s) but found 9" source="Squiz.Arrays.ArrayDeclaration.CloseBraceNotAligned"/>
+</file>
+<file name="/metrics/Silex/src/Silex/Provider/FormServiceProvider.php">
+ <error line="68" column="17" severity="error" message="Array value not aligned correctly; expected 28 spaces but found 17" source="Squiz.Arrays.ArrayDeclaration.ValueNotAligned"/>
+ <error line="69" column="17" severity="error" message="Array value not aligned correctly; expected 28 spaces but found 17" source="Squiz.Arrays.ArrayDeclaration.ValueNotAligned"/>
+ <error line="70" column="13" severity="error" message="Closing parenthesis not aligned correctly; expected 27 space(s) but found 13" source="Squiz.Arrays.ArrayDeclaration.CloseBraceNotAligned"/>
+</file>
+<file name="/metrics/Silex/src/Silex/Provider/HttpCacheServiceProvider.php">
+ <error line="34" column="20" severity="error" message="Only one argument is allowed per line in a multi-line function call" source="PSR2.Methods.FunctionCallSignature.MultipleArguments"/>
+</file>
+<file name="/metrics/Silex/src/Silex/Provider/HttpFragmentServiceProvider.php">
+ <error line="75" column="26" severity="error" message="Array with multiple values cannot be declared on a single line" source="Squiz.Arrays.ArrayDeclaration.SingleLineNotAllowed"/>
+</file>
+<file name="/metrics/Silex/src/Silex/Provider/RememberMeServiceProvider.php">
+ <error line="52" column="17" severity="error" message="Array value not aligned correctly; expected 21 spaces but found 17" source="Squiz.Arrays.ArrayDeclaration.ValueNotAligned"/>
+ <error line="53" column="17" severity="error" message="Array value not aligned correctly; expected 21 spaces but found 17" source="Squiz.Arrays.ArrayDeclaration.ValueNotAligned"/>
+ <error line="54" column="17" severity="error" message="Array value not aligned correctly; expected 21 spaces but found 17" source="Squiz.Arrays.ArrayDeclaration.ValueNotAligned"/>
+ <error line="55" column="17" severity="error" message="Comma required after last value in array declaration" source="Squiz.Arrays.ArrayDeclaration.NoCommaAfterLast"/>
+ <error line="56" column="13" severity="error" message="Closing parenthesis not aligned correctly; expected 20 space(s) but found 13" source="Squiz.Arrays.ArrayDeclaration.CloseBraceNotAligned"/>
+ <error line="70" column="17" severity="error" message="Closing parenthesis not aligned correctly; expected 42 space(s) but found 17" source="Squiz.Arrays.ArrayDeclaration.CloseBraceNotAligned"/>
+</file>
+<file name="/metrics/Silex/src/Silex/Provider/SecurityServiceProvider.php">
+ <error line="64" column="12" severity="warning" message="Function's nesting level (6) exceeds 5; consider refactoring the function" source="Generic.Metrics.NestingLevel.TooHigh"/>
+ <error line="64" column="12" severity="error" message="Function's cyclomatic complexity (38) exceeds allowed maximum of 20" source="Generic.Metrics.CyclomaticComplexity.MaxExceeded"/>
+ <error line="90" column="13" severity="error" message="Closing parenthesis not aligned correctly; expected 39 space(s) but found 13" source="Squiz.Arrays.ArrayDeclaration.CloseBraceNotAligned"/>
+ <error line="107" column="17" severity="error" message="Array value not aligned correctly; expected 21 spaces but found 17" source="Squiz.Arrays.ArrayDeclaration.ValueNotAligned"/>
+ <error line="108" column="17" severity="error" message="Array value not aligned correctly; expected 21 spaces but found 17" source="Squiz.Arrays.ArrayDeclaration.ValueNotAligned"/>
+ <error line="109" column="13" severity="error" message="Closing parenthesis not aligned correctly; expected 20 space(s) but found 13" source="Squiz.Arrays.ArrayDeclaration.CloseBraceNotAligned"/>
+ <error line="148" column="21" severity="error" message="Array value not aligned correctly; expected 25 spaces but found 21" source="Squiz.Arrays.ArrayDeclaration.ValueNotAligned"/>
+ <error line="149" column="21" severity="error" message="Array value not aligned correctly; expected 25 spaces but found 21" source="Squiz.Arrays.ArrayDeclaration.ValueNotAligned"/>
+ <error line="150" column="21" severity="error" message="Array value not aligned correctly; expected 25 spaces but found 21" source="Squiz.Arrays.ArrayDeclaration.ValueNotAligned"/>
+ <error line="151" column="21" severity="error" message="Comma required after last value in array declaration" source="Squiz.Arrays.ArrayDeclaration.NoCommaAfterLast"/>
+ <error line="152" column="17" severity="error" message="Closing parenthesis not aligned correctly; expected 24 space(s) but found 17" source="Squiz.Arrays.ArrayDeclaration.CloseBraceNotAligned"/>
+ <error line="157" column="26" severity="error" message="Array with multiple values cannot be declared on a single line" source="Squiz.Arrays.ArrayDeclaration.SingleLineNotAllowed"/>
+ <error line="240" column="35" severity="error" message="Array with multiple values cannot be declared on a single line" source="Squiz.Arrays.ArrayDeclaration.SingleLineNotAllowed"/>
+ <error line="340" column="37" severity="error" message="Array with multiple values cannot be declared on a single line" source="Squiz.Arrays.ArrayDeclaration.SingleLineNotAllowed"/>
+ <error line="551" column="31" severity="error" message="Array with multiple values cannot be declared on a single line" source="Squiz.Arrays.ArrayDeclaration.SingleLineNotAllowed"/>
+</file>
+<file name="/metrics/Silex/src/Silex/Provider/SerializerServiceProvider.php">
+ <error line="45" column="20" severity="error" message="Array with multiple values cannot be declared on a single line" source="Squiz.Arrays.ArrayDeclaration.SingleLineNotAllowed"/>
+ <error line="49" column="20" severity="error" message="Array with multiple values cannot be declared on a single line" source="Squiz.Arrays.ArrayDeclaration.SingleLineNotAllowed"/>
+</file>
+<file name="/metrics/Silex/src/Silex/Provider/SwiftmailerServiceProvider.php">
+ <error line="58" column="13" severity="error" message="Closing parenthesis not aligned correctly; expected 68 space(s) but found 13" source="Squiz.Arrays.ArrayDeclaration.CloseBraceNotAligned"/>
+ <error line="76" column="17" severity="error" message="Array value not aligned correctly; expected 60 spaces but found 17" source="Squiz.Arrays.ArrayDeclaration.ValueNotAligned"/>
+ <error line="77" column="17" severity="error" message="Array value not aligned correctly; expected 60 spaces but found 17" source="Squiz.Arrays.ArrayDeclaration.ValueNotAligned"/>
+ <error line="78" column="17" severity="error" message="Array value not aligned correctly; expected 60 spaces but found 17" source="Squiz.Arrays.ArrayDeclaration.ValueNotAligned"/>
+ <error line="79" column="13" severity="error" message="Closing parenthesis not aligned correctly; expected 59 space(s) but found 13" source="Squiz.Arrays.ArrayDeclaration.CloseBraceNotAligned"/>
+</file>
+<file name="/metrics/Silex/src/Silex/Provider/TwigCoreExtension.php">
+ <error line="30" column="9" severity="error" message="Closing parenthesis not aligned correctly; expected 16 space(s) but found 9" source="Squiz.Arrays.ArrayDeclaration.CloseBraceNotAligned"/>
+</file>
+<file name="/metrics/Silex/src/Silex/Provider/TwigServiceProvider.php">
+ <error line="44" column="20" severity="error" message="Only one argument is allowed per line in a multi-line function call" source="PSR2.Methods.FunctionCallSignature.MultipleArguments"/>
+ <error line="107" column="17" severity="error" message="Array value not aligned correctly; expected 44 spaces but found 17" source="Squiz.Arrays.ArrayDeclaration.ValueNotAligned"/>
+ <error line="108" column="17" severity="error" message="Array value not aligned correctly; expected 44 spaces but found 17" source="Squiz.Arrays.ArrayDeclaration.ValueNotAligned"/>
+ <error line="109" column="13" severity="error" message="Closing parenthesis not aligned correctly; expected 43 space(s) but found 13" source="Squiz.Arrays.ArrayDeclaration.CloseBraceNotAligned"/>
+</file>
+<file name="/metrics/Silex/src/Silex/RedirectableUrlMatcher.php">
+ <error line="24" column="5" severity="warning" message="This comment is 40% valid code; is this commented out code?" source="Squiz.PHP.CommentedOutCode.Found"/>
+ <error line="50" column="88" severity="error" message="Closing brace must be on a line by itself" source="Squiz.WhiteSpace.ScopeClosingBrace.ContentBefore"/>
+ <error line="53" column="9" severity="error" message="Closing parenthesis not aligned correctly; expected 16 space(s) but found 9" source="Squiz.Arrays.ArrayDeclaration.CloseBraceNotAligned"/>
+</file>
+<file name="/metrics/Silex/src/Silex/Route.php">
+ <error line="38" column="12" severity="warning" message="Useless method overriding detected" source="Generic.CodeAnalysis.UselessOverridingMethod.Found"/>
+</file>
+<file name="/metrics/Silex/src/Silex/ServiceControllerResolver.php">
+ <error line="39" column="5" severity="warning" message="This comment is 50% valid code; is this commented out code?" source="Squiz.PHP.CommentedOutCode.Found"/>
+ <error line="53" column="5" severity="warning" message="This comment is 50% valid code; is this commented out code?" source="Squiz.PHP.CommentedOutCode.Found"/>
+</file>
+</checkstyle>

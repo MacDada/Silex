@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface xmlns="http://xml.phpdox.net/src#" full="Silex\ServiceProviderInterface" namespace="Silex" name="ServiceProviderInterface" abstract="false" final="false" start="19" end="39">
+  <file path="/metrics/Silex/src/Silex" file="ServiceProviderInterface.php" realpath="/metrics/Silex/src/Silex/ServiceProviderInterface.php" size="973" time="2014-05-30T00:27:40+02:00" unixtime="1401402460" sha1="8a1636d9e7913c1e0c3cf364be4708c0217f259a"/>
+  <docblock>
+    <description compact="Interface that all Silex service providers must implement."/>
+    <author value="Fabien Potencier &lt;fabien@symfony.com&gt;"/>
+  </docblock>
+  <method name="register" start="29" end="29" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Registers services on the given app.">This method should only be used to configure services and parameters.
+It should not get services.</description>
+      <param description="An Application instance" type="object" variable="$app">
+        <type full="Silex\Application" namespace="Silex" name="Application"/>
+      </param>
+    </docblock>
+    <parameter name="app" byreference="false" type="object">
+      <type full="Silex\Application" namespace="Silex" name="Application"/>
+    </parameter>
+  </method>
+  <method name="boot" start="38" end="38" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Bootstraps the application.">This method is called after all services are registered
+and should be used for "dynamic" configuration (whenever
+a service must be requested).</description>
+    </docblock>
+    <parameter name="app" byreference="false" type="object">
+      <type full="Silex\Application" namespace="Silex" name="Application"/>
+    </parameter>
+  </method>
+  <implementor full="Silex\Provider\DoctrineServiceProvider" namespace="Silex\Provider" name="DoctrineServiceProvider"/>
+  <implementor full="Silex\Provider\FormServiceProvider" namespace="Silex\Provider" name="FormServiceProvider"/>
+  <implementor full="Silex\Provider\HttpCacheServiceProvider" namespace="Silex\Provider" name="HttpCacheServiceProvider"/>
+  <implementor full="Silex\Provider\HttpFragmentServiceProvider" namespace="Silex\Provider" name="HttpFragmentServiceProvider"/>
+  <implementor full="Silex\Provider\MonologServiceProvider" namespace="Silex\Provider" name="MonologServiceProvider"/>
+  <implementor full="Silex\Provider\RememberMeServiceProvider" namespace="Silex\Provider" name="RememberMeServiceProvider"/>
+  <implementor full="Silex\Provider\SecurityServiceProvider" namespace="Silex\Provider" name="SecurityServiceProvider"/>
+  <implementor full="Silex\Provider\SerializerServiceProvider" namespace="Silex\Provider" name="SerializerServiceProvider"/>
+  <implementor full="Silex\Provider\ServiceControllerServiceProvider" namespace="Silex\Provider" name="ServiceControllerServiceProvider"/>
+  <implementor full="Silex\Provider\SessionServiceProvider" namespace="Silex\Provider" name="SessionServiceProvider"/>
+  <implementor full="Silex\Provider\SwiftmailerServiceProvider" namespace="Silex\Provider" name="SwiftmailerServiceProvider"/>
+  <implementor full="Silex\Provider\TranslationServiceProvider" namespace="Silex\Provider" name="TranslationServiceProvider"/>
+  <implementor full="Silex\Provider\TwigServiceProvider" namespace="Silex\Provider" name="TwigServiceProvider"/>
+  <implementor full="Silex\Provider\UrlGeneratorServiceProvider" namespace="Silex\Provider" name="UrlGeneratorServiceProvider"/>
+  <implementor full="Silex\Provider\ValidatorServiceProvider" namespace="Silex\Provider" name="ValidatorServiceProvider"/>
+</interface>

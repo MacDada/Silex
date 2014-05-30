@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src#" full="Silex\Route" namespace="Silex" name="Route" abstract="false" final="false" start="21" end="188">
+  <file path="/metrics/Silex/src/Silex" file="Route.php" realpath="/metrics/Silex/src/Silex/Route.php" size="5255" time="2014-05-30T00:20:20+02:00" unixtime="1401402020" sha1="eb82e3f6fb3463e75e81d9a8b9524602864e502f"/>
+  <docblock>
+    <description compact="A wrapper for a controller, mapped to a route."/>
+    <author value="Fabien Potencier &lt;fabien@symfony.com&gt;"/>
+  </docblock>
+  <extends full="Symfony\Component\Routing\Route" namespace="Symfony\Component\Routing" name="Route"/>
+  <constructor name="__construct" start="38" end="42" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Constructor.">Available options:
+
+ * compiler_class: A class name able to compile this route instance (RouteCompiler by default)</description>
+      <param description="The path pattern to match" type="string" variable="$path"/>
+      <param description="An array of default parameter values" type="array" variable="$defaults"/>
+      <param description="An array of requirements for parameters (regexes)" type="array" variable="$requirements"/>
+      <param description="An array of options" type="array" variable="$options"/>
+      <param description="The host pattern to match" type="string" variable="$host"/>
+      <param description="A required URI scheme or an array of restricted schemes" type="object" variable="$schemes">
+        <type full="Silex\string|array" namespace="Silex" name="string|array"/>
+      </param>
+      <param description="A required HTTP method or an array of restricted methods" type="object" variable="$methods">
+        <type full="Silex\string|array" namespace="Silex" name="string|array"/>
+      </param>
+    </docblock>
+    <parameter name="path" byreference="false" type="string" default="'/'"/>
+    <parameter name="defaults" byreference="false" type="array"/>
+    <parameter name="requirements" byreference="false" type="array"/>
+    <parameter name="options" byreference="false" type="array"/>
+    <parameter name="host" byreference="false" type="string" default="''"/>
+    <parameter name="schemes" byreference="false" type="array"/>
+    <parameter name="methods" byreference="false" type="array"/>
+    <inline>
+      <comment value="overridden constructor to make $path optional" line="40"/>
+    </inline>
+  </constructor>
+  <method name="run" start="51" end="56" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Sets the route code that should be executed when matched."/>
+      <param description="PHP callback that returns the response when matched" type="object" variable="$to">
+        <type full="Silex\callable" namespace="Silex" name="callable"/>
+      </param>
+      <return description="$this The current Route instance" type="object">
+        <type full="Silex\Route" namespace="Silex" name="Route"/>
+      </return>
+    </docblock>
+    <parameter name="to" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="assert" start="66" end="71" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Sets the requirement for a route variable."/>
+      <param description="The variable name" type="string" variable="$variable"/>
+      <param description="The regexp to apply" type="string" variable="$regexp"/>
+      <return description="$this The current route instance" type="object">
+        <type full="Silex\Route" namespace="Silex" name="Route"/>
+      </return>
+    </docblock>
+    <parameter name="variable" byreference="false" type="{unknown}"/>
+    <parameter name="regexp" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="value" start="81" end="86" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Sets the default value for a route variable."/>
+      <param description="The variable name" type="string" variable="$variable"/>
+      <param description="The default value" type="mixed" variable="$default"/>
+      <return description="$this The current Route instance" type="object">
+        <type full="Silex\Route" namespace="Silex" name="Route"/>
+      </return>
+    </docblock>
+    <parameter name="variable" byreference="false" type="{unknown}"/>
+    <parameter name="default" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="convert" start="96" end="103" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Sets a converter for a route variable."/>
+      <param description="The variable name" type="string" variable="$variable"/>
+      <param description="A PHP callback that converts the original value" type="mixed" variable="$callback"/>
+      <return description="$this The current Route instance" type="object">
+        <type full="Silex\Route" namespace="Silex" name="Route"/>
+      </return>
+    </docblock>
+    <parameter name="variable" byreference="false" type="{unknown}"/>
+    <parameter name="callback" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="method" start="112" end="117" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Sets the requirement for the HTTP method."/>
+      <param description="The HTTP method name. Multiple methods can be supplied, delimited by a pipe character '|', eg. 'GET|POST'" type="string" variable="$method"/>
+      <return description="$this The current Route instance" type="object">
+        <type full="Silex\Route" namespace="Silex" name="Route"/>
+      </return>
+    </docblock>
+    <parameter name="method" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="host" start="126" end="131" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Sets the requirement of host on this Route."/>
+      <param description="The host for which this route should be enabled" type="string" variable="$host"/>
+      <return description="$this The current Route instance" type="object">
+        <type full="Silex\Route" namespace="Silex" name="Route"/>
+      </return>
+    </docblock>
+    <parameter name="host" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="requireHttp" start="138" end="143" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Sets the requirement of HTTP (no HTTPS) on this Route."/>
+      <return description="$this The current Route instance" type="object">
+        <type full="Silex\Route" namespace="Silex" name="Route"/>
+      </return>
+    </docblock>
+  </method>
+  <method name="requireHttps" start="150" end="155" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Sets the requirement of HTTPS on this Route."/>
+      <return description="$this The current Route instance" type="object">
+        <type full="Silex\Route" namespace="Silex" name="Route"/>
+      </return>
+    </docblock>
+  </method>
+  <method name="before" start="164" end="171" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Sets a callback to handle before triggering the route callback."/>
+      <param description="A PHP callback to be triggered when the Route is matched, just before the route callback" type="mixed" variable="$callback"/>
+      <return description="$this The current Route instance" type="object">
+        <type full="Silex\Route" namespace="Silex" name="Route"/>
+      </return>
+    </docblock>
+    <parameter name="callback" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="after" start="180" end="187" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Sets a callback to handle after the route callback."/>
+      <param description="A PHP callback to be triggered after the route callback" type="mixed" variable="$callback"/>
+      <return description="$this The current Route instance" type="object">
+        <type full="Silex\Route" namespace="Silex" name="Route"/>
+      </return>
+    </docblock>
+    <parameter name="callback" byreference="false" type="{unknown}"/>
+  </method>
+</class>

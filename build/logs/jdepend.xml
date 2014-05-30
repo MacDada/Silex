@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PDepend>
+  <Packages>
+    <Package name="Silex">
+      <Stats>
+        <TotalClasses>17</TotalClasses>
+        <ConcreteClasses>14</ConcreteClasses>
+        <AbstractClasses>3</AbstractClasses>
+        <Ca>2</Ca>
+        <Ce>17</Ce>
+        <A>0.176470588235</A>
+        <I>0.894736842105</I>
+        <D>0.0712074303406</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/metrics/Silex/src/Silex/Application.php">Application</Class>
+        <Class sourceFile="/metrics/Silex/src/Silex/CallbackResolver.php">CallbackResolver</Class>
+        <Class sourceFile="/metrics/Silex/src/Silex/ConstraintValidatorFactory.php">ConstraintValidatorFactory</Class>
+        <Class sourceFile="/metrics/Silex/src/Silex/Controller.php">Controller</Class>
+        <Class sourceFile="/metrics/Silex/src/Silex/ControllerCollection.php">ControllerCollection</Class>
+        <Class sourceFile="/metrics/Silex/src/Silex/ControllerResolver.php">ControllerResolver</Class>
+        <Class sourceFile="/metrics/Silex/src/Silex/ExceptionHandler.php">ExceptionHandler</Class>
+        <Class sourceFile="/metrics/Silex/src/Silex/ExceptionListenerWrapper.php">ExceptionListenerWrapper</Class>
+        <Class sourceFile="/metrics/Silex/src/Silex/HttpCache.php">HttpCache</Class>
+        <Class sourceFile="/metrics/Silex/src/Silex/LazyUrlMatcher.php">LazyUrlMatcher</Class>
+        <Class sourceFile="/metrics/Silex/src/Silex/RedirectableUrlMatcher.php">RedirectableUrlMatcher</Class>
+        <Class sourceFile="/metrics/Silex/src/Silex/Route.php">Route</Class>
+        <Class sourceFile="/metrics/Silex/src/Silex/ServiceControllerResolver.php">ServiceControllerResolver</Class>
+        <Class sourceFile="/metrics/Silex/src/Silex/Translator.php">Translator</Class>
+      </ConcreteClasses>
+      <AbstractClasses>
+        <Class sourceFile="/metrics/Silex/src/Silex/ControllerProviderInterface.php">ControllerProviderInterface</Class>
+        <Class sourceFile="/metrics/Silex/src/Silex/ServiceProviderInterface.php">ServiceProviderInterface</Class>
+        <Class sourceFile="/metrics/Silex/src/Silex/WebTestCase.php">WebTestCase</Class>
+      </AbstractClasses>
+      <DependsUpon>
+        <Package></Package>
+        <Package>Psr\Log</Package>
+        <Package>Silex\EventListener</Package>
+        <Package>Silex\Exception</Package>
+        <Package>Symfony\Component\Debug</Package>
+        <Package>Symfony\Component\EventDispatcher</Package>
+        <Package>Symfony\Component\HttpFoundation</Package>
+        <Package>Symfony\Component\HttpKernel</Package>
+        <Package>Symfony\Component\HttpKernel\Controller</Package>
+        <Package>Symfony\Component\HttpKernel\Event</Package>
+        <Package>Symfony\Component\HttpKernel\EventListener</Package>
+        <Package>Symfony\Component\HttpKernel\Exception</Package>
+        <Package>Symfony\Component\HttpKernel\HttpCache</Package>
+        <Package>Symfony\Component\Routing</Package>
+        <Package>Symfony\Component\Routing\Matcher</Package>
+        <Package>Symfony\Component\Translation</Package>
+        <Package>Symfony\Component\Validator</Package>
+      </DependsUpon>
+      <UsedBy>
+        <Package>Silex\EventListener</Package>
+        <Package>Silex\Provider</Package>
+      </UsedBy>
+    </Package>
+    <Package name="Silex\EventListener">
+      <Stats>
+        <TotalClasses>5</TotalClasses>
+        <ConcreteClasses>5</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>2</Ca>
+        <Ce>10</Ce>
+        <A>0</A>
+        <I>0.833333333333</I>
+        <D>0.166666666667</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/metrics/Silex/src/Silex/EventListener/ConverterListener.php">ConverterListener</Class>
+        <Class sourceFile="/metrics/Silex/src/Silex/EventListener/LocaleListener.php">LocaleListener</Class>
+        <Class sourceFile="/metrics/Silex/src/Silex/EventListener/LogListener.php">LogListener</Class>
+        <Class sourceFile="/metrics/Silex/src/Silex/EventListener/MiddlewareListener.php">MiddlewareListener</Class>
+        <Class sourceFile="/metrics/Silex/src/Silex/EventListener/StringToResponseListener.php">StringToResponseListener</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package></Package>
+        <Package>Psr\Log</Package>
+        <Package>Silex</Package>
+        <Package>Symfony\Component\EventDispatcher</Package>
+        <Package>Symfony\Component\HttpFoundation</Package>
+        <Package>Symfony\Component\HttpKernel</Package>
+        <Package>Symfony\Component\HttpKernel\Event</Package>
+        <Package>Symfony\Component\HttpKernel\EventListener</Package>
+        <Package>Symfony\Component\HttpKernel\Exception</Package>
+        <Package>Symfony\Component\Routing</Package>
+      </DependsUpon>
+      <UsedBy>
+        <Package>Silex</Package>
+        <Package>Silex\Provider</Package>
+      </UsedBy>
+    </Package>
+    <Package name="Silex\Exception">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>1</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>0.5</I>
+        <D>0.5</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/metrics/Silex/src/Silex/Exception/ControllerFrozenException.php">ControllerFrozenException</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package></Package>
+      </DependsUpon>
+      <UsedBy>
+        <Package>Silex</Package>
+      </UsedBy>
+    </Package>
+    <Package name="Silex\Provider">
+      <Stats>
+        <TotalClasses>16</TotalClasses>
+        <ConcreteClasses>16</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>50</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/metrics/Silex/src/Silex/Provider/DoctrineServiceProvider.php">DoctrineServiceProvider</Class>
+        <Class sourceFile="/metrics/Silex/src/Silex/Provider/FormServiceProvider.php">FormServiceProvider</Class>
+        <Class sourceFile="/metrics/Silex/src/Silex/Provider/HttpCacheServiceProvider.php">HttpCacheServiceProvider</Class>
+        <Class sourceFile="/metrics/Silex/src/Silex/Provider/HttpFragmentServiceProvider.php">HttpFragmentServiceProvider</Class>
+        <Class sourceFile="/metrics/Silex/src/Silex/Provider/MonologServiceProvider.php">MonologServiceProvider</Class>
+        <Class sourceFile="/metrics/Silex/src/Silex/Provider/RememberMeServiceProvider.php">RememberMeServiceProvider</Class>
+        <Class sourceFile="/metrics/Silex/src/Silex/Provider/SecurityServiceProvider.php">SecurityServiceProvider</Class>
+        <Class sourceFile="/metrics/Silex/src/Silex/Provider/SerializerServiceProvider.php">SerializerServiceProvider</Class>
+        <Class sourceFile="/metrics/Silex/src/Silex/Provider/ServiceControllerServiceProvider.php">ServiceControllerServiceProvider</Class>
+        <Class sourceFile="/metrics/Silex/src/Silex/Provider/SessionServiceProvider.php">SessionServiceProvider</Class>
+        <Class sourceFile="/metrics/Silex/src/Silex/Provider/SwiftmailerServiceProvider.php">SwiftmailerServiceProvider</Class>
+        <Class sourceFile="/metrics/Silex/src/Silex/Provider/TranslationServiceProvider.php">TranslationServiceProvider</Class>
+        <Class sourceFile="/metrics/Silex/src/Silex/Provider/TwigCoreExtension.php">TwigCoreExtension</Class>
+        <Class sourceFile="/metrics/Silex/src/Silex/Provider/TwigServiceProvider.php">TwigServiceProvider</Class>
+        <Class sourceFile="/metrics/Silex/src/Silex/Provider/UrlGeneratorServiceProvider.php">UrlGeneratorServiceProvider</Class>
+        <Class sourceFile="/metrics/Silex/src/Silex/Provider/ValidatorServiceProvider.php">ValidatorServiceProvider</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package></Package>
+        <Package>Doctrine\Common</Package>
+        <Package>Doctrine\DBAL</Package>
+        <Package>Monolog</Package>
+        <Package>Monolog\Handler</Package>
+        <Package>Silex</Package>
+        <Package>Silex\EventListener</Package>
+        <Package>Symfony\Bridge\Doctrine\Logger</Package>
+        <Package>Symfony\Bridge\Monolog\Handler</Package>
+        <Package>Symfony\Bridge\Twig\Extension</Package>
+        <Package>Symfony\Bridge\Twig\Form</Package>
+        <Package>Symfony\Component\Form</Package>
+        <Package>Symfony\Component\Form\Extension\Csrf</Package>
+        <Package>Symfony\Component\Form\Extension\Csrf\CsrfProvider</Package>
+        <Package>Symfony\Component\Form\Extension\HttpFoundation</Package>
+        <Package>Symfony\Component\Form\Extension\Validator</Package>
+        <Package>Symfony\Component\HttpFoundation</Package>
+        <Package>Symfony\Component\HttpFoundation\Session</Package>
+        <Package>Symfony\Component\HttpFoundation\Session\Storage</Package>
+        <Package>Symfony\Component\HttpFoundation\Session\Storage\Handler</Package>
+        <Package>Symfony\Component\HttpKernel</Package>
+        <Package>Symfony\Component\HttpKernel\Event</Package>
+        <Package>Symfony\Component\HttpKernel\EventListener</Package>
+        <Package>Symfony\Component\HttpKernel\Fragment</Package>
+        <Package>Symfony\Component\HttpKernel\HttpCache</Package>
+        <Package>Symfony\Component\Routing\Generator</Package>
+        <Package>Symfony\Component\Security\Core</Package>
+        <Package>Symfony\Component\Security\Core\Authentication</Package>
+        <Package>Symfony\Component\Security\Core\Authentication\Provider</Package>
+        <Package>Symfony\Component\Security\Core\Authorization</Package>
+        <Package>Symfony\Component\Security\Core\Authorization\Voter</Package>
+        <Package>Symfony\Component\Security\Core\Encoder</Package>
+        <Package>Symfony\Component\Security\Core\Role</Package>
+        <Package>Symfony\Component\Security\Core\User</Package>
+        <Package>Symfony\Component\Security\Core\Validator\Constraints</Package>
+        <Package>Symfony\Component\Security\Http</Package>
+        <Package>Symfony\Component\Security\Http\Authentication</Package>
+        <Package>Symfony\Component\Security\Http\EntryPoint</Package>
+        <Package>Symfony\Component\Security\Http\Firewall</Package>
+        <Package>Symfony\Component\Security\Http\Logout</Package>
+        <Package>Symfony\Component\Security\Http\RememberMe</Package>
+        <Package>Symfony\Component\Security\Http\Session</Package>
+        <Package>Symfony\Component\Serializer</Package>
+        <Package>Symfony\Component\Serializer\Encoder</Package>
+        <Package>Symfony\Component\Serializer\Normalizer</Package>
+        <Package>Symfony\Component\Translation</Package>
+        <Package>Symfony\Component\Translation\Loader</Package>
+        <Package>Symfony\Component\Validator</Package>
+        <Package>Symfony\Component\Validator\Mapping</Package>
+        <Package>Symfony\Component\Validator\Mapping\Loader</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Silex\Util">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>3</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/metrics/Silex/src/Silex/Util/Compiler.php">Compiler</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package></Package>
+        <Package>Symfony\Component\Finder</Package>
+        <Package>Symfony\Component\Process</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+  </Packages>
+  <Cycles>
+    <Package Name="Silex">
+      <Package>Silex</Package>
+      <Package>Silex\EventListener</Package>
+      <Package>Silex</Package>
+    </Package>
+    <Package Name="Silex\EventListener">
+      <Package>Silex\EventListener</Package>
+      <Package>Silex</Package>
+      <Package>Silex\EventListener</Package>
+    </Package>
+    <Package Name="Silex\Provider">
+      <Package>Silex\Provider</Package>
+      <Package>Silex</Package>
+      <Package>Silex\EventListener</Package>
+      <Package>Silex</Package>
+    </Package>
+  </Cycles>
+</PDepend>

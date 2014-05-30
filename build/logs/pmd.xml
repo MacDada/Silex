@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<pmd version="@package_version@" timestamp="2014-05-30T15:38:47+02:00">
+  <file name="/metrics/Silex/src/Silex/Provider/DoctrineServiceProvider.php">
+    <violation beginline="28" endline="129" rule="CyclomaticComplexity" ruleset="Code Size Rules" package="Silex\Provider" externalInfoUrl="http://phpmd.org/rules/codesize.html#cyclomaticcomplexity" class="DoctrineServiceProvider" method="register" priority="3">
+      The method register() has a Cyclomatic Complexity of 13. The configured cyclomatic complexity threshold is 10.
+    </violation>
+  </file>
+  <file name="/metrics/Silex/src/Silex/Provider/SecurityServiceProvider.php">
+    <violation beginline="64" endline="536" rule="CyclomaticComplexity" ruleset="Code Size Rules" package="Silex\Provider" externalInfoUrl="http://phpmd.org/rules/codesize.html#cyclomaticcomplexity" class="SecurityServiceProvider" method="register" priority="3">
+      The method register() has a Cyclomatic Complexity of 68. The configured cyclomatic complexity threshold is 10.
+    </violation>
+  </file>
+  <file name="/metrics/Silex/src/Silex/RedirectableUrlMatcher.php">
+    <violation beginline="27" endline="27" rule="UnusedFormalParameter" ruleset="Unused Code Rules" externalInfoUrl="http://phpmd.org/rules/unusedcode.html#unusedformalparameter" priority="3">
+      Avoid unused parameters such as '$route'.
+    </violation>
+  </file>
+  <file name="/metrics/Silex/src/Silex/Route/SecurityTrait.php">
+    <violation beginline="25" endline="25" rule="UnusedLocalVariable" ruleset="Unused Code Rules" externalInfoUrl="http://phpmd.org/rules/unusedcode.html#unusedlocalvariable" priority="3">
+      Avoid unused local variables such as '$request'.
+    </violation>
+  </file>
+</pmd>

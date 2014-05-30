@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<trait xmlns="http://xml.phpdox.net/src#" full="Silex\Application\FormTrait" namespace="Silex\Application" name="FormTrait" abstract="false" final="false" start="21" end="35">
+  <file path="/metrics/Silex/src/Silex/Application" file="FormTrait.php" realpath="/metrics/Silex/src/Silex/Application/FormTrait.php" size="776" time="2014-05-30T00:20:20+02:00" unixtime="1401402020" sha1="164da92b837813a4c0c847e27b8573cb18d8aef8"/>
+  <docblock>
+    <description compact="Form trait."/>
+    <author value="Fabien Potencier &lt;fabien@symfony.com&gt;"/>
+  </docblock>
+  <method name="form" start="31" end="34" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Creates and returns a form builder instance"/>
+      <param description="The initial data for the form" type="mixed" variable="$data"/>
+      <param description="Options for the form" type="array" variable="$options"/>
+      <return type="object">
+        <type full="Symfony\Component\Form\FormBuilder" namespace="Symfony\Component\Form" name="FormBuilder"/>
+      </return>
+    </docblock>
+    <parameter name="data" byreference="false" type="{unknown}" default="null"/>
+    <parameter name="options" byreference="false" type="array"/>
+  </method>
+</trait>

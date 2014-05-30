@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src#" full="Silex\CallbackResolver" namespace="Silex" name="CallbackResolver" abstract="false" final="false" start="14" end="70">
+  <file path="/metrics/Silex/src/Silex" file="CallbackResolver.php" realpath="/metrics/Silex/src/Silex/CallbackResolver.php" size="1726" time="2014-05-30T00:27:40+02:00" unixtime="1401402460" sha1="16cceb5a22a643b8c00f80417dfb146b708e0238"/>
+  <constant name="SERVICE_PATTERN" value="&quot;/[A-Za-z0-9\._\-]+:[a-zA-Z_\x7f-\xff][a-zA-Z0-9_\x7f-\xff]*/&quot;"/>
+  <member name="app" type="{unknown}" visibility="private" line="18"/>
+  <constructor name="__construct" start="20" end="23" abstract="false" final="false" static="false" visibility="public">
+    <parameter name="app" byreference="false" type="object">
+      <type full="Pimple" namespace="" name="Pimple"/>
+    </parameter>
+  </constructor>
+  <method name="isValid" start="32" end="35" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Returns true if the string is a valid service method representation."/>
+      <param type="string" variable="$name"/>
+      <return type="object">
+        <type full="Silex\Boolean" namespace="Silex" name="Boolean"/>
+      </return>
+    </docblock>
+    <parameter name="name" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="convertCallback" start="46" end="55" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Returns a callable given its string representation."/>
+      <param type="string" variable="$name"/>
+      <return description="A callable array" type="array"/>
+      <throws description="In case the method does not exist." type="object">
+        <type full="\InvalidArgumentException" namespace="" name="InvalidArgumentException"/>
+      </throws>
+    </docblock>
+    <parameter name="name" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="resolveCallback" start="66" end="69" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Returns a callable given its string representation if it is a valid service method."/>
+      <param type="string" variable="$name"/>
+      <return description="A callable array" type="array"/>
+      <throws description="In case the method does not exist." type="object">
+        <type full="\InvalidArgumentException" namespace="" name="InvalidArgumentException"/>
+      </throws>
+    </docblock>
+    <parameter name="name" byreference="false" type="{unknown}"/>
+  </method>
+</class>

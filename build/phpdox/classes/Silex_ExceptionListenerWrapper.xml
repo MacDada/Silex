@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src#" full="Silex\ExceptionListenerWrapper" namespace="Silex" name="ExceptionListenerWrapper" abstract="false" final="false" start="26" end="93">
+  <file path="/metrics/Silex/src/Silex" file="ExceptionListenerWrapper.php" realpath="/metrics/Silex/src/Silex/ExceptionListenerWrapper.php" size="2987" time="2014-05-30T00:27:40+02:00" unixtime="1401402460" sha1="a4d824091f3bb616ea0aa2947a320e3e9f383efe"/>
+  <docblock>
+    <description compact="Wraps exception listeners."/>
+    <author value="Fabien Potencier &lt;fabien@symfony.com&gt;"/>
+  </docblock>
+  <member name="app" type="{unknown}" visibility="protected" line="28"/>
+  <member name="callback" type="{unknown}" visibility="protected" line="29"/>
+  <constructor name="__construct" start="36" end="40" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Constructor."/>
+      <param description="An Application instance" type="object" variable="$app">
+        <type full="Silex\Application" namespace="Silex" name="Application"/>
+      </param>
+    </docblock>
+    <parameter name="app" byreference="false" type="object">
+      <type full="Silex\Application" namespace="Silex" name="Application"/>
+    </parameter>
+    <parameter name="callback" byreference="false" type="{unknown}"/>
+  </constructor>
+  <method name="__invoke" start="42" end="56" abstract="false" final="false" static="false" visibility="public">
+    <parameter name="event" byreference="false" type="object">
+      <type full="Symfony\Component\HttpKernel\Event\GetResponseForExceptionEvent" namespace="Symfony\Component\HttpKernel\Event" name="GetResponseForExceptionEvent"/>
+    </parameter>
+  </method>
+  <method name="shouldRun" start="58" end="78" abstract="false" final="false" static="false" visibility="protected">
+    <parameter name="exception" byreference="false" type="object">
+      <type full="Exception" namespace="" name="Exception"/>
+    </parameter>
+  </method>
+  <method name="ensureResponse" start="80" end="92" abstract="false" final="false" static="false" visibility="protected">
+    <parameter name="response" byreference="false" type="{unknown}"/>
+    <parameter name="event" byreference="false" type="object">
+      <type full="Symfony\Component\HttpKernel\Event\GetResponseForExceptionEvent" namespace="Symfony\Component\HttpKernel\Event" name="GetResponseForExceptionEvent"/>
+    </parameter>
+  </method>
+</class>

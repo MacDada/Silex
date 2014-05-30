@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src#" full="Silex\ExceptionHandler" namespace="Silex" name="ExceptionHandler" abstract="false" final="false" start="24" end="58">
+  <file path="/metrics/Silex/src/Silex" file="ExceptionHandler.php" realpath="/metrics/Silex/src/Silex/ExceptionHandler.php" size="1360" time="2014-05-30T00:20:20+02:00" unixtime="1401402020" sha1="f4dea1b5093815706f028df7cfaf0aaf0d65af15"/>
+  <docblock>
+    <description compact="Defaults exception handler."/>
+    <author value="Fabien Potencier &lt;fabien@symfony.com&gt;"/>
+  </docblock>
+  <implements full="Symfony\Component\EventDispatcher\EventSubscriberInterface" namespace="Symfony\Component\EventDispatcher" name="EventSubscriberInterface"/>
+  <member name="debug" type="{unknown}" visibility="protected" line="26"/>
+  <member name="enabled" type="{unknown}" visibility="protected" line="27"/>
+  <constructor name="__construct" start="29" end="33" abstract="false" final="false" static="false" visibility="public">
+    <parameter name="debug" byreference="false" type="{unknown}"/>
+  </constructor>
+  <method name="disable" start="35" end="38" abstract="false" final="false" static="false" visibility="public"/>
+  <method name="onSilexError" start="40" end="49" abstract="false" final="false" static="false" visibility="public">
+    <parameter name="event" byreference="false" type="object">
+      <type full="Symfony\Component\HttpKernel\Event\GetResponseForExceptionEvent" namespace="Symfony\Component\HttpKernel\Event" name="GetResponseForExceptionEvent"/>
+    </parameter>
+  </method>
+  <method name="getSubscribedEvents" start="54" end="57" abstract="false" final="false" static="true" visibility="public">
+    <docblock>
+      <description compact="{@inheritdoc}"/>
+    </docblock>
+  </method>
+</class>

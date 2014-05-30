@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src#" full="Silex\EventListener\StringToResponseListener" namespace="Silex\EventListener" name="StringToResponseListener" abstract="false" final="false" start="24" end="51">
+  <file path="/metrics/Silex/src/Silex/EventListener" file="StringToResponseListener.php" realpath="/metrics/Silex/src/Silex/EventListener/StringToResponseListener.php" size="1423" time="2014-05-30T00:20:20+02:00" unixtime="1401402020" sha1="5ee654635177cb99b583b6093dcc800faed5054d"/>
+  <docblock>
+    <description compact="Converts string responses to proper Response instances."/>
+    <author value="Fabien Potencier &lt;fabien@symfony.com&gt;"/>
+  </docblock>
+  <implements full="Symfony\Component\EventDispatcher\EventSubscriberInterface" namespace="Symfony\Component\EventDispatcher" name="EventSubscriberInterface"/>
+  <method name="onKernelView" start="31" end="43" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Handles string responses."/>
+      <param description="The event to handle" type="object" variable="$event">
+        <type full="Symfony\Component\HttpKernel\Event\GetResponseForControllerResultEvent" namespace="Symfony\Component\HttpKernel\Event" name="GetResponseForControllerResultEvent"/>
+      </param>
+    </docblock>
+    <parameter name="event" byreference="false" type="object">
+      <type full="Symfony\Component\HttpKernel\Event\GetResponseForControllerResultEvent" namespace="Symfony\Component\HttpKernel\Event" name="GetResponseForControllerResultEvent"/>
+    </parameter>
+  </method>
+  <method name="getSubscribedEvents" start="45" end="50" abstract="false" final="false" static="true" visibility="public"/>
+</class>

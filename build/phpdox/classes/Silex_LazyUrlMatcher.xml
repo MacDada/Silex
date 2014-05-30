@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src#" full="Silex\LazyUrlMatcher" namespace="Silex" name="LazyUrlMatcher" abstract="false" final="false" start="22" end="69">
+  <file path="/metrics/Silex/src/Silex" file="LazyUrlMatcher.php" realpath="/metrics/Silex/src/Silex/LazyUrlMatcher.php" size="1547" time="2014-05-30T00:27:40+02:00" unixtime="1401402460" sha1="08cf0fbdfcf886db76992b00e8299811990a363d"/>
+  <docblock>
+    <description compact="Implements a lazy UrlMatcher."/>
+    <author value="Igor Wiedler &lt;igor@wiedler.ch&gt;"/>
+  </docblock>
+  <implements full="Symfony\Component\Routing\Matcher\UrlMatcherInterface" namespace="Symfony\Component\Routing\Matcher" name="UrlMatcherInterface"/>
+  <member name="factory" type="{unknown}" visibility="private" line="24"/>
+  <constructor name="__construct" start="26" end="29" abstract="false" final="false" static="false" visibility="public">
+    <parameter name="factory" byreference="false" type="object">
+      <type full="Closure" namespace="" name="Closure"/>
+    </parameter>
+  </constructor>
+  <method name="getUrlMatcher" start="36" end="44" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Returns the corresponding UrlMatcherInterface instance."/>
+      <return type="object">
+        <type full="Symfony\Component\Routing\Matcher\UrlMatcherInterface" namespace="Symfony\Component\Routing\Matcher" name="UrlMatcherInterface"/>
+      </return>
+    </docblock>
+  </method>
+  <method name="match" start="49" end="52" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="{@inheritdoc}"/>
+    </docblock>
+    <parameter name="pathinfo" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="setContext" start="57" end="60" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="{@inheritdoc}"/>
+    </docblock>
+    <parameter name="context" byreference="false" type="object">
+      <type full="Symfony\Component\Routing\RequestContext" namespace="Symfony\Component\Routing" name="RequestContext"/>
+    </parameter>
+  </method>
+  <method name="getContext" start="65" end="68" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="{@inheritdoc}"/>
+    </docblock>
+  </method>
+</class>

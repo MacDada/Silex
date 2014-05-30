@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<source xmlns="http://xml.phpdox.net/src#">
+  <dir name="src">
+    <dir name="Silex">
+      <dir name="Application">
+        <file name="FormTrait.php" size="776" time="2014-05-30T00:20:20+02:00" unixtime="1401402020" sha1="164da92b837813a4c0c847e27b8573cb18d8aef8"/>
+        <file name="MonologTrait.php" size="817" time="2014-05-30T00:27:40+02:00" unixtime="1401402460" sha1="14b1f1070fe5a1a3df34470cdf96d3c22feb3103"/>
+        <file name="SecurityTrait.php" size="1402" time="2014-05-30T00:20:20+02:00" unixtime="1401402020" sha1="1bcc402dc7c5a39454f115c4a389748871c92253"/>
+        <file name="SwiftmailerTrait.php" size="787" time="2014-05-30T00:20:20+02:00" unixtime="1401402020" sha1="aeb950d6ca694bdb520480e74b50da413febec97"/>
+        <file name="TranslationTrait.php" size="1601" time="2014-05-30T00:27:40+02:00" unixtime="1401402460" sha1="e2c951e8b403910f88ad44222f676be0bdf05bb3"/>
+        <file name="TwigTrait.php" size="1772" time="2014-05-30T00:20:20+02:00" unixtime="1401402020" sha1="6b0077c25a1850f8bacf0ef62d1582bf871658f2"/>
+        <file name="UrlGeneratorTrait.php" size="1268" time="2014-05-30T00:20:20+02:00" unixtime="1401402020" sha1="0bb0aa7c170617b3279610b379da854f8169515d"/>
+      </dir>
+      <file name="Application.php" size="18340" time="2014-05-30T00:27:40+02:00" unixtime="1401402460" sha1="7d78ff3e0e8dcbc8c3875040fa4a47c6ffe9adfe"/>
+      <file name="CallbackResolver.php" size="1726" time="2014-05-30T00:27:40+02:00" unixtime="1401402460" sha1="16cceb5a22a643b8c00f80417dfb146b708e0238"/>
+      <file name="ConstraintValidatorFactory.php" size="2144" time="2014-05-30T00:27:40+02:00" unixtime="1401402460" sha1="99a7ef1e95b168aa5e5870fcf6c89241ac289736"/>
+      <file name="Controller.php" size="3013" time="2014-05-30T00:20:20+02:00" unixtime="1401402020" sha1="8f6d74a2321447b78959bbf52f105f9584fc9c8e"/>
+      <file name="ControllerCollection.php" size="6227" time="2014-05-30T00:20:20+02:00" unixtime="1401402020" sha1="be846a2ee388e0584880c5d6987ca340a51c808e"/>
+      <file name="ControllerProviderInterface.php" size="656" time="2014-05-30T00:27:40+02:00" unixtime="1401402460" sha1="9212524be1eed0b59fc696fee6143cbf04778c2b"/>
+      <file name="ControllerResolver.php" size="1375" time="2014-05-30T00:20:20+02:00" unixtime="1401402020" sha1="e3a9b346b4b217ac0b639be4225f687f1f68800d"/>
+      <dir name="EventListener">
+        <file name="ConverterListener.php" size="1936" time="2014-05-30T00:27:40+02:00" unixtime="1401402460" sha1="30d67e963dda64b13c89829432da30294a15f99e"/>
+        <file name="LocaleListener.php" size="1157" time="2014-05-30T00:27:40+02:00" unixtime="1401402460" sha1="10ae9797599b6f6948939d5dd961e8c16f241d3c"/>
+        <file name="LogListener.php" size="3756" time="2014-05-30T00:20:20+02:00" unixtime="1401402020" sha1="6f188dc3355263ee1c175d7c1c026c07c93d1ee4"/>
+        <file name="MiddlewareListener.php" size="3177" time="2014-05-30T00:20:20+02:00" unixtime="1401402020" sha1="44804275522dbcdfb0d389c4bef03a67d2525231"/>
+        <file name="StringToResponseListener.php" size="1423" time="2014-05-30T00:20:20+02:00" unixtime="1401402020" sha1="5ee654635177cb99b583b6093dcc800faed5054d"/>
+      </dir>
+      <dir name="Exception">
+        <file name="ControllerFrozenException.php" size="442" time="2014-05-30T00:20:20+02:00" unixtime="1401402020" sha1="3b36497a07b98f258c0b0cfea4e1559eaca8ba8d"/>
+      </dir>
+      <file name="ExceptionHandler.php" size="1360" time="2014-05-30T00:20:20+02:00" unixtime="1401402020" sha1="f4dea1b5093815706f028df7cfaf0aaf0d65af15"/>
+      <file name="ExceptionListenerWrapper.php" size="2987" time="2014-05-30T00:27:40+02:00" unixtime="1401402460" sha1="a4d824091f3bb616ea0aa2947a320e3e9f383efe"/>
+      <file name="HttpCache.php" size="939" time="2014-05-30T00:27:40+02:00" unixtime="1401402460" sha1="543953e9a3543973e22ad148f7ddec35899ad49c"/>
+      <file name="LazyUrlMatcher.php" size="1547" time="2014-05-30T00:27:40+02:00" unixtime="1401402460" sha1="08cf0fbdfcf886db76992b00e8299811990a363d"/>
+      <dir name="Provider">
+        <file name="DoctrineServiceProvider.php" size="4057" time="2014-05-30T00:27:40+02:00" unixtime="1401402460" sha1="9c7beaedfea2289723cd49e78bcc443e6aae4105"/>
+        <file name="FormServiceProvider.php" size="3938" time="2014-05-30T00:27:40+02:00" unixtime="1401402460" sha1="1780e19b5e56b953e6bd38a5138ca734e6f5175c"/>
+        <file name="HttpCacheServiceProvider.php" size="1695" time="2014-05-30T00:27:40+02:00" unixtime="1401402460" sha1="c8fdf6bbe723e9e0464332148bd677678db87c33"/>
+        <file name="HttpFragmentServiceProvider.php" size="3167" time="2014-05-30T00:27:40+02:00" unixtime="1401402460" sha1="3af8b5322511be2090adf35fdc29f63357e3bcc2"/>
+        <file name="MonologServiceProvider.php" size="2738" time="2014-05-30T00:27:40+02:00" unixtime="1401402460" sha1="6368db993997a0d8263ba3805ee99e1cdee12074"/>
+        <file name="RememberMeServiceProvider.php" size="4365" time="2014-05-30T00:27:40+02:00" unixtime="1401402460" sha1="cd4730d9798fc8adbe367da16bc0af94977faac0"/>
+        <file name="SecurityServiceProvider.php" size="25261" time="2014-05-30T00:27:40+02:00" unixtime="1401402460" sha1="4ef16f0518a35521c84fd8bbb931ad76b35eae2a"/>
+        <file name="SerializerServiceProvider.php" size="1861" time="2014-05-30T00:27:40+02:00" unixtime="1401402460" sha1="c2d4583e806218671d7fbb9b2e1ef917767a26e9"/>
+        <file name="ServiceControllerServiceProvider.php" size="766" time="2014-05-30T00:27:40+02:00" unixtime="1401402460" sha1="74d15dbc74eb24ea767a76f2959e0ccc6538cf59"/>
+        <file name="SessionServiceProvider.php" size="4099" time="2014-05-30T00:27:40+02:00" unixtime="1401402460" sha1="7206dcf733bd5082c6c109aca6d673267ce89374"/>
+        <file name="SwiftmailerServiceProvider.php" size="3359" time="2014-05-30T00:27:40+02:00" unixtime="1401402460" sha1="c8132eb9fdd810f61baeb667aa369a9dc6a86984"/>
+        <file name="TranslationServiceProvider.php" size="1855" time="2014-05-30T00:27:40+02:00" unixtime="1401402460" sha1="2d58af0453d45493cec3b7eb1792be6403571c3a"/>
+        <file name="TwigCoreExtension.php" size="1611" time="2014-05-30T00:27:40+02:00" unixtime="1401402460" sha1="ea07b3275f79bc8d8219b8ad75b13e087b172453"/>
+        <file name="TwigServiceProvider.php" size="4167" time="2014-05-30T00:27:40+02:00" unixtime="1401402460" sha1="e0e4f530c6ac7c91fd375065c6f8cccd3c6d8c3c"/>
+        <file name="UrlGeneratorServiceProvider.php" size="866" time="2014-05-30T00:27:40+02:00" unixtime="1401402460" sha1="dec698408f54d7b361b859b3fb95f514ad634e64"/>
+        <file name="ValidatorServiceProvider.php" size="2187" time="2014-05-30T00:27:40+02:00" unixtime="1401402460" sha1="07a7f2f8a702d43b161d6290daedb081c8cf126a"/>
+      </dir>
+      <file name="RedirectableUrlMatcher.php" size="1608" time="2014-05-30T00:27:40+02:00" unixtime="1401402460" sha1="a784a13e1603375ae0629774a9ccb873bf46596b"/>
+      <dir name="Route">
+        <file name="SecurityTrait.php" size="678" time="2014-05-30T00:20:20+02:00" unixtime="1401402020" sha1="17475e02feabb3e1848cc99bdbd109f371159de9"/>
+      </dir>
+      <file name="Route.php" size="5255" time="2014-05-30T00:20:20+02:00" unixtime="1401402020" sha1="eb82e3f6fb3463e75e81d9a8b9524602864e502f"/>
+      <file name="ServiceControllerResolver.php" size="1749" time="2014-05-30T00:27:40+02:00" unixtime="1401402460" sha1="23e8092bcf1902d981541f20a6877fce1767923a"/>
+      <file name="ServiceProviderInterface.php" size="973" time="2014-05-30T00:27:40+02:00" unixtime="1401402460" sha1="8a1636d9e7913c1e0c3cf364be4708c0217f259a"/>
+      <file name="Translator.php" size="813" time="2014-05-30T00:27:40+02:00" unixtime="1401402460" sha1="50edf00688418dc14792a6c11effa2c591ebed81"/>
+      <dir name="Util">
+        <file name="Compiler.php" size="6031" time="2014-05-30T00:27:40+02:00" unixtime="1401402460" sha1="622184d9c60b6295d026ead8f0abe0433e2dcbcc"/>
+      </dir>
+      <file name="WebTestCase.php" size="1196" time="2014-05-30T00:20:20+02:00" unixtime="1401402020" sha1="fc14e703d516674c909b4504c71136c2e247b019"/>
+    </dir>
+  </dir>
+</source>
